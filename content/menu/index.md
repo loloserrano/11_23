@@ -12,7 +12,7 @@ headless: true
 <br />
 
 - [**Frugging KCP**]({{< relref "/_index" >}})
-- [**Frugging KCP**: Introduction]({{< relref "/_index" >}})
+- [Introduction]({{< relref "/_index" >}})
 - [On Style]({{< relref "/docs/on_style" >}})
 - [Re-Reading Contracts and Updating Frug]({{< relref "/docs/rereading" >}})
 - [The Cases: An Overview]({{< relref "/docs/cases" >}})

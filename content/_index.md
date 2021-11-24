@@ -6,7 +6,7 @@ weight: 10
 
 # Frugging KCP
 
-This project analyzes gender in Knapp, Crystal, and Prince’s *Problems in Contract Law: Cases and Materials.* 
+This project analyzes gender in Knapp, Crystal, and Prince’s *Problems in Contract Law: Cases and Materials.* It is directly inspired by Mary Joe Frug's "Re-Reading Contracts: A Feminist Analysis of a Contracts Casebook. "
 
 
 *Problems in Contract Law* is an American contracts casebook that attempts, in good faith and with a commercial incentive, to relay the current state and relevant history of American contract law to first-year law students. 
@@ -30,11 +30,6 @@ Lolo Serrano is a candidate for a JD/PhD in American Legal History at the Univer
 
 {{< /columns >}}
 
-<<<<<<< HEAD
-
-=======
-
-This project is directly inspired by Mary Joe Frug's "Re-Reading Contracts: A Feminist Analysis of a Contracts Casebook. "
 
 ## Table of Contents
 

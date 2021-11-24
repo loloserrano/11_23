@@ -2,7 +2,6 @@
 title: 'The Characters: Wives, Widows, Workers'
 output: html_document
 bookToc: true
-bookCollapseSection: true
 weight: 50
 ---
 
