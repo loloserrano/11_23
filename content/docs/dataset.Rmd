@@ -46,13 +46,97 @@ contracts <- contracts %>%
   full_join(n_parties_joiner)
 ```
 
-# Collection
+# Data Collection
 
-## Individuals
+## Cases
+In all, there are **103 cases** included in KCP. 
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+contracts %>%
+  select(page, cite) %>%
+  kbl() %>%
+  scroll_box(fixed_thead = T, height = "300px") 
+```
+
+
+## Transaction Type 
+
+I coded very roughly for the type of transaction that gave rise to the legal dispute.
+
++ The label ‘Business’ refers to two or more for-profit organizations interacting with each other in the course of business.
++ The label ‘Consumer’ refers to transactions in which an individual or several individuals purchase goods or service from organization/s
++ The label ‘Employee’ refers to transactions in which an individual interacts as a former/potential employee of an organization/s
++ The label ‘Family’ really means more interpersonal – the performances induced by these contracts are behavioral in nature, i.e. withholding smoking, being a good little nephew, transfer of money among relatives.
++ The label ‘Property’ refers to transactions between individuals over sale/transfer of property, not individuals interacting with homebuilders, which I counted as a consumer transaction.
 
 
 ```{r, echo = FALSE, warning = FALSE, message = FALSE}
-parties %>%
+contracts %>%
+  filter(transaction != "NA") %>%
+  group_by(transaction) %>%
+  count() %>%
+  mutate(proportion = n/104) %>%
+  mutate(proportion = as.character(proportion)) %>%
+  mutate(proportion = substr(proportion, 1, 4))  %>%
+  mutate(proportion = substr(proportion, 3, 4)) %>%
+  mutate(proportion = paste(sep = "",proportion,"%")) %>%
+  kbl()
+```
+
+
+
+## Individuals
+I collected 203 individuals who appear either as parties in the cases or as active representatives of the parties. 
+
+#### Individuals as themselves:
+> Plaintiffs, Gene Jannusch and his wife, Martha, brought this action for breach of an oral contract against defendants, Lindsey Naffziger and her mother, Louann Naffziger. *Jannush v. Naffziger,* KCP 149-150.
+
+#### Individuals as representatives:
+> The president of Dare was Harry Shopmaker ... Shopmaker began discussions with Katz concerning retirement ... Shopmaker first offered Katz $10,500 per year as a pension. *Katz v. Danny Dare, Inc.*, KCP 248-249.
+
+### Race
+
+Much to the detriment of this project, race is not as measurable in the casebook as gender. There are few people who have names that are not Anglo in origin. Even fewer have names that are not otherwise European in origin. While some of the people with European names are likely to be people of color, white people likely occupy an enormous proportion of characters in the book. My inability to measure that disparity makes most of this analysis  misleading colorblind. Most people privileged enough to engage in lawsuits, certainly on the plaintiff side, were white for most of American history and continue to be disproportionately white.
+
+### Gender 
+I based gender of individuals on traditional patterns in first names as well as pronouns, when they appeared. **See Re-Reading Contracts and Updating Frug for some important contextualization about what "gender" means in this project!**
+
+#### Unambiguous gender (marked "Man"): 
+> Plaintiff/Appellant Sammie Maness ("Maness"), in his 50s at all pertinent times, lived most of his life in McNairy County, Tennessee. *Maness v. Collins*, KCP 927.
+
+#### Ambiguous gender (marked "Unknown":)
+> In July 1951 appellants, the lessors, leased a small lot to appellee, the lessee, for a 10-year-term at a rent of $100 per month. [Term "appellants" used throughout rest of opinion and no singular pronouns used.] *Walker v. Keith*, KCP 79.
+
+### Table: All Individuals
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+
+people_table_dataset <- parties %>%
+  filter(typenomf == "Man" | typenomf == "Woman" | typenomf == "Unknown") %>%
+  select(-typenomf,-spouse, -cite)
+
+names(people_table_dataset) <- c("page","year","transaction","name","gender","side","simple_citation")
+
+people_table_dataset %>%
   kbl() %>%
-  scroll_box(fixed_thead = T, height = "300px") 
+  scroll_box(fixed_thead = TRUE, height = "300px") 
+```
+
+
+
+## Businesses/Other Organizations
+I also collected 122 businesses or organizations that appeared as parties in the cases. 
+
+
+### Table: All Organizations
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+
+businesses_table_dataset <- parties %>%
+  filter(typenomf != "Man" , typenomf != "Woman" , typenomf != "Unknown") %>%
+  select(-typemf,-spouse, -cite)
+
+names(businesses_table_dataset) <- c("page","year","transaction","name","type","side","simple_citation")
+
+businesses_table_dataset %>%
+  kbl() %>%
+  scroll_box(fixed_thead = TRUE, height = "300px") 
 ```

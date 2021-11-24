@@ -5,24 +5,8650 @@ weight: 35
 ---
 
 <script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+<script src="/rmarkdown-libs/kePrint/kePrint.js"></script>
+<link href="/rmarkdown-libs/lightable/lightable.css" rel="stylesheet" />
 
 
-<div id="r-markdown" class="section level2">
-<h2>R Markdown</h2>
-<p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>.</p>
-<p>When you click the <strong>Knit</strong> button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:</p>
-<pre class="r"><code>summary(cars)</code></pre>
-<pre><code>##      speed           dist       
-##  Min.   : 4.0   Min.   :  2.00  
-##  1st Qu.:12.0   1st Qu.: 26.00  
-##  Median :15.0   Median : 36.00  
-##  Mean   :15.4   Mean   : 42.98  
-##  3rd Qu.:19.0   3rd Qu.: 56.00  
-##  Max.   :25.0   Max.   :120.00</code></pre>
+<div id="data-collection" class="section level1">
+<h1>Data Collection</h1>
+<div id="cases" class="section level2">
+<h2>Cases</h2>
+<p>In all, there are <strong>103 cases</strong> included in KCP.</p>
+<div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:300px; ">
+<table>
+<thead>
+<tr>
+<th style="text-align:right;position: sticky; top:0; background-color: #FFFFFF;">
+page
+</th>
+<th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
+cite
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right;">
+18
+</td>
+<td style="text-align:left;">
+Allen v. Bissinger &amp; Co., 62 Utah 266 (1923)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+21
+</td>
+<td style="text-align:left;">
+Meyer v. Uber Tech. Inc., 868 F.3d 66 (2d. Cir. 2017)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+37
+</td>
+<td style="text-align:left;">
+Ray v. William G. Eurice &amp; Bros., Inc. 201 Md. 115 (1952)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+47
+</td>
+<td style="text-align:left;">
+Lonergan v. Scolnick, 129 Cal. App. 2d 179 (1954)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+51
+</td>
+<td style="text-align:left;">
+Normile v. Miller, 313 N.C. 98 (1985)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+61
+</td>
+<td style="text-align:left;">
+Cook v. Colwell Banker/Frank Laiben Realty Co., 967 S.W.2d 654 (Mo. Ct. App. 1998)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+66
+</td>
+<td style="text-align:left;">
+Sateriale v. R.J. Reynolds Tobacco Co., 697 F.3d 777 (9th Cir. 2012)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+78
+</td>
+<td style="text-align:left;">
+Walker v. Keith, 382 S.W.2d 198 (K.Y. 1964)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+87
+</td>
+<td style="text-align:left;">
+Quake Constr. Inc. v. American Airlines Inc., 141 Ill.2d 281 (1990)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+102
+</td>
+<td style="text-align:left;">
+Hamer v. Sidway, 124 N.Y. 538 (1891)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+107
+</td>
+<td style="text-align:left;">
+Pennsy Supply Inc. v. American Ash Recycling Corp., 895 A.2d 595 (Pa. Super. Ct. 2006)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+115
+</td>
+<td style="text-align:left;">
+Dougherty v. Salt, 227 N.Y. 200 (1919)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+120
+</td>
+<td style="text-align:left;">
+Plowman v. Indian Refining Co., 20 F. Supp. 1 (E.D. Ill. 1937)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+129
+</td>
+<td style="text-align:left;">
+Dohrmann v. Swaney, 14 N.E.3d 605 (Ill. 2014)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+139
+</td>
+<td style="text-align:left;">
+Marshall Durbin Food Corp. v. Baker, 909 So. 2d 1267 (Miss. Ct. App. 2005)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+149
+</td>
+<td style="text-align:left;">
+Jannush v. Naffziger, 379 Ill. App. 3d 381 (2008)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+154
+</td>
+<td style="text-align:left;">
+E.C. Styberg Eng’g Co. v. Eaton Corp., 492 F.3d 912 (7th Cir. 2007)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+165
+</td>
+<td style="text-align:left;">
+Princess Cruises Inc. v. General Electric Co., 143 F.3d 828 (4th Cir. 1998)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+174
+</td>
+<td style="text-align:left;">
+Brown Machine Inc. v. Hercules Inc., 770 S.W.2d 416 (Mo. 1989)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+184
+</td>
+<td style="text-align:left;">
+Paul Gottlieb &amp; Co. Inc. v. Alps South Corp., 985 So.2d 1 (Fla. 2007)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+197
+</td>
+<td style="text-align:left;">
+Defontes v. Dell, Inc., 948 A.2d 1061 (R.I. 2009)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+209
+</td>
+<td style="text-align:left;">
+Long v. Provide Commerce, Inc., 200 Cal. Rptr. 3d 117 (Cal. Ct. App. 2006)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+227
+</td>
+<td style="text-align:left;">
+Kirksey v. Kirksey, 8 Ala. 131 (1845)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+228
+</td>
+<td style="text-align:left;">
+Harvey v. Dow, 962 A.2d.322 (Me. 2008)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+237
+</td>
+<td style="text-align:left;">
+King v. Trustees of Boston Univ., 420 Mass. 52 (1995)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+248
+</td>
+<td style="text-align:left;">
+Katz v. Danny Dare Inc., 610 S.W.2d 121 (Mo. Ct. App. 1980)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+255
+</td>
+<td style="text-align:left;">
+Aceves v. U.S. Bank N.A., 120 Cal. Rptr. 3d 507 (Cal. Ct. App. 2011)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+266
+</td>
+<td style="text-align:left;">
+Berryman v. Kmoch, 221 Kan. 304 (1977)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+274
+</td>
+<td style="text-align:left;">
+James Baird Co. v. Gimbel Bros., Inc., 64 F.2d 344 (2d Cir. 1933)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+277
+</td>
+<td style="text-align:left;">
+Drennan v. Star Paving Co., 51 Cal. 2d 409 (Cali. 1958)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+285
+</td>
+<td style="text-align:left;">
+Pop’s Cones Inc. v. Resorts International Hotel, Inc., 307 N.J. Super. 461 (1998)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+297
+</td>
+<td style="text-align:left;">
+Credit Bureau Enter. v. Pelo, 608 N.W.2d 20 (Iowa 2000)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+309
+</td>
+<td style="text-align:left;">
+Commerce Partnership 8098 Limited Partnership v. Equity Contracting Co., 695 So. 2d 383 (Fla. 1997)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+315
+</td>
+<td style="text-align:left;">
+Watts v. Watts, 137 Wis. 2d 506 (1987)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+328
+</td>
+<td style="text-align:left;">
+Mills v. Wyman, 20 Mass. 207 (1825)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+333
+</td>
+<td style="text-align:left;">
+Webb v. McGowin, 232 Ala. 374 (1936)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+347
+</td>
+<td style="text-align:left;">
+Crabtree v. Elizabeth Arden Sales Corp., 305 N.Y. 48 (1953)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+357
+</td>
+<td style="text-align:left;">
+Beaver v. Brumlow, 148 N.M. 172 (N.M. Ct. App. 2010)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+368
+</td>
+<td style="text-align:left;">
+Alaska Dem. Party v. Rice, 932 P.2d 1313 (Alaska 1997)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+381
+</td>
+<td style="text-align:left;">
+Buffaloe v. Hart, 114 N.C. App 52 (1994)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+399
+</td>
+<td style="text-align:left;">
+Joyner v. Adams, 87 N.C. App. 570 (N.C. 1987)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+408
+</td>
+<td style="text-align:left;">
+Frigaliment Imp. Co. v. B.N.S. Int’l Corp., 190 F. Supp 116 (S.D.N.Y. 1960)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+416
+</td>
+<td style="text-align:left;">
+C&amp;J Fertilizer Inc. v. Allied Mutual Ins. Co., 227 N.W.2d 169 (Iowa 1975)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+429
+</td>
+<td style="text-align:left;">
+Thompson v. Libby, 26 N.W. 1 (Minn. 1885)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+438
+</td>
+<td style="text-align:left;">
+Taylor v. State Farm Mutual Auto. Ins., en banc 175 Ariz. 148 (1993)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+451
+</td>
+<td style="text-align:left;">
+Sherrodd Inc. v. Morrison-Knudsen Co., 249 Mont. 282 (1991)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+460
+</td>
+<td style="text-align:left;">
+Nanakuli Paving &amp; Rock Co. v. Shell Oil Co., 664 F.2d 772 (9th Cir. 1981)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+482
+</td>
+<td style="text-align:left;">
+Wood v. Lucy Lady Duff-Gordon, 118 N.E. 214 (N.Y. 1917)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+486
+</td>
+<td style="text-align:left;">
+Leibel v. Raynor Mfg. Co., 571 S.W.2d 640 (Ky. Ct. App. 1978)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+494
+</td>
+<td style="text-align:left;">
+Seidenberg v. Summit Bank, 348 N.J. Super. 243 (2002)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+508
+</td>
+<td style="text-align:left;">
+Morin Bldg. Prod. Co. v. Baystone Constr., 717 F.2d 413 (7th Cir. 1983)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+513
+</td>
+<td style="text-align:left;">
+Locke v. Warner Bros., Inc., 57 Cal. App. 4th 354 (1997)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+523
+</td>
+<td style="text-align:left;">
+Geysen v. Securitas Security Services, USA, Inc., 322 Conn. 385, 142 A.3d 227 (2016)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+548
+</td>
+<td style="text-align:left;">
+Bayliner Marine Corp. v. Crow, 257 Va. 121 (1999)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+558
+</td>
+<td style="text-align:left;">
+Speight v. Walters Dev. Co., 744 N.W.2d 108 (Iowa 2008)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+572
+</td>
+<td style="text-align:left;">
+Dodson v. Shrader, 824 S.W.2d 545 (Tenn. 1992)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+579
+</td>
+<td style="text-align:left;">
+Sparrow v. Demonico, 461 Mass. 322 (2012)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+591
+</td>
+<td style="text-align:left;">
+Totem Marine Tug &amp; Barge Inc. v. Alyeska Pipeline Service Co., 584 P.2d 15 (Alaska 1978)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+601
+</td>
+<td style="text-align:left;">
+Odorizzi v. Bloomfield School District, 246 Cal. App. 2d 123 (1966)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+611
+</td>
+<td style="text-align:left;">
+Syester v. Banta, 257 Iowa 613 (1965)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+622
+</td>
+<td style="text-align:left;">
+Hill v. Jones, 151 Ariz. 81 (1986)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+634
+</td>
+<td style="text-align:left;">
+Park 100 Investors Inc. v. Kartes, 650 N.E.2d 347 (Ind. 1995)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+639
+</td>
+<td style="text-align:left;">
+Williams v. Walker-Thomas Furniture Co., 350 F.2d 445 (D.C. Cir. 1965)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+650
+</td>
+<td style="text-align:left;">
+Higgins v. Super. Ct. of Los Angeles County, 140 Cal. App. 4th 1238 (2006)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+664
+</td>
+<td style="text-align:left;">
+McFarland v. Wells Fargo Bank, NA, 810 F.3d 273 (4th Cir. 2016)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+681
+</td>
+<td style="text-align:left;">
+Valley Medical Specialist v. Farber, 982 P.2d 1277 (Ariz. 1999)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+695
+</td>
+<td style="text-align:left;">
+P.M. v. T.B., 907 N.W.2d 522 (Iowa 2018)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+720
+</td>
+<td style="text-align:left;">
+Lenawee County Board of Health v. Messerly, 417 Mich. 17 (1982)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+730
+</td>
+<td style="text-align:left;">
+BMW Financial Services NA LLC v. Deloach, 2017 WL 1832250 (Cali. 2017)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+744
+</td>
+<td style="text-align:left;">
+Hemlock Semiconductor Operations LLC v. Solarworld Industries Sachsen GmbH, 867 F.3d 692 (6th Cir. 2017)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+757
+</td>
+<td style="text-align:left;">
+Mel Frank Tool &amp; Supply Inc. v. Di-Chem Co., 580 N.W.2d 802 (Iowa 1998)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+773
+</td>
+<td style="text-align:left;">
+Alaska Packers’ Association v. Domenico, 117 F. 99 (9th Cir. 1901)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+782
+</td>
+<td style="text-align:left;">
+Kelsey-Hayes Co. v. Galtaco Redlaw Castings Corp., 749 F. Supp. 794 (E.D. Mich. 1990)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+789
+</td>
+<td style="text-align:left;">
+Brookside Farms v. Mama Rizzo’s Inc., 873 F. Supp. 1029 (S.D. Tex. 1995)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+805
+</td>
+<td style="text-align:left;">
+enXco Development Corp. v. Northern States Power Co., 758 F.3d 940 (8th Cir. 2014)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+818
+</td>
+<td style="text-align:left;">
+J. N. A. Realty Corp. v. Cross Bay Chelsea Inc., 42 N.Y.2d 392 (1977)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+829
+</td>
+<td style="text-align:left;">
+Jacob &amp; Youngs Inc. v. Kent, 230 N.Y. 239 (1921)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+841
+</td>
+<td style="text-align:left;">
+Sackett v. Spindler, 248 Cal. App. 2d 220 (1967)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+849
+</td>
+<td style="text-align:left;">
+Truman L. Flatt &amp; Sons Co. v. Schupf, 271 Ill. App.3d 983 (1995)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+858
+</td>
+<td style="text-align:left;">
+Hornell Brewing Co. v. Spry, 174 Misc. 2d 451 (1997)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+879
+</td>
+<td style="text-align:left;">
+Crabby’s Inc. v. Hamilton, 244 S.W.3d 209 (Mo. 2008)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+889
+</td>
+<td style="text-align:left;">
+Handicapped Children’s Education Board v. Lukaszewski, 112 Wis. 2d 197 (1983)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+895
+</td>
+<td style="text-align:left;">
+American Standard Inc. v. Schectman, 439 N.Y.S.2d 529 (App. Div) (1981)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+903
+</td>
+<td style="text-align:left;">
+Hadley v. Baxendale, 156 Eng. Rep. 145 (1854)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+909
+</td>
+<td style="text-align:left;">
+Florafax International Inc. v. GTE Market Resources Inc., 933 P.2d 282 (Okla. 1997)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+922
+</td>
+<td style="text-align:left;">
+Rockingham County v. Luten Bridge Co., 35 F.2d 301 (4th Cir. 1929)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+926
+</td>
+<td style="text-align:left;">
+Maness v. Collins, 2010 WL 4629614 (2010)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+941
+</td>
+<td style="text-align:left;">
+Jetz Service Co. v. Salina Properties, 19 Kan. App. 2d 144 (1993)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+949
+</td>
+<td style="text-align:left;">
+Zapata Hermanos Sucesores S.A. v. Hearthside Baking Company Inc., 313 F.3d 385 (7th Cir. 2002)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+957
+</td>
+<td style="text-align:left;">
+Erlich v. Menezes, 21 Cal.4th 543 (1999)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+990
+</td>
+<td style="text-align:left;">
+Roth v. Speck, 126 A.2d 153 (D.C. 1985)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1001
+</td>
+<td style="text-align:left;">
+Wartzmann v. Hightower Productions Ltd., 53 Md. 656 (1983)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1012
+</td>
+<td style="text-align:left;">
+Walser v. Toyota Motor Sales, U.S.A., Inc., 43 F.3d 396 (8th Cir. 1994)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1020
+</td>
+<td style="text-align:left;">
+United States ex rel. Coastal Steel Erectors, Inc. v. Algernon Blair, Inc., 479 F.2d 638 (4th Cir. 1973)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1024
+</td>
+<td style="text-align:left;">
+Lancellotti v. Thomas, 341 Pa. Super. 1 (1985)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1032
+</td>
+<td style="text-align:left;">
+Ventura v. Titan Sports, Inc., 65 F.3d 725 (8th Cir. 1995)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1048
+</td>
+<td style="text-align:left;">
+City Stores Co. v. Ammerman, 266 F. Supp. 766 (D.D.C. 1967), aff’d, 394 F.2d 950 (D.C. Cir. 1968)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1059
+</td>
+<td style="text-align:left;">
+Reier Broadcasting Company Inc. v. Kramer, 316 Mont. 301 (2003)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1070
+</td>
+<td style="text-align:left;">
+Barrie School v. Patch, 401 Md. 497 (2007)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1096
+</td>
+<td style="text-align:left;">
+Vogan v. Hayes Appraisal Associates, Inc., 588 N.W.2d (Iowa 1999)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1104
+</td>
+<td style="text-align:left;">
+Chen v. Chen, 893 A.2d 87 (Penn. 2006)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1117
+</td>
+<td style="text-align:left;">
+Herzog v. Irace, 594 A.2d 1106 (Me. 1991)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1123
+</td>
+<td style="text-align:left;">
+Sally Beauty Co. v. Nexxus Products Co., 801 F.2d 1001 (7th Cir. 1986)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+</td>
+<td style="text-align:left;">
+Buffaloe v. Hart, 114 N.C. App 52 (1994).
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+</td>
+<td style="text-align:left;">
+C&amp;J Fertilizer Inc. v. Allied Mutual Ins. Co., 227 N.W.2d 169 (Iowa 1975).
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+</td>
+<td style="text-align:left;">
+Cook v. Colwell Banker/Frank Laiben Realty Co., 967 S.W.2d 654 (Mo. Ct. App. 1998).
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+</td>
+<td style="text-align:left;">
+Credit Bureau Enter. v. Pelo, 608 N.W.2d 20 (Iowa 2000).
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+</td>
+<td style="text-align:left;">
+Defontes v. Dell, Inc., 948 A.2d 1061 (R.I. 2009).
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+</td>
+<td style="text-align:left;">
+Dougherty v. Salt, 227 N.Y. 200 (1919).
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+</td>
+<td style="text-align:left;">
+Frigaliment Imp. Co. v. B.N.S. Int’l Corp., 190 F. Supp 116 (S.D.N.Y. 1960).
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+</td>
+<td style="text-align:left;">
+Hamer v. Sidway, 124 N.Y. 538 (1891).
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+</td>
+<td style="text-align:left;">
+Harvey v. Dow, 962 A.2d.322 (Me. 2008).
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+</td>
+<td style="text-align:left;">
+Higgins v. Super. Ct. of Los Angeles County, 140 Cal. App. 4th 1238 (2006).
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+</td>
+<td style="text-align:left;">
+Lonergan v. Scolnick, 129 Cal. App. 2d 179 (1954).
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+</td>
+<td style="text-align:left;">
+Long v. Provide Commerce, Inc., 200 Cal. Rptr. 3d 117 (Cal. Ct. App. 2006).
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+</td>
+<td style="text-align:left;">
+McFarland v. Wells Fargo Bank, NA, 810 F.3d 273 (4th Cir. 2016).
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+</td>
+<td style="text-align:left;">
+Meyer v. Uber Tech. Inc., 868 F.3d 66 (2d. Cir. 2017).
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+</td>
+<td style="text-align:left;">
+Morin Bldg. Prod. Co. v. Baystone Constr., 717 F.2d 413 (7th Cir. 1983).
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+</td>
+<td style="text-align:left;">
+Normile v. Miller, 313 N.C. 98 (1985).
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+</td>
+<td style="text-align:left;">
+P.M. v. T.B., 907 N.W.2d 522 (Iowa 2018).
+</td>
+</tr>
+</tbody>
+</table>
 </div>
-<div id="including-plots" class="section level2">
-<h2>Including Plots</h2>
-<p>You can also embed plots, for example:</p>
-<p><img src="/docs/dataset_files/figure-html/pressure-1.png" width="672" /></p>
-<p>Note that the <code>echo = FALSE</code> parameter was added to the code chunk to prevent printing of the R code that generated the plot.</p>
+</div>
+<div id="transaction-type" class="section level2">
+<h2>Transaction Type</h2>
+<p>I coded very roughly for the type of transaction that gave rise to the legal dispute.</p>
+<ul>
+<li>The label ‘Business’ refers to two or more for-profit organizations interacting with each other in the course of business.</li>
+<li>The label ‘Consumer’ refers to transactions in which an individual or several individuals purchase goods or service from organization/s</li>
+<li>The label ‘Employee’ refers to transactions in which an individual interacts as a former/potential employee of an organization/s</li>
+<li>The label ‘Family’ really means more interpersonal – the performances induced by these contracts are behavioral in nature, i.e. withholding smoking, being a good little nephew, transfer of money among relatives.</li>
+<li>The label ‘Property’ refers to transactions between individuals over sale/transfer of property, not individuals interacting with homebuilders, which I counted as a consumer transaction.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align:left;">
+transaction
+</th>
+<th style="text-align:right;">
+n
+</th>
+<th style="text-align:left;">
+proportion
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:right;">
+48
+</td>
+<td style="text-align:left;">
+46%
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Consumer
+</td>
+<td style="text-align:right;">
+18
+</td>
+<td style="text-align:left;">
+17%
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Employee
+</td>
+<td style="text-align:right;">
+16
+</td>
+<td style="text-align:left;">
+15%
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Family
+</td>
+<td style="text-align:right;">
+8
+</td>
+<td style="text-align:left;">
+07%
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Property
+</td>
+<td style="text-align:right;">
+13
+</td>
+<td style="text-align:left;">
+12%
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="individuals" class="section level2">
+<h2>Individuals</h2>
+<p>I collected 203 individuals who appear either as parties in the cases or as active representatives of the parties.</p>
+<div id="individuals-as-themselves" class="section level4">
+<h4>Individuals as themselves:</h4>
+<blockquote>
+<p>Plaintiffs, Gene Jannusch and his wife, Martha, brought this action for breach of an oral contract against defendants, Lindsey Naffziger and her mother, Louann Naffziger. <em>Jannush v. Naffziger,</em> KCP 149-150.</p>
+</blockquote>
+</div>
+<div id="individuals-as-representatives" class="section level4">
+<h4>Individuals as representatives:</h4>
+<blockquote>
+<p>The president of Dare was Harry Shopmaker … Shopmaker began discussions with Katz concerning retirement … Shopmaker first offered Katz $10,500 per year as a pension. <em>Katz v. Danny Dare, Inc.</em>, KCP 248-249.</p>
+</blockquote>
+</div>
+<div id="race" class="section level3">
+<h3>Race</h3>
+<p>Much to the detriment of this project, race is not as measurable in the casebook as gender. There are few people who have names that are not Anglo in origin. Even fewer have names that are not otherwise European in origin. While some of the people with European names are likely to be people of color, white people likely occupy an enormous proportion of characters in the book. My inability to measure that disparity makes most of this analysis misleading colorblind. Most people privileged enough to engage in lawsuits, certainly on the plaintiff side, were white for most of American history and continue to be disproportionately white.</p>
+</div>
+<div id="gender" class="section level3">
+<h3>Gender</h3>
+<p>I based gender of individuals on traditional patterns in first names as well as pronouns, when they appeared. <strong>See Re-Reading Contracts and Updating Frug for some important contextualization about what “gender” means in this project!</strong></p>
+<div id="unambiguous-gender-marked-man" class="section level4">
+<h4>Unambiguous gender (marked “Man”):</h4>
+<blockquote>
+<p>Plaintiff/Appellant Sammie Maness (“Maness”), in his 50s at all pertinent times, lived most of his life in McNairy County, Tennessee. <em>Maness v. Collins</em>, KCP 927.</p>
+</blockquote>
+</div>
+<div id="ambiguous-gender-marked-unknown" class="section level4">
+<h4>Ambiguous gender (marked “Unknown”:)</h4>
+<blockquote>
+<p>In July 1951 appellants, the lessors, leased a small lot to appellee, the lessee, for a 10-year-term at a rent of $100 per month. [Term “appellants” used throughout rest of opinion and no singular pronouns used.] <em>Walker v. Keith</em>, KCP 79.</p>
+</blockquote>
+</div>
+</div>
+<div id="table-all-individuals" class="section level3">
+<h3>Table: All Individuals</h3>
+<div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:300px; ">
+<table>
+<thead>
+<tr>
+<th style="text-align:right;position: sticky; top:0; background-color: #FFFFFF;">
+page
+</th>
+<th style="text-align:right;position: sticky; top:0; background-color: #FFFFFF;">
+year
+</th>
+<th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
+transaction
+</th>
+<th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
+name
+</th>
+<th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
+gender
+</th>
+<th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
+side
+</th>
+<th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
+simple_citation
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right;">
+18
+</td>
+<td style="text-align:right;">
+1923
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Allen
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Allen v. Bissinger &amp; Co. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+21
+</td>
+<td style="text-align:right;">
+2017
+</td>
+<td style="text-align:left;">
+Consumer
+</td>
+<td style="text-align:left;">
+Spencer Meyer
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Meyer v. Uber Tech. Inc. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+37
+</td>
+<td style="text-align:right;">
+1952
+</td>
+<td style="text-align:left;">
+Consumer
+</td>
+<td style="text-align:left;">
+Calvin Ray
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Ray v. William G. Eurice &amp; Bros. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+37
+</td>
+<td style="text-align:right;">
+1952
+</td>
+<td style="text-align:left;">
+Consumer
+</td>
+<td style="text-align:left;">
+Katherine Ray
+</td>
+<td style="text-align:left;">
+Woman
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Ray v. William G. Eurice &amp; Bros. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+47
+</td>
+<td style="text-align:right;">
+1954
+</td>
+<td style="text-align:left;">
+Property
+</td>
+<td style="text-align:left;">
+Lonergan
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Lonergan v. Scolnick
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+51
+</td>
+<td style="text-align:right;">
+1985
+</td>
+<td style="text-align:left;">
+Property
+</td>
+<td style="text-align:left;">
+Michael M. Normile
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Normile v. Miller
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+51
+</td>
+<td style="text-align:right;">
+1985
+</td>
+<td style="text-align:left;">
+Property
+</td>
+<td style="text-align:left;">
+Wawie Kurniawan
+</td>
+<td style="text-align:left;">
+Unknown
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Normile v. Miller
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+51
+</td>
+<td style="text-align:right;">
+1985
+</td>
+<td style="text-align:left;">
+Property
+</td>
+<td style="text-align:left;">
+Segal
+</td>
+<td style="text-align:left;">
+Unknown
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Normile v. Miller
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+51
+</td>
+<td style="text-align:right;">
+1985
+</td>
+<td style="text-align:left;">
+Property
+</td>
+<td style="text-align:left;">
+Gladys Hawkins
+</td>
+<td style="text-align:left;">
+Woman
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Normile v. Miller
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+61
+</td>
+<td style="text-align:right;">
+1998
+</td>
+<td style="text-align:left;">
+Employee
+</td>
+<td style="text-align:left;">
+Mary Ellen Cook
+</td>
+<td style="text-align:left;">
+Woman
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Cook v. Colwell Banker/Frank Laiben Realty Co. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+66
+</td>
+<td style="text-align:right;">
+2012
+</td>
+<td style="text-align:left;">
+Consumer
+</td>
+<td style="text-align:left;">
+Sateriale
+</td>
+<td style="text-align:left;">
+Unknown
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Sateriale v. R.J. Reynolds Tobacco Co. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+78
+</td>
+<td style="text-align:right;">
+1965
+</td>
+<td style="text-align:left;">
+Consumer
+</td>
+<td style="text-align:left;">
+Walker
+</td>
+<td style="text-align:left;">
+Unknown
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Walker v. Keith
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+102
+</td>
+<td style="text-align:right;">
+1891
+</td>
+<td style="text-align:left;">
+Family
+</td>
+<td style="text-align:left;">
+Hamer
+</td>
+<td style="text-align:left;">
+Woman
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Hamer v. Sidway
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+102
+</td>
+<td style="text-align:right;">
+1891
+</td>
+<td style="text-align:left;">
+Family
+</td>
+<td style="text-align:left;">
+William E. Story, 2d
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Hamer v. Sidway
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+115
+</td>
+<td style="text-align:right;">
+1919
+</td>
+<td style="text-align:left;">
+Family
+</td>
+<td style="text-align:left;">
+Dougherty
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Dougherty v. Salt
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+120
+</td>
+<td style="text-align:right;">
+1937
+</td>
+<td style="text-align:left;">
+Employee
+</td>
+<td style="text-align:left;">
+Plowman
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Plowman v. Indian Refining Co. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+120
+</td>
+<td style="text-align:right;">
+1937
+</td>
+<td style="text-align:left;">
+Employee
+</td>
+<td style="text-align:left;">
+16 other people
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Plowman v. Indian Refining Co. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+120
+</td>
+<td style="text-align:right;">
+1937
+</td>
+<td style="text-align:left;">
+Employee
+</td>
+<td style="text-align:left;">
+Kogan
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Plowman v. Indian Refining Co. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+129
+</td>
+<td style="text-align:right;">
+2014
+</td>
+<td style="text-align:left;">
+Family
+</td>
+<td style="text-align:left;">
+George J. Dohrmann III
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Dohrmann v. Swaney
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+139
+</td>
+<td style="text-align:right;">
+2005
+</td>
+<td style="text-align:left;">
+Employee
+</td>
+<td style="text-align:left;">
+Bill Baker
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Marshall Durbin Food Corp. v. Baker
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+149
+</td>
+<td style="text-align:right;">
+2008
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Gene Jannusch
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Jannush v. Naffziger
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+149
+</td>
+<td style="text-align:right;">
+2008
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Martha Jannusch
+</td>
+<td style="text-align:left;">
+Woman
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Jannush v. Naffziger
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+154
+</td>
+<td style="text-align:right;">
+2007
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+John Baker
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+E.C. Styberg Eng’g Co. v. Eaton Corp. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+174
+</td>
+<td style="text-align:right;">
+1989
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Bruce Boardman
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Brown Machine Inc. v. Hercules Inc. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+174
+</td>
+<td style="text-align:right;">
+1989
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Fassett
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Brown Machine Inc. v. Hercules Inc. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+197
+</td>
+<td style="text-align:right;">
+2009
+</td>
+<td style="text-align:left;">
+Consumer
+</td>
+<td style="text-align:left;">
+Mary E. Defontes
+</td>
+<td style="text-align:left;">
+Woman
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Defontes v. Dell
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+197
+</td>
+<td style="text-align:right;">
+2009
+</td>
+<td style="text-align:left;">
+Consumer
+</td>
+<td style="text-align:left;">
+Nicholas Long
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Defontes v. Dell
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+197
+</td>
+<td style="text-align:right;">
+2009
+</td>
+<td style="text-align:left;">
+Consumer
+</td>
+<td style="text-align:left;">
+Julianne Ricci
+</td>
+<td style="text-align:left;">
+Woman
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Defontes v. Dell
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+209
+</td>
+<td style="text-align:right;">
+2016
+</td>
+<td style="text-align:left;">
+Consumer
+</td>
+<td style="text-align:left;">
+Brett Long
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Long v. Provide Commerce
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+227
+</td>
+<td style="text-align:right;">
+1845
+</td>
+<td style="text-align:left;">
+Property
+</td>
+<td style="text-align:left;">
+Antillico Kirksey
+</td>
+<td style="text-align:left;">
+Woman
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Kirksey v. Kirksey
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+228
+</td>
+<td style="text-align:right;">
+2008
+</td>
+<td style="text-align:left;">
+Property
+</td>
+<td style="text-align:left;">
+Teresa L. Harvey
+</td>
+<td style="text-align:left;">
+Woman
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Harvey v. Dow
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+228
+</td>
+<td style="text-align:right;">
+2008
+</td>
+<td style="text-align:left;">
+Property
+</td>
+<td style="text-align:left;">
+Jarrod Harvey
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Harvey v. Dow
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+237
+</td>
+<td style="text-align:right;">
+1995
+</td>
+<td style="text-align:left;">
+Property
+</td>
+<td style="text-align:left;">
+Coretta Scott King
+</td>
+<td style="text-align:left;">
+Woman
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+King v. Trustees of Boston Univ.
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+248
+</td>
+<td style="text-align:right;">
+1980
+</td>
+<td style="text-align:left;">
+Employee
+</td>
+<td style="text-align:left;">
+I.G. Katz
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Katz v. Danny Dare Inc. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+255
+</td>
+<td style="text-align:right;">
+2011
+</td>
+<td style="text-align:left;">
+Consumer
+</td>
+<td style="text-align:left;">
+Claudia Aceves
+</td>
+<td style="text-align:left;">
+Woman
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Aceves v. U.S. Bank N.A.
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+266
+</td>
+<td style="text-align:right;">
+1977
+</td>
+<td style="text-align:left;">
+Property
+</td>
+<td style="text-align:left;">
+Wade Berryman
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Berryman v. Kmoch
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+277
+</td>
+<td style="text-align:right;">
+1958
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Drennan
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Drennan v. Star Paving Co. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+277
+</td>
+<td style="text-align:right;">
+1958
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Mrs. Johnson
+</td>
+<td style="text-align:left;">
+Woman
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Drennan v. Star Paving Co. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+285
+</td>
+<td style="text-align:right;">
+1998
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Brenda Taube
+</td>
+<td style="text-align:left;">
+Woman
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Pop’s Cones Inc. v. Resorts International Hotel
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+315
+</td>
+<td style="text-align:right;">
+1987
+</td>
+<td style="text-align:left;">
+Family
+</td>
+<td style="text-align:left;">
+Sue Ann Watts
+</td>
+<td style="text-align:left;">
+Woman
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Watts v. Watts
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+328
+</td>
+<td style="text-align:right;">
+1825
+</td>
+<td style="text-align:left;">
+Family
+</td>
+<td style="text-align:left;">
+Mills
+</td>
+<td style="text-align:left;">
+Unknown
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Mills v. Wyman
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+333
+</td>
+<td style="text-align:right;">
+1935
+</td>
+<td style="text-align:left;">
+Family
+</td>
+<td style="text-align:left;">
+Webb
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Webb v. McGowin
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+347
+</td>
+<td style="text-align:right;">
+1953
+</td>
+<td style="text-align:left;">
+Employee
+</td>
+<td style="text-align:left;">
+Nate Crabtree
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Crabtree v. Elizabeth Arden Sales Corp. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+357
+</td>
+<td style="text-align:right;">
+2010
+</td>
+<td style="text-align:left;">
+Property
+</td>
+<td style="text-align:left;">
+Warren Beaver
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Beaver v. Brumlow
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+357
+</td>
+<td style="text-align:right;">
+2010
+</td>
+<td style="text-align:left;">
+Property
+</td>
+<td style="text-align:left;">
+Betty Beaver
+</td>
+<td style="text-align:left;">
+Woman
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Beaver v. Brumlow
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+368
+</td>
+<td style="text-align:right;">
+1997
+</td>
+<td style="text-align:left;">
+Employee
+</td>
+<td style="text-align:left;">
+Kathleen Rice
+</td>
+<td style="text-align:left;">
+Woman
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Alaska Dem. Party v. Rice
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+381
+</td>
+<td style="text-align:right;">
+1994
+</td>
+<td style="text-align:left;">
+Property
+</td>
+<td style="text-align:left;">
+Homer Buffaloe
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Buffaloe v. Hart
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+399
+</td>
+<td style="text-align:right;">
+1987
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Marguerite B. Joyner
+</td>
+<td style="text-align:left;">
+Woman
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Joyner v. Adams
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+399
+</td>
+<td style="text-align:right;">
+1987
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+William T. Joyner, Jr. 
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Joyner v. Adams
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+408
+</td>
+<td style="text-align:right;">
+1960
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Mr. Stovicek
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Frigaliment Imp. Co. v. B.N.S. Int’l Corp. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+429
+</td>
+<td style="text-align:right;">
+1885
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+J. H. Thompson
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Thompson v. Libby
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+438
+</td>
+<td style="text-align:right;">
+1993
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Bobby Sid Taylor
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Taylor v. State Farm Mutual Auto. Ins.
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+451
+</td>
+<td style="text-align:right;">
+1991
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+William Sherrod
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Sherrodd Inc. v. Morrison-Knudsen Co. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+482
+</td>
+<td style="text-align:right;">
+1917
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Wood
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Wood v. Lucy Lady Duff-Gordon
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+486
+</td>
+<td style="text-align:right;">
+1978
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Leibel
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Leibel v. Raynor Mfg. Co. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+494
+</td>
+<td style="text-align:right;">
+2002
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Richard Seidenberg
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Seidenberg v. Summit Bank
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+494
+</td>
+<td style="text-align:right;">
+2002
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Eric Raymond
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Seidenberg v. Summit Bank
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+513
+</td>
+<td style="text-align:right;">
+1997
+</td>
+<td style="text-align:left;">
+Employee
+</td>
+<td style="text-align:left;">
+Sondra Locke
+</td>
+<td style="text-align:left;">
+Woman
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Locke v. Warner Bros. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+523
+</td>
+<td style="text-align:right;">
+2016
+</td>
+<td style="text-align:left;">
+Employee
+</td>
+<td style="text-align:left;">
+Kevin Geysen
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Geysen v. Securitas Security Services
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+548
+</td>
+<td style="text-align:right;">
+1999
+</td>
+<td style="text-align:left;">
+Consumer
+</td>
+<td style="text-align:left;">
+John R. Crow
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Bayliner Marine Corp. v. Crow
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+558
+</td>
+<td style="text-align:right;">
+2008
+</td>
+<td style="text-align:left;">
+Consumer
+</td>
+<td style="text-align:left;">
+Robert Speight
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Speight v. Walters Dev. Co. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+558
+</td>
+<td style="text-align:right;">
+2008
+</td>
+<td style="text-align:left;">
+Consumer
+</td>
+<td style="text-align:left;">
+Beverly Speight
+</td>
+<td style="text-align:left;">
+Woman
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Speight v. Walters Dev. Co. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+572
+</td>
+<td style="text-align:right;">
+1992
+</td>
+<td style="text-align:left;">
+Property
+</td>
+<td style="text-align:left;">
+Joseph Eugene Dodson
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Dodson v. Shrader
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+579
+</td>
+<td style="text-align:right;">
+2012
+</td>
+<td style="text-align:left;">
+Property
+</td>
+<td style="text-align:left;">
+Frances M. Sparrow
+</td>
+<td style="text-align:left;">
+Woman
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Sparrow v. Demonico
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+601
+</td>
+<td style="text-align:right;">
+1966
+</td>
+<td style="text-align:left;">
+Employee
+</td>
+<td style="text-align:left;">
+Donald Odorizzi
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Odorizzi v. Bloomfield School District
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+611
+</td>
+<td style="text-align:right;">
+1965
+</td>
+<td style="text-align:left;">
+Consumer
+</td>
+<td style="text-align:left;">
+Syester
+</td>
+<td style="text-align:left;">
+Woman
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Syester v. Banta
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+622
+</td>
+<td style="text-align:right;">
+1986
+</td>
+<td style="text-align:left;">
+Property
+</td>
+<td style="text-align:left;">
+Warren G. Hill
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Hill v. Jones
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+622
+</td>
+<td style="text-align:right;">
+1986
+</td>
+<td style="text-align:left;">
+Property
+</td>
+<td style="text-align:left;">
+Gloria R. Hill
+</td>
+<td style="text-align:left;">
+Woman
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Hill v. Jones
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+634
+</td>
+<td style="text-align:right;">
+1995
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Robert Scannell
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Park 100 Investors Inc. v. Kartes
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+639
+</td>
+<td style="text-align:right;">
+1965
+</td>
+<td style="text-align:left;">
+Consumer
+</td>
+<td style="text-align:left;">
+Thorne
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Williams v. Walker-Thomas Furniture Co. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+639
+</td>
+<td style="text-align:right;">
+1965
+</td>
+<td style="text-align:left;">
+Consumer
+</td>
+<td style="text-align:left;">
+Williams
+</td>
+<td style="text-align:left;">
+Woman
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Williams v. Walker-Thomas Furniture Co. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+650
+</td>
+<td style="text-align:right;">
+2006
+</td>
+<td style="text-align:left;">
+Property
+</td>
+<td style="text-align:left;">
+Charles Higgins
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Higgins v. Super. Ct. of Los Angeles County
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+650
+</td>
+<td style="text-align:right;">
+2006
+</td>
+<td style="text-align:left;">
+Property
+</td>
+<td style="text-align:left;">
+Michael Higgins
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Higgins v. Super. Ct. of Los Angeles County
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+650
+</td>
+<td style="text-align:right;">
+2006
+</td>
+<td style="text-align:left;">
+Property
+</td>
+<td style="text-align:left;">
+Charis Higgins
+</td>
+<td style="text-align:left;">
+Woman
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Higgins v. Super. Ct. of Los Angeles County
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+650
+</td>
+<td style="text-align:right;">
+2006
+</td>
+<td style="text-align:left;">
+Property
+</td>
+<td style="text-align:left;">
+Joshua Higgins
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Higgins v. Super. Ct. of Los Angeles County
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+664
+</td>
+<td style="text-align:right;">
+2016
+</td>
+<td style="text-align:left;">
+Consumer
+</td>
+<td style="text-align:left;">
+Philip McFarland
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+McFarland v. Wells Fargo Bank
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+695
+</td>
+<td style="text-align:right;">
+2018
+</td>
+<td style="text-align:left;">
+Family
+</td>
+<td style="text-align:left;">
+P.M.
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+P.M. v. T.B.
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+695
+</td>
+<td style="text-align:right;">
+2018
+</td>
+<td style="text-align:left;">
+Family
+</td>
+<td style="text-align:left;">
+C.M.
+</td>
+<td style="text-align:left;">
+Woman
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+P.M. v. T.B.
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+720
+</td>
+<td style="text-align:right;">
+1982
+</td>
+<td style="text-align:left;">
+Property
+</td>
+<td style="text-align:left;">
+William Messerly
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Lenawee County Board of Health v. Messerly
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+720
+</td>
+<td style="text-align:right;">
+1982
+</td>
+<td style="text-align:left;">
+Property
+</td>
+<td style="text-align:left;">
+Martha Messerly
+</td>
+<td style="text-align:left;">
+Woman
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Lenawee County Board of Health v. Messerly
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+789
+</td>
+<td style="text-align:right;">
+1995
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Wayde Burt
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Brookside Farms v. Mama Rizzo’s Inc. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+818
+</td>
+<td style="text-align:right;">
+1977
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Nicholas Arena
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+J. N. A. Realty Corp. v. Cross Bay Chelsea Inc. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+841
+</td>
+<td style="text-align:right;">
+1967
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Sheldon Sackett
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Sackett v. Spindler
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+858
+</td>
+<td style="text-align:right;">
+1997
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Don Vultaggio
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Hornell Brewing Co. v. Spry
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+880
+</td>
+<td style="text-align:right;">
+2008
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Fred Billingsly
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+880
+</td>
+<td style="text-align:right;">
+2008
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Carolyn Billingsly
+</td>
+<td style="text-align:left;">
+Woman
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+903
+</td>
+<td style="text-align:right;">
+1854
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Hadley
+</td>
+<td style="text-align:left;">
+Unknown
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Hadley v. Baxendale
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+926
+</td>
+<td style="text-align:right;">
+2010
+</td>
+<td style="text-align:left;">
+Employee
+</td>
+<td style="text-align:left;">
+Sammie Maness
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Maness v. Collins
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+957
+</td>
+<td style="text-align:right;">
+1999
+</td>
+<td style="text-align:left;">
+Consumer
+</td>
+<td style="text-align:left;">
+Barry Erlich
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Erlich v. Menezes
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+957
+</td>
+<td style="text-align:right;">
+1999
+</td>
+<td style="text-align:left;">
+Consumer
+</td>
+<td style="text-align:left;">
+Sandra Erlich
+</td>
+<td style="text-align:left;">
+Woman
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Erlich v. Menezes
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+990
+</td>
+<td style="text-align:right;">
+1956
+</td>
+<td style="text-align:left;">
+Employee
+</td>
+<td style="text-align:left;">
+Roth
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Roth v. Speck
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1001
+</td>
+<td style="text-align:right;">
+1983
+</td>
+<td style="text-align:left;">
+Employee
+</td>
+<td style="text-align:left;">
+John Jordan / “Woody Hightower”
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Wartzmann v. Hightower Productions Ltd. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1001
+</td>
+<td style="text-align:right;">
+1983
+</td>
+<td style="text-align:left;">
+Employee
+</td>
+<td style="text-align:left;">
+Paul Wartzman
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Wartzmann v. Hightower Productions Ltd. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1012
+</td>
+<td style="text-align:right;">
+1994
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Paul Martin Walser
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Walser v. Toyota Motor Sales
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1012
+</td>
+<td style="text-align:right;">
+1994
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Philip Martin McLaughlin
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Walser v. Toyota Motor Sales
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1024
+</td>
+<td style="text-align:right;">
+1985
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Lancellotti
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Lancellotti v. Thomas
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1033
+</td>
+<td style="text-align:right;">
+1995
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Jesse “The Body” Ventura
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1096
+</td>
+<td style="text-align:right;">
+1999
+</td>
+<td style="text-align:left;">
+Consumer
+</td>
+<td style="text-align:left;">
+Susan J. Vogan
+</td>
+<td style="text-align:left;">
+Woman
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Vogan v. Hayes Appraisal Associates
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1096
+</td>
+<td style="text-align:right;">
+1999
+</td>
+<td style="text-align:left;">
+Consumer
+</td>
+<td style="text-align:left;">
+Rollin G. Vogan
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Vogan v. Hayes Appraisal Associates
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1104
+</td>
+<td style="text-align:right;">
+2006
+</td>
+<td style="text-align:left;">
+Family
+</td>
+<td style="text-align:left;">
+Theresa Chen
+</td>
+<td style="text-align:left;">
+Woman
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Chen v. Chen
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1104
+</td>
+<td style="text-align:right;">
+2006
+</td>
+<td style="text-align:left;">
+Family
+</td>
+<td style="text-align:left;">
+Wheamei Chen
+</td>
+<td style="text-align:left;">
+Woman
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Chen v. Chen
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1117
+</td>
+<td style="text-align:right;">
+1991
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+John P. Herzog
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Herzog v. Irace
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1123
+</td>
+<td style="text-align:right;">
+1986
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Mark Reichek
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Sally Beauty Co. v. Nexxus Products Co. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1123
+</td>
+<td style="text-align:right;">
+1986
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Michael Renzulli
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Sally Beauty Co. v. Nexxus Products Co. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+47
+</td>
+<td style="text-align:right;">
+1954
+</td>
+<td style="text-align:left;">
+Property
+</td>
+<td style="text-align:left;">
+Scolnick
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Lonergan v. Scolnick
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+51
+</td>
+<td style="text-align:right;">
+1985
+</td>
+<td style="text-align:left;">
+Property
+</td>
+<td style="text-align:left;">
+Hazel Miller
+</td>
+<td style="text-align:left;">
+Woman
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Normile v. Miller
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+51
+</td>
+<td style="text-align:right;">
+1985
+</td>
+<td style="text-align:left;">
+Property
+</td>
+<td style="text-align:left;">
+Richard Byer
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Normile v. Miller
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+78
+</td>
+<td style="text-align:right;">
+1965
+</td>
+<td style="text-align:left;">
+Consumer
+</td>
+<td style="text-align:left;">
+Keith
+</td>
+<td style="text-align:left;">
+Unknown
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Walker v. Keith
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+102
+</td>
+<td style="text-align:right;">
+1891
+</td>
+<td style="text-align:left;">
+Family
+</td>
+<td style="text-align:left;">
+William E. Story, Sr. 
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Hamer v. Sidway
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+115
+</td>
+<td style="text-align:right;">
+1919
+</td>
+<td style="text-align:left;">
+Family
+</td>
+<td style="text-align:left;">
+Salt
+</td>
+<td style="text-align:left;">
+Woman
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Dougherty v. Salt
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+120
+</td>
+<td style="text-align:right;">
+1937
+</td>
+<td style="text-align:left;">
+Employee
+</td>
+<td style="text-align:left;">
+Anglin
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Plowman v. Indian Refining Co. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+129
+</td>
+<td style="text-align:right;">
+2014
+</td>
+<td style="text-align:left;">
+Family
+</td>
+<td style="text-align:left;">
+Thomas E. Swaney
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Dohrmann v. Swaney
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+129
+</td>
+<td style="text-align:right;">
+2014
+</td>
+<td style="text-align:left;">
+Family
+</td>
+<td style="text-align:left;">
+Virginia H. Rogers
+</td>
+<td style="text-align:left;">
+Woman
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Dohrmann v. Swaney
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+149
+</td>
+<td style="text-align:right;">
+2008
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Lindsey Naffziger
+</td>
+<td style="text-align:left;">
+Woman
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Jannush v. Naffziger
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+149
+</td>
+<td style="text-align:right;">
+2008
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Louann Naffziger
+</td>
+<td style="text-align:left;">
+Woman
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Jannush v. Naffziger
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+154
+</td>
+<td style="text-align:right;">
+2007
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Al Davis
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+E.C. Styberg Eng’g Co. v. Eaton Corp. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+154
+</td>
+<td style="text-align:right;">
+2007
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Lisa Fletcher
+</td>
+<td style="text-align:left;">
+Woman
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+E.C. Styberg Eng’g Co. v. Eaton Corp. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+174
+</td>
+<td style="text-align:right;">
+1989
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Tim Wilson
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Brown Machine Inc. v. Hercules Inc. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+174
+</td>
+<td style="text-align:right;">
+1989
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Jim Ryan
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Brown Machine Inc. v. Hercules Inc. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+227
+</td>
+<td style="text-align:right;">
+1845
+</td>
+<td style="text-align:left;">
+Family
+</td>
+<td style="text-align:left;">
+Kirksey
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Kirksey v. Kirksey
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+228
+</td>
+<td style="text-align:right;">
+2008
+</td>
+<td style="text-align:left;">
+Family
+</td>
+<td style="text-align:left;">
+Jeffrey B. Dow Sr. 
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Harvey v. Dow
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+228
+</td>
+<td style="text-align:right;">
+2008
+</td>
+<td style="text-align:left;">
+Family
+</td>
+<td style="text-align:left;">
+Kathryn L. Dow
+</td>
+<td style="text-align:left;">
+Woman
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Harvey v. Dow
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+248
+</td>
+<td style="text-align:right;">
+1980
+</td>
+<td style="text-align:left;">
+Employee
+</td>
+<td style="text-align:left;">
+Harry Shopmaker
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Katz v. Danny Dare Inc. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+266
+</td>
+<td style="text-align:right;">
+1977
+</td>
+<td style="text-align:left;">
+Property
+</td>
+<td style="text-align:left;">
+Norbert H. Kmoch
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Berryman v. Kmoch
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+277
+</td>
+<td style="text-align:right;">
+1958
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Kenneth R. Hoon
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Drennan v. Star Paving Co. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+277
+</td>
+<td style="text-align:right;">
+1958
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Mr. Oppenheimer
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Drennan v. Star Paving Co. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+285
+</td>
+<td style="text-align:right;">
+1998
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Marlon Phoenix
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Pop’s Cones Inc. v. Resorts International Hotel
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+285
+</td>
+<td style="text-align:right;">
+1998
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Merv Griffin
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Pop’s Cones Inc. v. Resorts International Hotel
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+297
+</td>
+<td style="text-align:right;">
+2000
+</td>
+<td style="text-align:left;">
+Consumer
+</td>
+<td style="text-align:left;">
+Russell N. Pelo
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Credit Bureau Enter. v. Pelo
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+315
+</td>
+<td style="text-align:right;">
+1987
+</td>
+<td style="text-align:left;">
+Family
+</td>
+<td style="text-align:left;">
+James Watts
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Watts v. Watts
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+328
+</td>
+<td style="text-align:right;">
+1825
+</td>
+<td style="text-align:left;">
+Family
+</td>
+<td style="text-align:left;">
+Levi Wyman
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Mills v. Wyman
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+328
+</td>
+<td style="text-align:right;">
+1825
+</td>
+<td style="text-align:left;">
+Family
+</td>
+<td style="text-align:left;">
+Wyman Sr. 
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Mills v. Wyman
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+333
+</td>
+<td style="text-align:right;">
+1935
+</td>
+<td style="text-align:left;">
+Family
+</td>
+<td style="text-align:left;">
+J. Greeley McGowin
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Webb v. McGowin
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+347
+</td>
+<td style="text-align:right;">
+1953
+</td>
+<td style="text-align:left;">
+Employee
+</td>
+<td style="text-align:left;">
+Robert P. Johns
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Crabtree v. Elizabeth Arden Sales Corp. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+347
+</td>
+<td style="text-align:right;">
+1953
+</td>
+<td style="text-align:left;">
+Employee
+</td>
+<td style="text-align:left;">
+Elizabeth Arden
+</td>
+<td style="text-align:left;">
+Woman
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Crabtree v. Elizabeth Arden Sales Corp. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+357
+</td>
+<td style="text-align:right;">
+2010
+</td>
+<td style="text-align:left;">
+Property
+</td>
+<td style="text-align:left;">
+Michael Brumlow
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Beaver v. Brumlow
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+357
+</td>
+<td style="text-align:right;">
+2010
+</td>
+<td style="text-align:left;">
+Property
+</td>
+<td style="text-align:left;">
+Karen Brumlow
+</td>
+<td style="text-align:left;">
+Woman
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Beaver v. Brumlow
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+368
+</td>
+<td style="text-align:right;">
+1997
+</td>
+<td style="text-align:left;">
+Employee
+</td>
+<td style="text-align:left;">
+Greg Wakefield
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Alaska Dem. Party v. Rice
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+381
+</td>
+<td style="text-align:right;">
+1994
+</td>
+<td style="text-align:left;">
+Property
+</td>
+<td style="text-align:left;">
+Patricia Hart
+</td>
+<td style="text-align:left;">
+Woman
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Buffaloe v. Hart
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+381
+</td>
+<td style="text-align:right;">
+1994
+</td>
+<td style="text-align:left;">
+Property
+</td>
+<td style="text-align:left;">
+Lowell Thomas Hart
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Buffaloe v. Hart
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+399
+</td>
+<td style="text-align:right;">
+1987
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+J.R. Adams
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Joyner v. Adams
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+408
+</td>
+<td style="text-align:right;">
+1960
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Ernest R. Bauer
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Frigaliment Imp. Co. v. B.N.S. Int’l Corp. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+429
+</td>
+<td style="text-align:right;">
+1885
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+R. C. Libby
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Thompson v. Libby
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+438
+</td>
+<td style="text-align:right;">
+1993
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Norman Bruce Randall
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Taylor v. State Farm Mutual Auto. Ins.
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+438
+</td>
+<td style="text-align:right;">
+1993
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Leroy W. Hofmann
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Taylor v. State Farm Mutual Auto. Ins.
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+482
+</td>
+<td style="text-align:right;">
+1917
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Lucy, Lady Duff-Gordon
+</td>
+<td style="text-align:left;">
+Woman
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Wood v. Lucy Lady Duff-Gordon
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+523
+</td>
+<td style="text-align:right;">
+2016
+</td>
+<td style="text-align:left;">
+Employee
+</td>
+<td style="text-align:left;">
+Thomas R. Fagan
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Geysen v. Securitas Security Services
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+548
+</td>
+<td style="text-align:right;">
+1999
+</td>
+<td style="text-align:left;">
+Consumer
+</td>
+<td style="text-align:left;">
+John Atherton
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Bayliner Marine Corp. v. Crow
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+572
+</td>
+<td style="text-align:right;">
+1992
+</td>
+<td style="text-align:left;">
+Property
+</td>
+<td style="text-align:left;">
+Burns Shrader
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Dodson v. Shrader
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+572
+</td>
+<td style="text-align:right;">
+1992
+</td>
+<td style="text-align:left;">
+Property
+</td>
+<td style="text-align:left;">
+Mary Shrader
+</td>
+<td style="text-align:left;">
+Woman
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Dodson v. Shrader
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+579
+</td>
+<td style="text-align:right;">
+2012
+</td>
+<td style="text-align:left;">
+Property
+</td>
+<td style="text-align:left;">
+Susan A. Demonico
+</td>
+<td style="text-align:left;">
+Woman
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Sparrow v. Demonico
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+579
+</td>
+<td style="text-align:right;">
+2012
+</td>
+<td style="text-align:left;">
+Property
+</td>
+<td style="text-align:left;">
+David D. Demonico
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Sparrow v. Demonico
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+611
+</td>
+<td style="text-align:right;">
+1965
+</td>
+<td style="text-align:left;">
+Consumer
+</td>
+<td style="text-align:left;">
+Banta
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Syester v. Banta
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+622
+</td>
+<td style="text-align:right;">
+1986
+</td>
+<td style="text-align:left;">
+Property
+</td>
+<td style="text-align:left;">
+Ora G. Jones
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Hill v. Jones
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+622
+</td>
+<td style="text-align:right;">
+1986
+</td>
+<td style="text-align:left;">
+Property
+</td>
+<td style="text-align:left;">
+Barbara R. Jones
+</td>
+<td style="text-align:left;">
+Woman
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Hill v. Jones
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+634
+</td>
+<td style="text-align:right;">
+1995
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+James Kartes
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Park 100 Investors Inc. v. Kartes
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+634
+</td>
+<td style="text-align:right;">
+1995
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Nancy Kartes
+</td>
+<td style="text-align:left;">
+Woman
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Park 100 Investors Inc. v. Kartes
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+634
+</td>
+<td style="text-align:right;">
+1995
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+David Kaplan
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Park 100 Investors Inc. v. Kartes
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+681
+</td>
+<td style="text-align:right;">
+1999
+</td>
+<td style="text-align:left;">
+Employee
+</td>
+<td style="text-align:left;">
+Steven S. Farber, D.O.
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Valley Medical Specialist v. Farber
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+695
+</td>
+<td style="text-align:right;">
+2018
+</td>
+<td style="text-align:left;">
+Family
+</td>
+<td style="text-align:left;">
+T.B.
+</td>
+<td style="text-align:left;">
+Woman
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+P.M. v. T.B.
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+695
+</td>
+<td style="text-align:right;">
+2018
+</td>
+<td style="text-align:left;">
+Family
+</td>
+<td style="text-align:left;">
+D.B.
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+P.M. v. T.B.
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+720
+</td>
+<td style="text-align:right;">
+1982
+</td>
+<td style="text-align:left;">
+Property
+</td>
+<td style="text-align:left;">
+Carl Pickles
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Lenawee County Board of Health v. Messerly
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+720
+</td>
+<td style="text-align:right;">
+1982
+</td>
+<td style="text-align:left;">
+Property
+</td>
+<td style="text-align:left;">
+Nancy Pickles
+</td>
+<td style="text-align:left;">
+Woman
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Lenawee County Board of Health v. Messerly
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+730
+</td>
+<td style="text-align:right;">
+2017
+</td>
+<td style="text-align:left;">
+Consumer
+</td>
+<td style="text-align:left;">
+Frank Deloach
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+BMW Financial Services NA LLC v. Deloach
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+730
+</td>
+<td style="text-align:right;">
+2017
+</td>
+<td style="text-align:left;">
+Consumer
+</td>
+<td style="text-align:left;">
+David Deloach
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+BMW Financial Services NA LLC v. Deloach
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+773
+</td>
+<td style="text-align:right;">
+1902
+</td>
+<td style="text-align:left;">
+Employee
+</td>
+<td style="text-align:left;">
+Domenico
+</td>
+<td style="text-align:left;">
+Unknown
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Alaska Packers’ Association v. Domenico
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+789
+</td>
+<td style="text-align:right;">
+1995
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Mike Franklan
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Brookside Farms v. Mama Rizzo’s Inc. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+818
+</td>
+<td style="text-align:right;">
+1977
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Victor Palermo
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+J. N. A. Realty Corp. v. Cross Bay Chelsea Inc. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+818
+</td>
+<td style="text-align:right;">
+1977
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Sylvester Vascellero
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+J. N. A. Realty Corp. v. Cross Bay Chelsea Inc. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+829
+</td>
+<td style="text-align:right;">
+1921
+</td>
+<td style="text-align:left;">
+Consumer
+</td>
+<td style="text-align:left;">
+Kent
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Jacob &amp; Youngs Inc. v. Kent
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+841
+</td>
+<td style="text-align:right;">
+1967
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Paul Spindler
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Sackett v. Spindler
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+849
+</td>
+<td style="text-align:right;">
+1995
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Sara Lee Schupf
+</td>
+<td style="text-align:left;">
+Woman
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Truman L. Flatt &amp; Sons Co. v. Schupf
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+849
+</td>
+<td style="text-align:right;">
+1995
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Ray H. Neiswander, Jr. 
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Truman L. Flatt &amp; Sons Co. v. Schupf
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+858
+</td>
+<td style="text-align:right;">
+1997
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Stephen A. Spry
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Hornell Brewing Co. v. Spry
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+880
+</td>
+<td style="text-align:right;">
+2008
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Dee Kassab
+</td>
+<td style="text-align:left;">
+Unknown
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+880
+</td>
+<td style="text-align:right;">
+2008
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+James Hamilton
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+880
+</td>
+<td style="text-align:right;">
+2008
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Kent Eastman
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+889
+</td>
+<td style="text-align:right;">
+1983
+</td>
+<td style="text-align:left;">
+Employee
+</td>
+<td style="text-align:left;">
+Elaine Lukaszewski
+</td>
+<td style="text-align:left;">
+Woman
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Handicapped Children’s Education Board v. Lukaszewski
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+895
+</td>
+<td style="text-align:right;">
+1981
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Schechtman
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+American Standard Inc. v. Schectman
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+903
+</td>
+<td style="text-align:right;">
+1854
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Baxendale
+</td>
+<td style="text-align:left;">
+Unknown
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Hadley v. Baxendale
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+926
+</td>
+<td style="text-align:right;">
+2010
+</td>
+<td style="text-align:left;">
+Employee
+</td>
+<td style="text-align:left;">
+Joannie Collins
+</td>
+<td style="text-align:left;">
+Woman
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Maness v. Collins
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+926
+</td>
+<td style="text-align:right;">
+2010
+</td>
+<td style="text-align:left;">
+Employee
+</td>
+<td style="text-align:left;">
+Mike Smith
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Maness v. Collins
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+926
+</td>
+<td style="text-align:right;">
+2010
+</td>
+<td style="text-align:left;">
+Employee
+</td>
+<td style="text-align:left;">
+Josh Smith
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Maness v. Collins
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+957
+</td>
+<td style="text-align:right;">
+1999
+</td>
+<td style="text-align:left;">
+Consumer
+</td>
+<td style="text-align:left;">
+John Menezes
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Erlich v. Menezes
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+990
+</td>
+<td style="text-align:right;">
+1956
+</td>
+<td style="text-align:left;">
+Employee
+</td>
+<td style="text-align:left;">
+Speck
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Roth v. Speck
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1001
+</td>
+<td style="text-align:right;">
+1983
+</td>
+<td style="text-align:left;">
+Employee
+</td>
+<td style="text-align:left;">
+Ira Adler
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Wartzmann v. Hightower Productions Ltd. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1001
+</td>
+<td style="text-align:right;">
+1983
+</td>
+<td style="text-align:left;">
+Employee
+</td>
+<td style="text-align:left;">
+Frank Billitz
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Wartzmann v. Hightower Productions Ltd. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1001
+</td>
+<td style="text-align:right;">
+1983
+</td>
+<td style="text-align:left;">
+Employee
+</td>
+<td style="text-align:left;">
+J. Daniel Quinn
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Wartzmann v. Hightower Productions Ltd. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1024
+</td>
+<td style="text-align:right;">
+1985
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Lillian Thomas
+</td>
+<td style="text-align:left;">
+Woman
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Lancellotti v. Thomas
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1024
+</td>
+<td style="text-align:right;">
+1985
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Thomas
+</td>
+<td style="text-align:left;">
+Unknown
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Lancellotti v. Thomas
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1033
+</td>
+<td style="text-align:right;">
+1995
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Dick Glover
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1033
+</td>
+<td style="text-align:right;">
+1995
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Barry Bloom
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1048
+</td>
+<td style="text-align:right;">
+1968
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Lerner
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+City Stores Co. v. Ammerman
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1048
+</td>
+<td style="text-align:right;">
+1968
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Ammerman
+</td>
+<td style="text-align:left;">
+Unknown
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+City Stores Co. v. Ammerman
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1048
+</td>
+<td style="text-align:right;">
+1968
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Gudelsy
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+City Stores Co. v. Ammerman
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1059
+</td>
+<td style="text-align:right;">
+2003
+</td>
+<td style="text-align:left;">
+Employee
+</td>
+<td style="text-align:left;">
+Michael Kramer
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Reier Broadcasting Company Inc. v. Kramer
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1070
+</td>
+<td style="text-align:right;">
+2007
+</td>
+<td style="text-align:left;">
+Consumer
+</td>
+<td style="text-align:left;">
+Andrew Patch
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Barrie School v. Patch
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1070
+</td>
+<td style="text-align:right;">
+2007
+</td>
+<td style="text-align:left;">
+Consumer
+</td>
+<td style="text-align:left;">
+Pamela Patch
+</td>
+<td style="text-align:left;">
+Woman
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Barrie School v. Patch
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1096
+</td>
+<td style="text-align:right;">
+1999
+</td>
+<td style="text-align:left;">
+Consumer
+</td>
+<td style="text-align:left;">
+Gary Markley
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Vogan v. Hayes Appraisal Associates
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1104
+</td>
+<td style="text-align:right;">
+2006
+</td>
+<td style="text-align:left;">
+Family
+</td>
+<td style="text-align:left;">
+Richard Chen
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Chen v. Chen
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1117
+</td>
+<td style="text-align:right;">
+1991
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Anthony Irace
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Herzog v. Irace
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1117
+</td>
+<td style="text-align:right;">
+1991
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Donald Lowry
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Herzog v. Irace
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1123
+</td>
+<td style="text-align:right;">
+1986
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Stephen Redding
+</td>
+<td style="text-align:left;">
+Man
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Sally Beauty Co. v. Nexxus Products Co. 
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="businessesother-organizations" class="section level2">
+<h2>Businesses/Other Organizations</h2>
+<p>I also collected 122 businesses or organizations that appeared as parties in the cases.</p>
+<div id="table-all-organizations" class="section level3">
+<h3>Table: All Organizations</h3>
+<div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:300px; ">
+<table>
+<thead>
+<tr>
+<th style="text-align:right;position: sticky; top:0; background-color: #FFFFFF;">
+page
+</th>
+<th style="text-align:right;position: sticky; top:0; background-color: #FFFFFF;">
+year
+</th>
+<th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
+transaction
+</th>
+<th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
+name
+</th>
+<th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
+type
+</th>
+<th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
+side
+</th>
+<th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
+simple_citation
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right;">
+87
+</td>
+<td style="text-align:right;">
+1990
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Quake Construction, Inc. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Quake Constr. Inc. v. American Airlines Inc. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+107
+</td>
+<td style="text-align:right;">
+2006
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Pennsy Supply, Inc. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Pennsy Supply Inc. v. American Ash Recycling Corp. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+154
+</td>
+<td style="text-align:right;">
+2007
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+E.C. Styberg Engineering Co. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+E.C. Styberg Eng’g Co. v. Eaton Corp. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+165
+</td>
+<td style="text-align:right;">
+1998
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Princess Cruises, Inc. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Princess Cruises Inc. v. General Electric Co. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+174
+</td>
+<td style="text-align:right;">
+1989
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Brown Machine, Inc. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Brown Machine Inc. v. Hercules Inc. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+184
+</td>
+<td style="text-align:right;">
+2007
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Paul Gottlieb &amp; Co., Inc. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Paul Gottlieb &amp; Co. Inc. v. Alps South Corp. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+274
+</td>
+<td style="text-align:right;">
+1933
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+James Baird Co. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+James Baird Co. v. Gimbel Bros. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+285
+</td>
+<td style="text-align:right;">
+1998
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Pop’s Cones
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Pop’s Cones Inc. v. Resorts International Hotel
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+285
+</td>
+<td style="text-align:right;">
+1998
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+TCBY Systems, Inc. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Pop’s Cones Inc. v. Resorts International Hotel
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+297
+</td>
+<td style="text-align:right;">
+2000
+</td>
+<td style="text-align:left;">
+Consumer
+</td>
+<td style="text-align:left;">
+Credit Bureau Enterprises, Inc. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Credit Bureau Enter. v. Pelo
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+297
+</td>
+<td style="text-align:right;">
+2000
+</td>
+<td style="text-align:left;">
+Consumer
+</td>
+<td style="text-align:left;">
+hospital
+</td>
+<td style="text-align:left;">
+Organization
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Credit Bureau Enter. v. Pelo
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+309
+</td>
+<td style="text-align:right;">
+1997
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Equity Contracting Co. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Commerce Partnership 8098 Limited Partnership v. Equity Contracting Co. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+408
+</td>
+<td style="text-align:right;">
+1960
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Frigaliment Importing Co. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Frigaliment Imp. Co. v. B.N.S. Int’l Corp. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+416
+</td>
+<td style="text-align:right;">
+1975
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+C &amp; J Fertilizer, Inc. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+C&amp;J Fertilizer Inc. v. Allied Mutual Ins. Co. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+451
+</td>
+<td style="text-align:right;">
+1991
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Sherrod, Inc. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Sherrodd Inc. v. Morrison-Knudsen Co. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+460
+</td>
+<td style="text-align:right;">
+1981
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Nanakuli Paving and Rock Company
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Nanakuli Paving &amp; Rock Co. v. Shell Oil Co. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+494
+</td>
+<td style="text-align:right;">
+2002
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Corporate Dynamics
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Seidenberg v. Summit Bank
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+494
+</td>
+<td style="text-align:right;">
+2002
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Philadelphia Benefits Corporation
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Seidenberg v. Summit Bank
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+508
+</td>
+<td style="text-align:right;">
+1983
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Morin Building Products Co. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Morin Bldg. Prod. Co. v. Baystone Constr.
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+513
+</td>
+<td style="text-align:right;">
+1997
+</td>
+<td style="text-align:left;">
+Employee
+</td>
+<td style="text-align:left;">
+Caritas Films
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Locke v. Warner Bros. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+591
+</td>
+<td style="text-align:right;">
+1978
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Totem Marine Tug &amp; Barge, Inc. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Totem Marine Tug &amp; Barge Inc. v. Alyeska Pipeline Service Co. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+634
+</td>
+<td style="text-align:right;">
+1995
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Park 100 Investors, Inc. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Park 100 Investors Inc. v. Kartes
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+681
+</td>
+<td style="text-align:right;">
+1999
+</td>
+<td style="text-align:left;">
+Employee
+</td>
+<td style="text-align:left;">
+Valley Medical Specialists
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Valley Medical Specialist v. Farber
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+730
+</td>
+<td style="text-align:right;">
+2017
+</td>
+<td style="text-align:left;">
+Consumer
+</td>
+<td style="text-align:left;">
+BWM Financial
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+BMW Financial Services NA LLC v. Deloach
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+730
+</td>
+<td style="text-align:right;">
+2017
+</td>
+<td style="text-align:left;">
+Consumer
+</td>
+<td style="text-align:left;">
+Firstsource Advantage, LLC
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+BMW Financial Services NA LLC v. Deloach
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+744
+</td>
+<td style="text-align:right;">
+2017
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Hemlock Semiconductor Operations, LLC
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Hemlock Semiconductor Operations LLC v. Solarworld Industries Sachsen GmbH
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+757
+</td>
+<td style="text-align:right;">
+1998
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Mel Frank Tool &amp; Supply, Inc. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Mel Frank Tool &amp; Supply Inc. v. Di-Chem Co. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+773
+</td>
+<td style="text-align:right;">
+1902
+</td>
+<td style="text-align:left;">
+Employee
+</td>
+<td style="text-align:left;">
+Alaska Packers’ Association
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Alaska Packers’ Association v. Domenico
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+782
+</td>
+<td style="text-align:right;">
+1990
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Kelsey-Hayes Corporation
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Kelsey-Hayes Co. v. Galtaco Redlaw Castings Corp. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+789
+</td>
+<td style="text-align:right;">
+1995
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Brookside Farms
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Brookside Farms v. Mama Rizzo’s Inc. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+805
+</td>
+<td style="text-align:right;">
+2014
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+enXco Development Corp. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+enXco Development Corp. v. Northern States Power Co. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+818
+</td>
+<td style="text-align:right;">
+1977
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+J.N.A. Realty Corp. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+J. N. A. Realty Corp. v. Cross Bay Chelsea Inc. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+829
+</td>
+<td style="text-align:right;">
+1921
+</td>
+<td style="text-align:left;">
+Consumer
+</td>
+<td style="text-align:left;">
+Jacob &amp; Youngs, Inc. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Jacob &amp; Youngs Inc. v. Kent
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+849
+</td>
+<td style="text-align:right;">
+1995
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Truman L. Flatt &amp; Sons, Co. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Truman L. Flatt &amp; Sons Co. v. Schupf
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+858
+</td>
+<td style="text-align:right;">
+1997
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Hornell Brewing Co. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Hornell Brewing Co. v. Spry
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+880
+</td>
+<td style="text-align:right;">
+2008
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Crabby’s, Inc
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+889
+</td>
+<td style="text-align:right;">
+1983
+</td>
+<td style="text-align:left;">
+Employee
+</td>
+<td style="text-align:left;">
+Handicapped Children’s Education Board
+</td>
+<td style="text-align:left;">
+Organization
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Handicapped Children’s Education Board v. Lukaszewski
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+895
+</td>
+<td style="text-align:right;">
+1981
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+American Standard, Inc. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+American Standard Inc. v. Schectman
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+909
+</td>
+<td style="text-align:right;">
+1997
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Florafax International, Inc., d/b/a Flora Plenty
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Florafax International Inc. v. GTE Market Resources Inc. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+909
+</td>
+<td style="text-align:right;">
+1997
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Bellerose Floral, Inc. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Florafax International Inc. v. GTE Market Resources Inc. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+923
+</td>
+<td style="text-align:right;">
+1929
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Luten Bridge Co. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+941
+</td>
+<td style="text-align:right;">
+1993
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Jetz Service Co. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Jetz Service Co. v. Salina Properties
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+949
+</td>
+<td style="text-align:right;">
+2003
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Zapata Hermanos Sucesores, S.A.
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Zapata Hermanos Sucesores S.A. v. Hearthside Baking Company Inc. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1020
+</td>
+<td style="text-align:right;">
+1973
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Coastal Steel Erectors, Inc. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+United States ex rel. Coastal Steel Erectors
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1048
+</td>
+<td style="text-align:right;">
+1968
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+City Stores Co. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+City Stores Co. v. Ammerman
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1059
+</td>
+<td style="text-align:right;">
+2003
+</td>
+<td style="text-align:left;">
+Employee
+</td>
+<td style="text-align:left;">
+Reier Broadcasting Co. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Reier Broadcasting Company Inc. v. Kramer
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1070
+</td>
+<td style="text-align:right;">
+2007
+</td>
+<td style="text-align:left;">
+Consumer
+</td>
+<td style="text-align:left;">
+Barrie School
+</td>
+<td style="text-align:left;">
+Organization
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Barrie School v. Patch
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1123
+</td>
+<td style="text-align:right;">
+1986
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Sally Beauty Co. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Sally Beauty Co. v. Nexxus Products Co. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1123
+</td>
+<td style="text-align:right;">
+1986
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Alberto-Culver Company
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+π
+</td>
+<td style="text-align:left;">
+Sally Beauty Co. v. Nexxus Products Co. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+18
+</td>
+<td style="text-align:right;">
+1923
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Bissinger &amp; Co. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Allen v. Bissinger &amp; Co. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+21
+</td>
+<td style="text-align:right;">
+2017
+</td>
+<td style="text-align:left;">
+Consumer
+</td>
+<td style="text-align:left;">
+Uber Technologies, Inc. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Meyer v. Uber Tech. Inc. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+37
+</td>
+<td style="text-align:right;">
+1952
+</td>
+<td style="text-align:left;">
+Consumer
+</td>
+<td style="text-align:left;">
+William G. Eurice &amp; Bros., Inc. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Ray v. William G. Eurice &amp; Bros. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+61
+</td>
+<td style="text-align:right;">
+1998
+</td>
+<td style="text-align:left;">
+Employee
+</td>
+<td style="text-align:left;">
+Coldwell Banker/Frank Laiben Realty Co. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Cook v. Colwell Banker/Frank Laiben Realty Co. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+66
+</td>
+<td style="text-align:right;">
+2012
+</td>
+<td style="text-align:left;">
+Consumer
+</td>
+<td style="text-align:left;">
+R.J. Reynolds Tobacco Co. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Sateriale v. R.J. Reynolds Tobacco Co. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+87
+</td>
+<td style="text-align:right;">
+1990
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+American Airlines, Inc. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Quake Constr. Inc. v. American Airlines Inc. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+87
+</td>
+<td style="text-align:right;">
+1990
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Jones Brothers Construction Corporation
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Quake Constr. Inc. v. American Airlines Inc. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+107
+</td>
+<td style="text-align:right;">
+2006
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+American Ash Recycling Corp. of Pennsylvania
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Pennsy Supply Inc. v. American Ash Recycling Corp. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+120
+</td>
+<td style="text-align:right;">
+1937
+</td>
+<td style="text-align:left;">
+Employee
+</td>
+<td style="text-align:left;">
+Indian Refining Co. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Plowman v. Indian Refining Co. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+139
+</td>
+<td style="text-align:right;">
+2005
+</td>
+<td style="text-align:left;">
+Employee
+</td>
+<td style="text-align:left;">
+Marshall Durbin Food Corp. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Marshall Durbin Food Corp. v. Baker
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+154
+</td>
+<td style="text-align:right;">
+2007
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Eaton Corp. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+E.C. Styberg Eng’g Co. v. Eaton Corp. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+165
+</td>
+<td style="text-align:right;">
+1998
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+General Electric Co. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Princess Cruises Inc. v. General Electric Co. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+174
+</td>
+<td style="text-align:right;">
+1989
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Hercules Inc. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Brown Machine Inc. v. Hercules Inc. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+184
+</td>
+<td style="text-align:right;">
+2007
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Alps South Corp. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Paul Gottlieb &amp; Co. Inc. v. Alps South Corp. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+197
+</td>
+<td style="text-align:right;">
+2009
+</td>
+<td style="text-align:left;">
+Consumer
+</td>
+<td style="text-align:left;">
+Dell, Inc. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Defontes v. Dell
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+209
+</td>
+<td style="text-align:right;">
+2016
+</td>
+<td style="text-align:left;">
+Consumer
+</td>
+<td style="text-align:left;">
+Provide Commerce, Inc. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Long v. Provide Commerce
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+237
+</td>
+<td style="text-align:right;">
+1995
+</td>
+<td style="text-align:left;">
+Property
+</td>
+<td style="text-align:left;">
+Boston University
+</td>
+<td style="text-align:left;">
+Organization
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+King v. Trustees of Boston Univ.
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+248
+</td>
+<td style="text-align:right;">
+1980
+</td>
+<td style="text-align:left;">
+Employee
+</td>
+<td style="text-align:left;">
+Danny Dare, Inc. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Katz v. Danny Dare Inc. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+255
+</td>
+<td style="text-align:right;">
+2011
+</td>
+<td style="text-align:left;">
+Consumer
+</td>
+<td style="text-align:left;">
+U.S. Bank, N.A.
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Aceves v. U.S. Bank N.A.
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+274
+</td>
+<td style="text-align:right;">
+1933
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Gimbel Bros., Inc. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+James Baird Co. v. Gimbel Bros. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+277
+</td>
+<td style="text-align:right;">
+1958
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Star Paving Co. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Drennan v. Star Paving Co. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+285
+</td>
+<td style="text-align:right;">
+1998
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Resorts International Hotel, Inc. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Pop’s Cones Inc. v. Resorts International Hotel
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+309
+</td>
+<td style="text-align:right;">
+1997
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Commerce Partnership 8098 Limited Partnership
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Commerce Partnership 8098 Limited Partnership v. Equity Contracting Co. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+347
+</td>
+<td style="text-align:right;">
+1953
+</td>
+<td style="text-align:left;">
+Employee
+</td>
+<td style="text-align:left;">
+Elizabeth Arden Sales Corp. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Crabtree v. Elizabeth Arden Sales Corp. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+368
+</td>
+<td style="text-align:right;">
+1997
+</td>
+<td style="text-align:left;">
+Employee
+</td>
+<td style="text-align:left;">
+Alaska Democratic Party
+</td>
+<td style="text-align:left;">
+Organization
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Alaska Dem. Party v. Rice
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+408
+</td>
+<td style="text-align:right;">
+1960
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+B.N.S. International Sales Corp. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Frigaliment Imp. Co. v. B.N.S. Int’l Corp. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+416
+</td>
+<td style="text-align:right;">
+1975
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Allied Mutual Insurance Co. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+C&amp;J Fertilizer Inc. v. Allied Mutual Ins. Co. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+438
+</td>
+<td style="text-align:right;">
+1993
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+State Farm Mutual Automobile Insurance Co. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Taylor v. State Farm Mutual Auto. Ins.
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+451
+</td>
+<td style="text-align:right;">
+1991
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Morrison-Knudsen Co. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Sherrodd Inc. v. Morrison-Knudsen Co. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+460
+</td>
+<td style="text-align:right;">
+1981
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Shell Oil Company
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Nanakuli Paving &amp; Rock Co. v. Shell Oil Co. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+486
+</td>
+<td style="text-align:right;">
+1978
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Raynor Manufacturing Co. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Leibel v. Raynor Mfg. Co. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+494
+</td>
+<td style="text-align:right;">
+2002
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Summit Bank
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Seidenberg v. Summit Bank
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+508
+</td>
+<td style="text-align:right;">
+1983
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Baystone Construction, Inc. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Morin Bldg. Prod. Co. v. Baystone Constr.
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+508
+</td>
+<td style="text-align:right;">
+1983
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+General Motorcs
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Morin Bldg. Prod. Co. v. Baystone Constr.
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+513
+</td>
+<td style="text-align:right;">
+1997
+</td>
+<td style="text-align:left;">
+Employee
+</td>
+<td style="text-align:left;">
+Warner Bros., Inc. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Locke v. Warner Bros. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+523
+</td>
+<td style="text-align:right;">
+2016
+</td>
+<td style="text-align:left;">
+Employee
+</td>
+<td style="text-align:left;">
+Securitas Security Services
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Geysen v. Securitas Security Services
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+548
+</td>
+<td style="text-align:right;">
+1999
+</td>
+<td style="text-align:left;">
+Consumer
+</td>
+<td style="text-align:left;">
+Bayliner Marine Corp. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Bayliner Marine Corp. v. Crow
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+558
+</td>
+<td style="text-align:right;">
+2008
+</td>
+<td style="text-align:left;">
+Consumer
+</td>
+<td style="text-align:left;">
+Walters Development Co. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Speight v. Walters Dev. Co. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+591
+</td>
+<td style="text-align:right;">
+1978
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Alyeska Pipeline Service Co. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Totem Marine Tug &amp; Barge Inc. v. Alyeska Pipeline Service Co. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+601
+</td>
+<td style="text-align:right;">
+1966
+</td>
+<td style="text-align:left;">
+Employee
+</td>
+<td style="text-align:left;">
+Bloomfield School District
+</td>
+<td style="text-align:left;">
+Organization
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Odorizzi v. Bloomfield School District
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+611
+</td>
+<td style="text-align:right;">
+1965
+</td>
+<td style="text-align:left;">
+Consumer
+</td>
+<td style="text-align:left;">
+Arthur Murray Studio
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Syester v. Banta
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+639
+</td>
+<td style="text-align:right;">
+1965
+</td>
+<td style="text-align:left;">
+Consumer
+</td>
+<td style="text-align:left;">
+Walker-Thomas Furniture Co. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Williams v. Walker-Thomas Furniture Co. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+650
+</td>
+<td style="text-align:right;">
+2006
+</td>
+<td style="text-align:left;">
+Property
+</td>
+<td style="text-align:left;">
+American Broadcasting Companies, Inc. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Higgins v. Super. Ct. of Los Angeles County
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+650
+</td>
+<td style="text-align:right;">
+2006
+</td>
+<td style="text-align:left;">
+Property
+</td>
+<td style="text-align:left;">
+Disney/ABC International Television
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Higgins v. Super. Ct. of Los Angeles County
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+650
+</td>
+<td style="text-align:right;">
+2006
+</td>
+<td style="text-align:left;">
+Property
+</td>
+<td style="text-align:left;">
+Lock and Key Production
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Higgins v. Super. Ct. of Los Angeles County
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+664
+</td>
+<td style="text-align:right;">
+2016
+</td>
+<td style="text-align:left;">
+Consumer
+</td>
+<td style="text-align:left;">
+Wells Fargo Bank, N.A.
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+McFarland v. Wells Fargo Bank
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+720
+</td>
+<td style="text-align:right;">
+1982
+</td>
+<td style="text-align:left;">
+Property
+</td>
+<td style="text-align:left;">
+Lenawee County Board of Health
+</td>
+<td style="text-align:left;">
+Organization
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Lenawee County Board of Health v. Messerly
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+744
+</td>
+<td style="text-align:right;">
+2017
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Solarworld Industries Sachsen GmbH
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Hemlock Semiconductor Operations LLC v. Solarworld Industries Sachsen GmbH
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+757
+</td>
+<td style="text-align:right;">
+1998
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Di-Chem Co. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Mel Frank Tool &amp; Supply Inc. v. Di-Chem Co. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+782
+</td>
+<td style="text-align:right;">
+1990
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Galtaco Redlaw Castings Corp. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Kelsey-Hayes Co. v. Galtaco Redlaw Castings Corp. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+789
+</td>
+<td style="text-align:right;">
+1995
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Mama Rizzo’s, Inc. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Brookside Farms v. Mama Rizzo’s Inc. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+805
+</td>
+<td style="text-align:right;">
+2014
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Northern States Power Co. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+enXco Development Corp. v. Northern States Power Co. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+818
+</td>
+<td style="text-align:right;">
+1977
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Cross Bay Chelsea, Inc. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+J. N. A. Realty Corp. v. Cross Bay Chelsea Inc. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+818
+</td>
+<td style="text-align:right;">
+1977
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Foro Romano Corp. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+J. N. A. Realty Corp. v. Cross Bay Chelsea Inc. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+849
+</td>
+<td style="text-align:right;">
+1995
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+American National Bank and Trust Company of Chicago (American)
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Truman L. Flatt &amp; Sons Co. v. Schupf
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+858
+</td>
+<td style="text-align:right;">
+1997
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Arizona Tea Products Ltd. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Hornell Brewing Co. v. Spry
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+880
+</td>
+<td style="text-align:right;">
+2008
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Pro 100 Realty
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+903
+</td>
+<td style="text-align:right;">
+1854
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Messrs. Joyce &amp; Co. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Hadley v. Baxendale
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+903
+</td>
+<td style="text-align:right;">
+1854
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Pickford &amp; Co
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Hadley v. Baxendale
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+909
+</td>
+<td style="text-align:right;">
+1997
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+GTE Market Resources, Inc. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Florafax International Inc. v. GTE Market Resources Inc. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+923
+</td>
+<td style="text-align:right;">
+1929
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Rockingham County
+</td>
+<td style="text-align:left;">
+Government
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+926
+</td>
+<td style="text-align:right;">
+2010
+</td>
+<td style="text-align:left;">
+Employee
+</td>
+<td style="text-align:left;">
+SKM Wood Products, LLC
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Maness v. Collins
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+941
+</td>
+<td style="text-align:right;">
+1993
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Salinas Properties
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Jetz Service Co. v. Salina Properties
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+949
+</td>
+<td style="text-align:right;">
+2003
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Hearthside Baking Company, Inc. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Zapata Hermanos Sucesores S.A. v. Hearthside Baking Company Inc. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+949
+</td>
+<td style="text-align:right;">
+2003
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Lenell
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Zapata Hermanos Sucesores S.A. v. Hearthside Baking Company Inc. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1001
+</td>
+<td style="text-align:right;">
+1983
+</td>
+<td style="text-align:left;">
+Employee
+</td>
+<td style="text-align:left;">
+Hightower Productions Ltd. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Wartzmann v. Hightower Productions Ltd. 
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1012
+</td>
+<td style="text-align:right;">
+1994
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Toyota Motor Sales, U.S.A., Inc. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Walser v. Toyota Motor Sales
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1020
+</td>
+<td style="text-align:right;">
+1973
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Algernon Blair, Inc. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+United States ex rel. Coastal Steel Erectors
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1020
+</td>
+<td style="text-align:right;">
+1973
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+United States Fidelity and Guaranty Company
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+United States ex rel. Coastal Steel Erectors
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1033
+</td>
+<td style="text-align:right;">
+1995
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Titan Sports, Inc. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1096
+</td>
+<td style="text-align:right;">
+1999
+</td>
+<td style="text-align:left;">
+Consumer
+</td>
+<td style="text-align:left;">
+Hayes Appraisal Associates, Inc. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Vogan v. Hayes Appraisal Associates
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1096
+</td>
+<td style="text-align:right;">
+1999
+</td>
+<td style="text-align:left;">
+Consumer
+</td>
+<td style="text-align:left;">
+MidAmerica Savings Bank
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Vogan v. Hayes Appraisal Associates
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1123
+</td>
+<td style="text-align:right;">
+1986
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+Nexxus Product Co. 
+</td>
+<td style="text-align:left;">
+Business
+</td>
+<td style="text-align:left;">
+∆
+</td>
+<td style="text-align:left;">
+Sally Beauty Co. v. Nexxus Products Co. 
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
 </div>
