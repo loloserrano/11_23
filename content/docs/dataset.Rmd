@@ -2,6 +2,7 @@
 title: "Data Collection and Dataset"
 output: html_document
 weight: 35
+bookToc: true
 ---
 
 ```{r, echo = FALSE, warning = FALSE, message = FALSE}
@@ -47,6 +48,8 @@ contracts <- contracts %>%
 ```
 
 # Data Collection
+
+Knapp, Crystal, and Prince's *Problems in Contract Law* is an American contracts casebook that attempts, in good faith and with a commercial incentive, to relay the current state and relevant history of American contract law to first-year law students. In doing so, it reveals some of the historical (and continuing) gendered patterns in how people and organizations interact with the legal system.
 
 ## Cases
 In all, there are **103 cases** included in KCP. 
