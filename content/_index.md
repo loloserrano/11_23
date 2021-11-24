@@ -2,6 +2,7 @@
 title: Introduction
 type: docs
 weight: 10
+bookToC: true
 ---
 
 # Frugging KCP

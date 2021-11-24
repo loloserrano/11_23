@@ -2,7 +2,7 @@
 title: "Data Collection and Dataset"
 output: html_document
 weight: 35
-bookToc: true
+bookToC: true
 ---
 
 ```{r, echo = FALSE, warning = FALSE, message = FALSE}

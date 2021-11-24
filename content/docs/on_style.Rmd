@@ -1,6 +1,6 @@
 ---
 title: "On Style"
-bookToc: true
+bookToC: true
 output: html_document
 weight: 20
 ---
