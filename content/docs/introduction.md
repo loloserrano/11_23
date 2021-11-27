@@ -31,26 +31,26 @@ Lolo Serrano is a candidate for a JD/PhD in American Legal History at the Univer
 
 ## Table of Contents
 
-### On Style
+### [On Style](/docs/on_style)
 
 In this section I defend my grammatical creativity. 
 
-### Re-Reading Contracts and Updating Frug
+### [Re-Reading Contracts and Updating Frug](/docs/rereading)
 
 In this section I describe the purpose, framework, and theory of this project. I detail the work of Mary Joe Frug on which this project is based and introduce new ideas, both from her other pieces and from later work, that complicate the idea of gender. 
 
-### Data Collection and Dataset
+### [Data Collection and Dataset](/docs/dataset)
 
 In this section I describe my data collection process and display some of the raw information. 
 
-### The Cases: General Overview
+### [The Cases: General Overview](/docs/cases)
 
 In this section I describe some very big-picture patterns in the data: general gender breakdown, transaction type, etc.
 
-### The Characters: Wives, Widows, Workers
+### [The Characters: Wives, Widows, Workers](/docs/characters/_index)
 
 In this section I get to the juicier, qualitative stuff. I explore the individual humans who appear in the casebook as characters, understood, framed, and described by judges and casebook editors. Most of my focus in the section is on women, who appear as a minority of characters and in a strictly limited set of roles. Most strikingly, over half of the women appear in the litigation with a heterosexual partner; nearly another quarter of the women appear with another family member. 
 
-### The Characteristics: He's a Business, Man
+### [The Characteristics: He's a Business, Man](/docs/trying)
 
 In this section I explore general notions of masculinity and femininity as they appear in the casebook. The most striking pattern here is the significant number of businesses with masculine sounding names.

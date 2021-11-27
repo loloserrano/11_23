@@ -47,5 +47,38 @@ contracts <- contracts %>%
 
 ```
 
+Recall from the [first character page](/docs/characters/_index) that Employee-Business and Business-Business transactions are the most male-skewed, at 82:18 and 83:17 splits respectively.  
 
-blop
+```{r, echo = FALSE, warning = FALSE, message = FALSE, fig.width=5,fig.height = 4}
+parties_employee <- parties %>%
+  filter(transaction == "Employee", typenomf == "Man" | typenomf == "Woman") %>%
+  group_by(typenomf) %>%
+  mutate(n = n(), proportion = n/31) %>%
+  mutate(proportion = as.character(proportion)) %>%
+  mutate(proportion = substr(proportion, 1, 4))  %>%
+  mutate(proportion = substr(proportion, 3, 4)) %>%
+  mutate(proportion = paste(sep = "",proportion,"%")) %>%
+  ggplot() +
+  geom_bar(aes(typenomf,fill = typenomf,text = paste(sep = "", n,", ",proportion)),fill=c("thistle2","lightsteelblue2")) +
+  labs(title = "Employee-Business Transaction ", x = "Gender", y = "Count - Hover for N and %") +
+  theme_bw()
+ggplotly(parties_employee, tooltip = "text")
+```
+
+
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE, fig.width=5,fig.height = 4}
+parties_business <- parties %>%
+  filter(transaction == "Business", typenomf == "Man" | typenomf == "Woman") %>%
+  group_by(typenomf) %>%
+  mutate(n = n(), proportion = n/70) %>%
+  mutate(proportion = as.character(proportion)) %>%
+  mutate(proportion = substr(proportion, 1, 4))  %>%
+  mutate(proportion = substr(proportion, 3, 4)) %>%
+  mutate(proportion = paste(sep = "",proportion,"%")) %>%
+  ggplot() +
+  geom_bar(aes(typenomf,fill = typenomf,text = paste(sep = "", n,", ",proportion)),fill=c("thistle2","lightsteelblue2")) +
+  labs(title = "Business-Business Transaction ", x = "Gender", y = "Count - Hover for N and %") +
+  theme_bw()
+ggplotly(parties_business, tooltip = "text")
+```

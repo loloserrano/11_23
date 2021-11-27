@@ -53,11 +53,13 @@ contracts <- contracts %>%
 
 ## Marriage and Family 
 
-57% of the women in the casebook appear with (or regarding) a spouse or partner, as opposed to 19% of men. 13% of women are described regarding some other familiar relationship (aunt, sister, mother, etc.) as opposed to 10% of men. In all, nearly 3 of every 4 women are described by their familiar relations as opposed to less than a third of men. 
+Women in KCP are vastly, vastly more likely than men or individuals of unknown gender to appear in litigation with a heterosexual partner or a family member. Even discounting miscellaneous family status, a **majority - 56% - ** of women appearing in KCP appear with heterosexual partners. **70%** of women appear with a partner or family member. So only **30% of women in KCP - less than a third!! - appear independent of a relative.** In contrast, 70% of men and 100% of individuals of unknown gender appear independent of a relative. 
+
 
 ```{r, echo = FALSE, warning = FALSE, message = FALSE}
 names(partnertable) <- c("","partner","%partner","family","%family","partner+family","%p+f")
-partnertable
+partnertable %>%
+  kbl()
 
 ```
 
@@ -86,9 +88,11 @@ ggplotly(a,tooltip = "text")
 
 ```
 
-## Spousal/Family Status
+## Little Discernable Change over Time? 
 
-Women in KCP are vastly, vastly more likely than men or individuals of unknown gender to appear in litigation with a heterosexual partner or a family member. Even discounting miscellaneous family status, a **majority - 56% - ** of women appearing in KCP appear with heterosexual partners. **70%** of women appear with a partner or family member. So only **30% of women in KCP - less than a third!! - appear independent of a relative.** In contrast, 70% of men and 100% of individuals of unknown gender appear independent of a relative. 
+The following charts are split by gender and show each individual litigant who appears, colored by their spousal/family status. You can hover over the dots to see the name of the individual and the case in which they appear. If you double-click on any of the colored dots in the legend, the chart will isolate that category. 
+
+I don't discern any particularly interesting trends over time, but you might disagree. 
 
 ```{r, echo = FALSE, warning = FALSE, message = FALSE, fig.width=6,fig.height = 4}
 woman_parties <- parties
@@ -155,6 +159,7 @@ couples_table2 <- couples3 %>%
   select(name.x,name.y,page,simplecite)
 
 couples_table <- full_join(couples_table, couples_table2)
+names(couples_table) <- c("Partner 1", "Partner 2", "Page", "Cite")
 
 kable(couples_table, "html", caption = "Couples in KCP") %>%
   kable_styling(fixed_thead = TRUE) %>%

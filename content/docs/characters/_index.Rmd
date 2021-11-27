@@ -62,7 +62,7 @@ This is the same information in bar chart form for easier visualization.
 
 ```{r, echo = FALSE, warning = FALSE, message = FALSE, fig.width=5,fig.height = 4}
 gender_breakdown_with_pd <- parties %>%
-  filter(typenomf == "Man" | typenomf == "Woman") %>%
+  filter(typenomf == "Man" | typenomf == "Woman" | typenomf == "Unknown") %>%
   group_by(typenomf) %>%
   mutate(gendercount = n()) %>%
   ungroup() %>%
@@ -71,11 +71,16 @@ gender_breakdown_with_pd <- parties %>%
   mutate(prop = gendersidecount/gendercount) %>%
   mutate(prop = as.character(prop)) %>%
   mutate(prop = str_sub(prop,3,4)) %>%
-  mutate(prop = paste(sep = "",prop,"%")) %>%
+  mutate(prop = paste(sep = "",prop,"%")) 
+
+gender_breakdown_with_pd[gender_breakdown_with_pd == "5%"] <- "50%"
+
+gender_breakdown_with_pd <- gender_breakdown_with_pd %>%
   ggplot +
   geom_bar(aes(typenomf, fill = side, text = paste(sep = "",gendersidecount,", ",prop))) +
-  scale_fill_brewer(palette = "Accent") +
-  labs(title = "Gender Breakdown with π/∆ status")
+  scale_fill_brewer(palette = "Pastel1") +
+  labs(title = "Gender Breakdown with π/∆ status", x = "Gender", y = "Count - Hover for N and %") +
+  theme_bw()
 ggplotly(gender_breakdown_with_pd, tooltip = "text")
 
 
@@ -100,9 +105,32 @@ parties_property <- parties %>%
   mutate(proportion = substr(proportion, 3, 4)) %>%
   mutate(proportion = paste(sep = "",proportion,"%")) %>%
   ggplot() +
-  geom_bar(aes(typenomf,fill = typenomf,text = paste(sep = "", n,", ",proportion)),fill=c("hotpink3","chartreuse4")) +
-  labs(title = "Property Transaction ", x = "Gender", y = "Count - Hover for N and %")
+  geom_bar(aes(typenomf,fill = typenomf,text = paste(sep = "", n,", ",proportion)),fill=c("thistle2","lightsteelblue2")) +
+  labs(title = "Property Transaction ", x = "Gender", y = "Count - Hover for N and %") +
+  theme_bw()
 ggplotly(parties_property, tooltip = "text")
+
+```
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+parties %>%
+  filter(transaction == "Property", typenomf == "Man" | typenomf == "Woman")
+```
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE, fig.width=5,fig.height = 4}
+parties_family <- parties %>%
+  filter(transaction == "Family", typenomf == "Man" | typenomf == "Woman") %>%
+  group_by(typenomf) %>%
+  mutate(n = n(), proportion = n/24) %>%
+  mutate(proportion = as.character(proportion)) %>%
+  mutate(proportion = substr(proportion, 1, 4))  %>%
+  mutate(proportion = substr(proportion, 3, 4)) %>%
+  mutate(proportion = paste(sep = "",proportion,"%")) %>%
+  ggplot() +
+  geom_bar(aes(typenomf,fill = typenomf,text = paste(sep = "", n,", ",proportion)),fill=c("thistle2","lightsteelblue2")) +
+  labs(title = "Interpersonal Transaction", x = "Gender", y = "Count - Hover for N and %") +
+  theme_bw()
+ggplotly(parties_family, tooltip = "text")
 
 ```
 
@@ -117,28 +145,12 @@ parties_consumer <- parties %>%
   mutate(proportion = substr(proportion, 3, 4)) %>%
   mutate(proportion = paste(sep = "",proportion,"%")) %>%
   ggplot() +
-  geom_bar(aes(typenomf,fill = typenomf,text = paste(sep = "", n,", ",proportion)),fill=c("hotpink3","chartreuse4")) +
-  labs(title = "Consumer-Business Transaction ", x = "Gender", y = "Count - Hover for N and %")
+  geom_bar(aes(typenomf,fill = typenomf,text = paste(sep = "", n,", ",proportion)),fill=c("thistle2","lightsteelblue2")) +
+  labs(title = "Consumer Transaction ", x = "Gender", y = "Count - Hover for N and %") +
+  theme_bw()
 ggplotly(parties_consumer, tooltip = "text")
 
 ```
-
-```{r, echo = FALSE, warning = FALSE, message = FALSE, fig.width=5,fig.height = 4}
-parties_family <- parties %>%
-  filter(transaction == "Family", typenomf == "Man" | typenomf == "Woman") %>%
-  group_by(typenomf) %>%
-  mutate(n = n(), proportion = n/24) %>%
-  mutate(proportion = as.character(proportion)) %>%
-  mutate(proportion = substr(proportion, 1, 4))  %>%
-  mutate(proportion = substr(proportion, 3, 4)) %>%
-  mutate(proportion = paste(sep = "",proportion,"%")) %>%
-  ggplot() +
-  geom_bar(aes(typenomf,fill = typenomf,text = paste(sep = "", n,", ",proportion)),fill=c("hotpink3","chartreuse4")) +
-  labs(title = "Interpersonal Transaction", x = "Gender", y = "Count - Hover for N and %")
-ggplotly(parties_family, tooltip = "text")
-
-```
-
 
 ```{r, echo = FALSE, warning = FALSE, message = FALSE, fig.width=5,fig.height = 4}
 parties_employee <- parties %>%
@@ -150,8 +162,9 @@ parties_employee <- parties %>%
   mutate(proportion = substr(proportion, 3, 4)) %>%
   mutate(proportion = paste(sep = "",proportion,"%")) %>%
   ggplot() +
-  geom_bar(aes(typenomf,fill = typenomf,text = paste(sep = "", n,", ",proportion)),fill=c("cornflowerblue","bisque2")) +
-  labs(title = "Employee-Business Transaction ", x = "Gender", y = "Count - Hover for N and %") 
+  geom_bar(aes(typenomf,fill = typenomf,text = paste(sep = "", n,", ",proportion)),fill=c("thistle2","lightsteelblue2")) +
+  labs(title = "Employee-Business Transaction ", x = "Gender", y = "Count - Hover for N and %") +
+  theme_bw()
 ggplotly(parties_employee, tooltip = "text")
 ```
 
@@ -167,8 +180,9 @@ parties_business <- parties %>%
   mutate(proportion = substr(proportion, 3, 4)) %>%
   mutate(proportion = paste(sep = "",proportion,"%")) %>%
   ggplot() +
-  geom_bar(aes(typenomf,fill = typenomf,text = paste(sep = "", n,", ",proportion)),fill=c("hotpink3","chartreuse4")) +
-  labs(title = "Business-Business Transaction ", x = "Gender", y = "Count - Hover for N and %")
+  geom_bar(aes(typenomf,fill = typenomf,text = paste(sep = "", n,", ",proportion)),fill=c("thistle2","lightsteelblue2")) +
+  labs(title = "Business-Business Transaction ", x = "Gender", y = "Count - Hover for N and %") +
+  theme_bw()
 ggplotly(parties_business, tooltip = "text")
 ```
 
