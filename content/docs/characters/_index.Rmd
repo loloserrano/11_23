@@ -60,18 +60,87 @@ gendertotaltable %>%
 
 This is the same information in bar chart form for easier visualization.
 
-```{r, echo = FALSE, warning = FALSE, message = FALSE}
-parties %>%
+```{r, echo = FALSE, warning = FALSE, message = FALSE, fig.width=5,fig.height = 4}
+gender_breakdown_with_pd <- parties %>%
   filter(typenomf == "Man" | typenomf == "Woman") %>%
+  group_by(typenomf) %>%
+  mutate(gendercount = n()) %>%
+  ungroup() %>%
+  group_by(typenomf, side) %>%
+  mutate(gendersidecount = n()) %>%
+  mutate(prop = gendersidecount/gendercount) %>%
+  mutate(prop = as.character(prop)) %>%
+  mutate(prop = str_sub(prop,3,4)) %>%
+  mutate(prop = paste(sep = "",prop,"%")) %>%
   ggplot +
-  geom_bar(aes(typenomf, fill = side)) +
+  geom_bar(aes(typenomf, fill = side, text = paste(sep = "",gendersidecount,", ",prop))) +
   scale_fill_brewer(palette = "Accent") +
   labs(title = "Gender Breakdown with π/∆ status")
+ggplotly(gender_breakdown_with_pd, tooltip = "text")
+
+
+```
+
+Interestingly, women are more likely to appear on the plaintiff side than are men. This is not a significant difference and may not reflect anything meaningful, but it's an interesting side note. 
+
+
+## Transaction Type Gender Breakdown
+
+I coded for five rough types of transactions that give rise to the dispute being litigated. See the ["Data Collection and Dataset"](/docs/dataset) tab for an explanation of the types. 
+
+I list in descending order of gender equity. 
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE, fig.width=5,fig.height = 4}
+parties_property <- parties %>%
+  filter(transaction == "Property", typenomf == "Man" | typenomf == "Woman") %>%
+  group_by(typenomf) %>%
+  mutate(n = n(), proportion = n/37) %>%
+  mutate(proportion = as.character(proportion)) %>%
+  mutate(proportion = substr(proportion, 1, 4))  %>%
+  mutate(proportion = substr(proportion, 3, 4)) %>%
+  mutate(proportion = paste(sep = "",proportion,"%")) %>%
+  ggplot() +
+  geom_bar(aes(typenomf,fill = typenomf,text = paste(sep = "", n,", ",proportion)),fill=c("hotpink3","chartreuse4")) +
+  labs(title = "Property Transaction ", x = "Gender", y = "Count - Hover for N and %")
+ggplotly(parties_property, tooltip = "text")
 
 ```
 
 
-```{r, echo = FALSE, warning = FALSE, message = FALSE}
+```{r, echo = FALSE, warning = FALSE, message = FALSE, fig.width=5,fig.height = 4}
+parties_consumer <- parties %>%
+  filter(transaction == "Consumer", typenomf == "Man" | typenomf == "Woman") %>%
+  group_by(typenomf) %>%
+  mutate(n = n(), proportion = n/29) %>%
+  mutate(proportion = as.character(proportion)) %>%
+  mutate(proportion = substr(proportion, 1, 4))  %>%
+  mutate(proportion = substr(proportion, 3, 4)) %>%
+  mutate(proportion = paste(sep = "",proportion,"%")) %>%
+  ggplot() +
+  geom_bar(aes(typenomf,fill = typenomf,text = paste(sep = "", n,", ",proportion)),fill=c("hotpink3","chartreuse4")) +
+  labs(title = "Consumer-Business Transaction ", x = "Gender", y = "Count - Hover for N and %")
+ggplotly(parties_consumer, tooltip = "text")
+
+```
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE, fig.width=5,fig.height = 4}
+parties_family <- parties %>%
+  filter(transaction == "Family", typenomf == "Man" | typenomf == "Woman") %>%
+  group_by(typenomf) %>%
+  mutate(n = n(), proportion = n/24) %>%
+  mutate(proportion = as.character(proportion)) %>%
+  mutate(proportion = substr(proportion, 1, 4))  %>%
+  mutate(proportion = substr(proportion, 3, 4)) %>%
+  mutate(proportion = paste(sep = "",proportion,"%")) %>%
+  ggplot() +
+  geom_bar(aes(typenomf,fill = typenomf,text = paste(sep = "", n,", ",proportion)),fill=c("hotpink3","chartreuse4")) +
+  labs(title = "Interpersonal Transaction", x = "Gender", y = "Count - Hover for N and %")
+ggplotly(parties_family, tooltip = "text")
+
+```
+
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE, fig.width=5,fig.height = 4}
 parties_employee <- parties %>%
   filter(transaction == "Employee", typenomf == "Man" | typenomf == "Woman") %>%
   group_by(typenomf) %>%
@@ -82,49 +151,26 @@ parties_employee <- parties %>%
   mutate(proportion = paste(sep = "",proportion,"%")) %>%
   ggplot() +
   geom_bar(aes(typenomf,fill = typenomf,text = paste(sep = "", n,", ",proportion)),fill=c("cornflowerblue","bisque2")) +
-  labs(title = "Employee-Business Transaction Gender Breakdown") 
+  labs(title = "Employee-Business Transaction ", x = "Gender", y = "Count - Hover for N and %") 
+ggplotly(parties_employee, tooltip = "text")
+```
 
+
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE, fig.width=5,fig.height = 4}
 parties_business <- parties %>%
   filter(transaction == "Business", typenomf == "Man" | typenomf == "Woman") %>%
   group_by(typenomf) %>%
-  mutate(n = n(), proportion = n/31) %>%
+  mutate(n = n(), proportion = n/70) %>%
   mutate(proportion = as.character(proportion)) %>%
   mutate(proportion = substr(proportion, 1, 4))  %>%
   mutate(proportion = substr(proportion, 3, 4)) %>%
   mutate(proportion = paste(sep = "",proportion,"%")) %>%
   ggplot() +
   geom_bar(aes(typenomf,fill = typenomf,text = paste(sep = "", n,", ",proportion)),fill=c("hotpink3","chartreuse4")) +
-  labs(title = "Business-Business Transaction Gender Breakdown") 
-
-ggplotly(parties_employee, tooltip = "text")
+  labs(title = "Business-Business Transaction ", x = "Gender", y = "Count - Hover for N and %")
 ggplotly(parties_business, tooltip = "text")
 ```
 
-## All Parties
 
-```{r, echo = FALSE, warning = FALSE, message = FALSE}
-woman_parties <- parties %>%
-  filter(typenomf == "Woman") %>%
-  group_by(year) %>%
-  mutate(n = n()) %>%
-  ggplot(aes(year,n, color = spouse, text = paste(sep = "", name,", ",side,", ",simplecite))) +
-  geom_point(alpha = 0.3, size = 1.5, position = position_jitter(w = 0, h = 0.3)) +
-  scale_color_manual(values=c("red","blue","forestgreen"), labels = c("Misc. Family","Unrelated","Spouse/Partner")) +
-  labs(title = "All Women as Parties") 
-ggplotly(woman_parties, tooltip = "text") 
-```
-
-
-```{r, echo = FALSE, warning = FALSE, message = FALSE}
-man_parties <- parties %>%
-  filter(typenomf == "Man") %>%
-  group_by(year) %>%
-  mutate(n = n()) %>%
-  ggplot(aes(year,n, color = spouse, text = paste(sep = "", name,", ",side,", ",simplecite))) +
-  geom_point(alpha = 0.3, size = 1.5, position = position_jitter(w = 0, h = 0.3)) +
-  scale_color_manual(values=c("red","blue","forestgreen"), labels = c("Misc. Family","Unrelated","Spouse/Partner")) +
-  labs(title = "All Men as Parties") 
-ggplotly(man_parties, tooltip = "text")  
-
-```
 

@@ -57,6 +57,7 @@ In all, there are **103 cases** included in KCP.
 ```{r, echo = FALSE, warning = FALSE, message = FALSE}
 contracts %>%
   select(page, cite) %>%
+  filter(page != "NA") %>%
   kbl() %>%
   scroll_box(fixed_thead = T, height = "300px") 
 ```
@@ -65,13 +66,6 @@ contracts %>%
 ## Transaction Type 
 
 I coded very roughly for the type of transaction that gave rise to the legal dispute.
-
-+ The label ‘Business’ refers to two or more for-profit organizations interacting with each other in the course of business.
-+ The label ‘Consumer’ refers to transactions in which an individual or several individuals purchase goods or service from organization/s
-+ The label ‘Employee’ refers to transactions in which an individual interacts as a former/potential employee of an organization/s
-+ The label ‘Family’ really means more interpersonal – the performances induced by these contracts are behavioral in nature, i.e. withholding smoking, being a good little nephew, transfer of money among relatives.
-+ The label ‘Property’ refers to transactions between individuals over sale/transfer of property, not individuals interacting with homebuilders, which I counted as a consumer transaction.
-
 
 ```{r, echo = FALSE, warning = FALSE, message = FALSE}
 contracts %>%
@@ -87,9 +81,29 @@ contracts %>%
 ```
 
 
++ The label ‘Business’ refers to two or more for-profit organizations interacting with each other in the course of business.
++ The label ‘Consumer’ refers to transactions in which an individual or several individuals purchase goods or service from organization/s
++ The label ‘Employee’ refers to transactions in which an individual interacts as a former/potential employee of an organization/s
++ The label ‘Family’ really means more interpersonal – the performances induced by these contracts are behavioral in nature, i.e. withholding smoking, being a good little nephew, transfer of money among relatives.
++ The label ‘Property’ refers to transactions between individuals over sale/transfer of property, not individuals interacting with homebuilders, which I counted as a consumer transaction. 
+
 
 ## Individuals
 I collected 203 individuals who appear either as parties in the cases or as active representatives of the parties. 
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+
+people_table_dataset <- parties %>%
+  filter(typenomf == "Man" | typenomf == "Woman" | typenomf == "Unknown") %>%
+  select(-typenomf,-spouse, -cite)
+
+names(people_table_dataset) <- c("page","year","transaction","name","gender","side","simple_citation")
+
+people_table_dataset %>%
+  kbl() %>%
+  scroll_box(fixed_thead = TRUE, height = "300px") 
+```
+
 
 #### Individuals as themselves:
 > Plaintiffs, Gene Jannusch and his wife, Martha, brought this action for breach of an oral contract against defendants, Lindsey Naffziger and her mother, Louann Naffziger. *Jannush v. Naffziger,* KCP 149-150.
@@ -109,20 +123,6 @@ I based gender of individuals on traditional patterns in first names as well as 
 
 #### Ambiguous gender (marked "Unknown":)
 > In July 1951 appellants, the lessors, leased a small lot to appellee, the lessee, for a 10-year-term at a rent of $100 per month. [Term "appellants" used throughout rest of opinion and no singular pronouns used.] *Walker v. Keith*, KCP 79.
-
-### Table: All Individuals
-```{r, echo = FALSE, warning = FALSE, message = FALSE}
-
-people_table_dataset <- parties %>%
-  filter(typenomf == "Man" | typenomf == "Woman" | typenomf == "Unknown") %>%
-  select(-typenomf,-spouse, -cite)
-
-names(people_table_dataset) <- c("page","year","transaction","name","gender","side","simple_citation")
-
-people_table_dataset %>%
-  kbl() %>%
-  scroll_box(fixed_thead = TRUE, height = "300px") 
-```
 
 
 

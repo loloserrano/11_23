@@ -57,24 +57,13 @@ contracts <- contracts %>%
 
 ```{r, echo = FALSE, warning = FALSE, message = FALSE}
 names(partnertable) <- c("","partner","%partner","family","%family","partner+family","%p+f")
+partnertable
 
 ```
 
+Here is the same information in chart form for easier visualization. 
+
 ```{r, echo = FALSE, warning = FALSE, message = FALSE}
-
-
-
-parties_business <- parties %>%
-  filter(transaction == "Business", typenomf == "Man" | typenomf == "Woman") %>%
-  group_by(typenomf) %>%
-  mutate(n = n(), proportion = n/31) %>%
-  mutate(proportion = as.character(proportion)) %>%
-  mutate(proportion = substr(proportion, 1, 4))  %>%
-  mutate(proportion = substr(proportion, 3, 4)) %>%
-  mutate(proportion = paste(sep = "",proportion,"%")) %>%
-  ggplot() +
-  geom_bar(aes(typenomf,fill = typenomf,text = paste(sep = "", n,", ",proportion)),fill=c("hotpink3","chartreuse4")) +
-  labs(title = "Business-Business Transaction Gender Breakdown") 
 
 a <- parties %>%
   filter(typenomf == "Man" | typenomf == "Woman" | typenomf == "Unknown" ) %>%
@@ -83,17 +72,66 @@ a <- parties %>%
   ungroup() %>%
   group_by(typenomf,spouse) %>%
   mutate(typeb = n()) %>%
-  mutate(percentage = paste(sep = "", str_sub(as.character(typeb/typea),3,4),"%")) %>%
+  mutate(percentage = paste(sep = "", str_sub(as.character(typeb/typea),3,4),"%"))
+a[a == "%"] <- "100%"
+a[a == "F"] <- "Misc. Family"
+a[a == "N"] <- "Unrelated"
+a[a == "Y"] <- "Spouse/Partner"
+a <- a %>%
   ggplot(aes(typenomf, fill = spouse)) + 
   geom_bar(aes(text = paste(sep = "", typeb,", ",percentage))) +
-  scale_fill_discrete(name = "Family/Spousal\nStatus", breaks = c("Y","F","N"), labels = c("Spouse/Partner","Family Member","Unrelated"))
-ggplotly(a, tooltip = "text")  
+  labs(title = "Individuals by Gender and Family/Spousal Status", x = "Gender", y = "Number") +
+  scale_fill_brewer(palette = "Accent", name = "Spousal/Family Status")
+ggplotly(a,tooltip = "text")
 
 ```
 
+## Spousal/Family Status
+
+Women in KCP are vastly, vastly more likely than men or individuals of unknown gender to appear in litigation with a heterosexual partner or a family member. Even discounting miscellaneous family status, a **majority - 56% - ** of women appearing in KCP appear with heterosexual partners. **70%** of women appear with a partner or family member. So only **30% of women in KCP - less than a third!! - appear independent of a relative.** In contrast, 70% of men and 100% of individuals of unknown gender appear independent of a relative. 
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE, fig.width=6,fig.height = 4}
+woman_parties <- parties
+
+woman_parties[woman_parties == "F"] <- "Misc. Family"
+woman_parties[woman_parties == "N"] <- "Unrelated"
+woman_parties[woman_parties == "Y"] <- "Spouse/Partner"
+woman_parties <- woman_parties %>%
+  filter(typenomf == "Woman") %>%
+  group_by(year) %>%
+  mutate(n = n()) %>%
+  ggplot(aes(year,n, color = spouse, text = paste(sep = "", name,", ",side,", ",simplecite))) +
+  geom_point(alpha = 0.3, size = 1.5, position = position_jitter(w = 0, h = 0.3)) +
+  labs(title = "All Women as Parties") +
+  scale_color_manual(values=c("red","blue","forestgreen"),name = "Spousal/Family Status", labels = c("Misc. Family","Unrelated","Spouse/Partner"))
+  
+ggplotly(woman_parties, tooltip = "text") 
+```
+
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE, fig.width = 6, fig.height = 4}
+man_parties <- parties
+
+man_parties[man_parties == "F"] <- "Misc. Family"
+man_parties[man_parties == "N"] <- "Unrelated"
+man_parties[man_parties == "Y"] <- "Spouse/Partner"
+man_parties <- man_parties %>%
+  filter(typenomf == "Man") %>%
+  group_by(year) %>%
+  mutate(n = n()) %>%
+  ggplot(aes(year,n, color = spouse, text = paste(sep = "", name,", ",side,", ",simplecite))) +
+  geom_point(alpha = 0.3, size = 1.5, position = position_jitter(w = 0, h = 0.3)) +
+  labs(title = "All Men as Parties") +
+  scale_color_manual(values=c("red","blue","forestgreen"),name = "Spousal/Family Status")
+  
+ggplotly(man_parties, tooltip = "text") 
+
+```
+
+
 ### The (Un)Happy Couples 
 
-Most of these are members of one of the 24 couples who appeared with or against a heterosexual partner in a relationship. 
+Most of the spouses/partners are members of one of the 24 couples who appeared with or against a heterosexual partner in a relationship. 
 
 
 ```{r, echo = FALSE, warning = FALSE, message = FALSE}
