@@ -112,10 +112,6 @@ ggplotly(parties_property, tooltip = "text")
 
 ```
 
-```{r, echo = FALSE, warning = FALSE, message = FALSE}
-parties %>%
-  filter(transaction == "Property", typenomf == "Man" | typenomf == "Woman")
-```
 
 ```{r, echo = FALSE, warning = FALSE, message = FALSE, fig.width=5,fig.height = 4}
 parties_family <- parties %>%

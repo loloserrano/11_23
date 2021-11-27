@@ -11,6 +11,7 @@ library(readxl)
 library(plotly)
 library(scales)
 library(RColorBrewer)
+library(kableExtra)
 contracts <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/contracts_gender_r_2.xlsx")
 defs <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/defs_r.xlsx")
 plfs <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/plfs_r.xlsx")
@@ -49,6 +50,8 @@ contracts <- contracts %>%
 
 Recall from the [first character page](/docs/characters/_index) that Employee-Business and Business-Business transactions are the most male-skewed, at 82:18 and 83:17 splits respectively.  
 
+## Employee Transactions
+
 ```{r, echo = FALSE, warning = FALSE, message = FALSE, fig.width=5,fig.height = 4}
 parties_employee <- parties %>%
   filter(transaction == "Employee", typenomf == "Man" | typenomf == "Woman") %>%
@@ -65,7 +68,40 @@ parties_employee <- parties %>%
 ggplotly(parties_employee, tooltip = "text")
 ```
 
+#### Employees: The Women
 
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+parties %>%
+  filter(transaction == "Employee",typenomf == "Woman") %>%
+  select(name, side, simplecite) %>%
+  kbl() %>%
+  scroll_box(fixed_thead = T, height = "300px") 
+```
+
+Half the women are on the plaintiff side, half on the defendant. Two of the women on the defendant side, Joannie Collins and Elizabeth Arden, are businesspeople representing organizations being sued by former employees. Elaine Lukaszewski is on the defendant side, but is a former employee being sued for breach of contract. The three plaintiff-side women are former (or potential) employees suing businesses for having breached their employment contracts.
+
+#### Employees: The Men
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+parties %>%
+  filter(transaction == "Employee",typenomf == "Man") %>%
+  select(name, side, simplecite) %>%
+  arrange(desc(name)) %>%
+  arrange(side) %>%
+  kbl() %>%
+  scroll_box(fixed_thead = T, height = "300px") 
+```
+
+13 men are on the defendant side, 12 on the plaintiff side: essentially the same 50-50 split as the women. You may notice the "16 other people" - they never appear as real individual characters in the litigation but are gendered as men. 
+
+### Plowman v. Indian Refining Co.
+#### 20 F. Supp. 1 (E.D. Ill. 1937)
+#### KCP 120
+> Thirteen persons and the administrators of five deceased persons brought this suit ... The general manger of the refinery plant called the employees, who had rendered long years of service into his office and made with each a contract, to pay **him**, for the rest of **his** natural life ... the Lawrenceville Refinery where **these men** were employed...
+
+I took out and counted separately the people who appeared individually, such as "Plaintiff Kogan," but conglomerated the rest of the plaintiffs into one data point so they don't inflate the number of men. As the name of the section suggests, I'm more interested in the individuals who appear as characters, taking action and doing things, than all the parties who appear in litigation.
+
+## Business Transactions
 
 ```{r, echo = FALSE, warning = FALSE, message = FALSE, fig.width=5,fig.height = 4}
 parties_business <- parties %>%
@@ -81,4 +117,26 @@ parties_business <- parties %>%
   labs(title = "Business-Business Transaction ", x = "Gender", y = "Count - Hover for N and %") +
   theme_bw()
 ggplotly(parties_business, tooltip = "text")
+```
+
+
+#### Businesspeople: The Women
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+parties %>%
+  filter(transaction == "Business",typenomf == "Woman") %>%
+  select(name, side, simplecite) %>%
+  kbl() %>%
+  scroll_box(fixed_thead = T, height = "200px") 
+```
+
+
+#### Businesspeople: The Men
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+parties %>%
+  filter(transaction == "Business",typenomf == "Man") %>%
+  select(name, side, simplecite) %>%
+  kbl() %>%
+  scroll_box(fixed_thead = T, height = "300px") 
 ```
