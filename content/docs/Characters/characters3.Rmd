@@ -50,14 +50,13 @@ contracts <- contracts %>%
 
 
 ## Widows
-
+ 
 Three women were described not with reference to husbands, but to the absence of husbands. Three widows appear in the casebook, all of whom are posed as vulnerable people being taken advantage of. There are no widowers. 
 
 In two of the widows’ cases, their judges lament their age and husbandless-ness at length. 
 
-### Syster v. Banta
-#### 133 N.W.2d 666 (Iowa 1965)
-#### KCP 611
+### *Syster v. Banta*
+##### 133 N.W.2d 666 (Iowa 1965); KCP 611
 
 In *Syester v. Banta,* Justice Snell of the Iowa Supreme Court describes the plaintiff as such: 
 
@@ -73,9 +72,8 @@ She was “a widow living alone. She has no family. Her exact age does not appea
 
 The inclusion of the picture probably shouldn't be read into too much - casebook editors are required to include a certain number of images and just look for any appropriate place to do it. However, the inclusion of this picture of young, famous, vibrant, talented people - one of them a beautiful woman - does produce a stark contrast to the way that Snell describes the poor old widow. Providing readers with this image next to the pitying, paternalistic tone of the judge does seem to reinforce the juxtaposition: young people who are good dancers and don't need protection, and poor old ladies who don't stand a chance. 
 
-### Dohrmann v. Swaney
-#### 14 N.E.3d 605 (Ill. 2014)
-#### KCP 129
+### *Dohrmann v. Swaney*
+##### 14 N.E.3d 605 (Ill. 2014); KCP 129
 
 Another widow to appear is described similarly by Judge Fitzgerald Smith of the Alabama Supreme Court, who repeatedly emphasizes her age and husbandlessness. 
 
@@ -87,9 +85,8 @@ Another widow to appear is described similarly by Judge Fitzgerald Smith of the 
 
 Most of the opinion focuses on the nefarious misdeeds of George J. Dohrmann, who convinced Rogers to bequeath millions of dollars to him upon her death. Rogers is consistently posed in the background as a lonely, vulnerable victim, deceased at the time of litigation and unable to speak for herself. 
 
-### Kirksey v. Kirksey
-#### 8 Ala. 131 (1845)
-#### KCP 227
+### *Kirksey v. Kirksey*
+##### 8 Ala. 131 (1845); KCP 227
 
 The language of the Kirksey opinion itself is not nearly as charged: 
 

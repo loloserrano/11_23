@@ -1,8 +1,10 @@
 ---
 title: "Wives"
-output: html_document
 weight: 51
 bookFlatSection: false
+output:
+  html_document: 
+    css: columns.css
 ---
 
 ```{r, echo = FALSE, warning = FALSE, message = FALSE}
@@ -50,7 +52,6 @@ contracts <- contracts %>%
 ```
 
 
-
 ## Marriage and Family 
 
 Women in KCP are vastly, vastly more likely than men or individuals of unknown gender to appear in litigation with a heterosexual partner or a family member. Even discounting miscellaneous family status, a **majority - 56% - ** of women appearing in KCP appear with heterosexual partners. **70%** of women appear with a partner or family member. So only **30% of women in KCP - less than a third!! - appear independent of a relative.** In contrast, 70% of men and 100% of individuals of unknown gender appear independent of a relative. 
@@ -94,7 +95,9 @@ The following charts are split by gender and show each individual litigant who a
 
 I don't discern any particularly interesting trends over time, but you might disagree. 
 
-```{r, echo = FALSE, warning = FALSE, message = FALSE, fig.width=6,fig.height = 4}
+*(The x axis is meaningful and accurately represents the year of the case. The y axis is just a fairly meaningless way of spreading out the data points - I assigned counts when multiple cases appearing per year, so the higher dots just represent that there's multiple cases in a year, nothing else. I added jitter (height randomizer) just to spread the points out even more.)*
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE, fig.width=6,fig.height = 5}
 woman_parties <- parties
 
 woman_parties[woman_parties == "F"] <- "Misc. Family"
@@ -113,7 +116,7 @@ ggplotly(woman_parties, tooltip = "text")
 ```
 
 
-```{r, echo = FALSE, warning = FALSE, message = FALSE, fig.width = 6, fig.height = 4}
+```{r, echo = FALSE, warning = FALSE, message = FALSE, fig.width = 6, fig.height = 5}
 man_parties <- parties
 
 man_parties[man_parties == "F"] <- "Misc. Family"
@@ -122,7 +125,7 @@ man_parties[man_parties == "Y"] <- "Spouse/Partner"
 man_parties <- man_parties %>%
   filter(typenomf == "Man") %>%
   group_by(year) %>%
-  mutate(n = n()) %>%
+  mutate(n = as.integer(n())) %>%
   ggplot(aes(year,n, color = spouse, text = paste(sep = "", name,", ",side,", ",simplecite))) +
   geom_point(alpha = 0.3, size = 1.5, position = position_jitter(w = 0, h = 0.3)) +
   labs(title = "All Men as Parties") +
@@ -133,7 +136,7 @@ ggplotly(man_parties, tooltip = "text")
 ```
 
 
-### The (Un)Happy Couples 
+## The (Un)Happy Couples 
 
 Most of the spouses/partners are members of one of the 24 couples who appeared with or against a heterosexual partner in a relationship. 
 
@@ -168,51 +171,72 @@ kable(couples_table, "html", caption = "Couples in KCP") %>%
 
 ```
 
+### Operating Together
 
+Most of the couples appear on the same side of the litigation, operating essentially as a unit. Interestingly, most of 
+
+
+### The Adversaries
 
 ## Relevant Non-Party Spouses
 
-Two men and two women had their relationships described with reference to the proceedings but without their partner appearing. 
+Two men and two women had their relationships described with reference to the proceedings but without their partner appearing.
 
-### Katz v. Danny Dare Inc.
-#### 610 S.W.2d 121 (Mo. Ct. App. 1980)
-#### KCP 248
 
-I.G. Katz brought a promissory estoppel claim against a company the president of which “was also the brother of Katz’s wife,” establishing the connection between Katz and the company; moreover, his wife would benefit from a Social Security clause in the promised contract.
 
-### Credit Bureau Enter. v. Pelo
-#### 608 N.W.2d 20 (Iowa 2000)
-#### KCP 297
+<div class="column-left">
 
-Russell N. Pelo was involuntarily committed to a hospital after he telephoned his wife to make threats of self harm, relevant to the context of his refusal to pay. 
-
-### Locke v. Warner Bros., Inc. 
-#### 57 Cal. App. 4th 354 (1997)
-#### KCP 513
+#### *Locke v. Warner Bros., Inc.*
+##### 57 Cal. App. 4th 354 (1997); KCP 513
 
 Sondra Locke’s dispute with Warner Bros. is framed as something patronizingly set up for her by her ex Clint Eastwood (not a party), relevant to the argument about good faith.
 
-### King v. Trustees of Boston Univ.
-#### 420 Mass. 52 (1995)
-#### KCP 237
+#### *King v. Trustees of Boston Univ.*
+##### 420 Mass. 52 (1995); KCP 237
 
 Coretta Scott King brings her case on behalf of her family estate, and is actually a great example of rhetoric relating a woman to a husband but still giving her full agency: 
-
 > *“The plaintiff, Coretta Scott King, in her capacity as administratix of the estate of her late husband, and in her individual capacity, appeals...”*
 
-## Barely Relevant Non-Party Status. 
+</div>
+
+<div class="column-right">
+#### *Katz v. Danny Dare Inc.*
+##### 610 S.W.2d 121 (Mo. Ct. App. 1980); KCP 248
+
+I.G. Katz brought a promissory estoppel claim against a company the president of which “was also the brother of Katz’s wife,” establishing the connection between Katz and the company; moreover, his wife would benefit from a Social Security clause in the promised contract.
+
+#### *Credit Bureau Enter. v. Pelo*
+##### 608 N.W.2d 20 (Iowa 2000); KCP 297
+
+Russell N. Pelo was involuntarily committed to a hospital after he telephoned his wife to make threats of self harm, relevant to the context of his refusal to pay. 
+
+</div>
+
+
+
+
+
+
+
+## Barely Relevant Non-Party Spouses
 
 One man and one woman had their marital status described as a strange, but seemingly purposeful, aside. 
 
-### Dohrmann v. Swaney
-#### 14 N.E.3d 605 (Ill. 2014)
-#### KCP 129
+#### *Dohrmann v. Swaney*
+##### 14 N.E.3d 605 (Ill. 2014); KCP 129
 
-Dohrmann v. Swaney: “Dohrmann was a 40-year-old neurosurgeon, married to Dr. Helen Dohrmann” 130, where his and his wifes’ professional status establish a class level in this case about fraud? 
+This is one of the cases about a [vulnerable widow being taken advantage of](/docs/characters/characters3). The court affirmed a summary judgment that a contract between Virginia H. Rogers, offering over $5.5 million in assets upon her death, and George Dohrmann, promising to add Rogers as a middle name for both of his sons, was unenforceable because the consideration was illusory (and "so grossly adequate as to shock the conscience.") 
 
-### Aceves v. U.S. Bank N.A.
-#### 120 Cal. Rptr. 3d 507 (Cal. Ct. App. 2011)
-#### KCP 255
+Dohrmann is first introduced merely as "the appellant" and Rogers as "deceased (The Estate). The next information revealed is that Dohrmann was Rogers' neighbor, and had minor children. The first robust introduction that Judge Fitzgerald Smith of the Illinois Appellate Court gave to the characters is as follows, in the "Background" section:
 
-In Aceves v. U.S. Bank, N.A. the judge present the plaintiff, a woman independently bringing a suit whose spouse appears only as a minor detail in the rest of the opinion, as “Claudia Aceves, a married woman.” (255) The case is about bankruptcy – perhaps her marriage establishes some kind of moral credibility? 
+> At the time they met, Mrs. Rogers was 73-year-old widow. She had never had nor adopted any children. Dohrmann was a 40-year-old neurosurgeon, married to Dr. Helen Dohrmann. 
 
+As I explore more thoroughly in the [widows section](/docs/characters/characters3), Mrs. Rogers' old age and husbandlessness play into a sense of vulnerability, which explicitly ties into the court's ruling of illusory consideration and dictum that the case could have been found void on the grounds of "unfairness" alone. The judge repeatedly mentions that Mrs. Rogers was not only old, but *also a widow,* harnessing general cultural assumptions about vulnerability to bolster their argument. 
+
+What value does the inclusion of Dohrmann's job, his marriage, and his wife's job add to the opinion? Perhaps Dohrmann's marital status establishes that he was not as sad and lonely as Rogers is implied to be, or merely to contextualize his having children. The more interesting tidbit is the inclusion of both of their jobs. Simply in terms of gender representation, a side mention as "Dr. Helen Dohrmann" implies status, power, and wealth not usually associated with women. But it's unlikely that Judge Fitzgerald Smith's goal was to subtly challenge gender stereotypes. Perhaps the occupations establish that the Dohrmanns were well off, ruling out any moral defense based on need. 
+
+
+#### *Aceves v. U.S. Bank N.A.*
+#### 120 Cal. Rptr. 3d 507 (Cal. Ct. App. 2011); KCP 255
+
+In Aceves v. U.S. Bank, N.A. the judge present the plaintiff, a woman independently bringing a suit whose spouse appears only as a minor detail in the rest of the opinion, as “Claudia Aceves, a married woman.” (255) The case is about bankruptcy – perhaps her marriage establishes some kind of moral credibility? There might be some kind of difference in the judge's mind between a bankrupted single woman and a bankrupted wife. 
