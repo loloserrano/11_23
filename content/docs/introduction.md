@@ -21,14 +21,14 @@ For better or worse, the casebook does represent this dynamic. Presenting these 
 ## Mary Joe Frug 
 ### (1941-1991)
 
-Mary Joe Frug was a gender and legal theorist who produced luminary work on oppressive gendered patterns in American law. She is credited with producing some of the first postmodernist feminist work. Frug's ["Re-Reading Contracts"](/docs/rereadingcontracts) is the direct inspiration for this. 
+Mary Joe Frug was a gender and legal theorist who produced luminary work on oppressive gendered patterns in American law. She is credited with producing some of the first postmodernist feminist work. Frug's Re-Reading Contracts: A Feminist Analysis of a Contracts Casebook, 34 AM. U. L. REV. 1065 (1985) is the direct inspiration for this project. 
 
 <--->
 
 ## Lolo Serrano
 ### (1999-Present)
 
-Lolo Serrano is a candidate for a JD/PhD in American Legal History at the University of Pennsylvania. They are interested in discourse, identity, and power. 
+Lolo Serrano is a candidate for a JD/PhD in American Legal History at the University of Pennsylvania. They are interested in discourse, identity, and power, and plan to study American imperialist and capitalist manipulation of international law. 
 
 {{< /columns >}}
 
@@ -37,11 +37,11 @@ Lolo Serrano is a candidate for a JD/PhD in American Legal History at the Univer
 
 ### [On Style](/docs/on_style)
 
-In this section I defend my grammatical creativity. 
+In this section I defend Frugging, Fruggism, and Fruggish. 
 
 ### [Re-Reading Contracts and Updating Frug](/docs/rereading)
 
-In this section I describe the purpose, framework, and theory of this project. I detail the work of Mary Joe Frug on which this project is based and introduce new ideas, both from her other pieces and from later work, that complicate the idea of gender. 
+In this section I describe the purpose, framework, and theory of this project. I detail the works of Mary Joe Frug on which this project is based and introduce new ideas, both from her other pieces and from later work, that complicate the idea of gender. 
 
 ### [Data Collection and Dataset](/docs/dataset)
 
