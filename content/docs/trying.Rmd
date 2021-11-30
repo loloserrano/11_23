@@ -13,7 +13,7 @@ library(readxl)
 library(plotly)
 library(RColorBrewer) 
 library(systemfonts)
-library(kableExtra)
+library(kableExtra)s
 contracts <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/contracts_gender_r_2.xlsx")
 defs <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/defs_r.xlsx")
 plfs <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/plfs_r.xlsx")
