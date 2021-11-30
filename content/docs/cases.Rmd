@@ -44,8 +44,6 @@ contracts <- contracts %>%
 
 ```
 
-# Overview  
-
 ## Race
 
 Much to the detriment of this project, race is not as measurable in the casebook as gender. There are few people who have names that are not Anglo in origin. Even fewer have names that are not otherwise European in origin. While some of the people with European names are likely to be people of color, white people likely occupy an enormous proportion of characters in the book. My inability to measure that disparity makes most of this analysis  misleading colorblind. Most people privileged enough to engage in lawsuits, certainly on the plaintiff side, were white for most of American history and continue to be disproportionately white.
@@ -65,14 +63,14 @@ cases_over_time <- contracts %>%
   ungroup %>%
   ggplot() +
   geom_jitter(width = 0, height = 0.3, col = "red2", aes(as.integer(year),forplot,alpha=0.05,text = paste(sep = "",simplecite,", ",year))) +
-  labs(title = "All Cases in KCP, Duplicate Years Spread over Y Axis")
+  labs(title = "All Cases in KCP, Duplicate Years Spread over Y Axis", x = "Year", y = "Cases")
 ggplotly(cases_over_time, tooltip = "text")
 
 
 ```
 
 
-So this project looks at women and men in the case book, but it's looking at much less than that: They're all American, probably mostly white, and likely much more complicated in their personal experiences of gender, race, law, and family than the casebook represents. Gender is so complicated that I devoted a tab above to it (see Queering Postmodern Feminism.) I use the words men and women, but with reservations. 
+So this project looks at women and men in the case book, but it's looking at much less than that: They're nearly all American, mostly white, and likely much more complicated in their personal experiences of gender, race, law, and family than the casebook represents. Gender is so complicated that I devote a considerable amount of space in [Rereading Contracts and Updating Frug](/docs/rereading) to a diatribe on gender. I use the words men and women, but with reservations. 
 
 So, with all that said:
 
