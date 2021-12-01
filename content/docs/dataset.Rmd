@@ -5,6 +5,7 @@ weight: 35
 bookToC: true
 ---
 
+
 ```{r, echo = FALSE, warning = FALSE, message = FALSE}
 library(kableExtra)
 library(tidyverse) 
@@ -45,11 +46,12 @@ parties <- parties %>%
 
 contracts <- contracts %>%
   full_join(n_parties_joiner)
+
+parties[parties == "Government"] <- "Organization"
+contracts[contracts == "Government"] <- "Organization"
 ```
 
 # Data Collection
-
-Knapp, Crystal, and Prince's *Problems in Contract Law* is an American contracts casebook that attempts, in good faith and with a commercial incentive, to relay the current state and relevant history of American contract law to first-year law students. In doing so, it reveals some of the historical (and continuing) gendered patterns in how people and organizations interact with the legal system.
 
 ## Cases
 In all, there are **103 cases** included in KCP. 
@@ -61,7 +63,7 @@ contracts %>%
   kbl() %>%
   scroll_box(fixed_thead = T, height = "300px") 
 ```
-
+Points are randomly dispersed around the y axis.
 
 ## Transaction Type 
 
@@ -116,7 +118,7 @@ people_table_dataset %>%
 Much to the detriment of this project, race is not as measurable in the casebook as gender. There are few people who have names that are not Anglo in origin. Even fewer have names that are not otherwise European in origin. While some of the people with European names are likely to be people of color, white people likely occupy an enormous proportion of characters in the book. My inability to measure that disparity makes most of this analysis  misleading colorblind. Most people privileged enough to engage in lawsuits, certainly on the plaintiff side, were white for most of American history and continue to be disproportionately white.
 
 ### Gender 
-I based gender of individuals on traditional patterns in first names as well as pronouns, when they appeared. **See Re-Reading Contracts and Updating Frug for some important contextualization about what "gender" means in this project!**
+I based gender of individuals on traditional patterns in first names as well as pronouns, when they appeared. **See [Re-Reading Contracts and Updating Frug](/docs/rereading) for some important contextualization about what "gender" means in this project!**
 
 #### Unambiguous gender (marked "Man"): 
 > Plaintiff/Appellant Sammie Maness ("Maness"), in his 50s at all pertinent times, lived most of his life in McNairy County, Tennessee. *Maness v. Collins*, KCP 927.
@@ -125,12 +127,11 @@ I based gender of individuals on traditional patterns in first names as well as 
 > In July 1951 appellants, the lessors, leased a small lot to appellee, the lessee, for a 10-year-term at a rent of $100 per month. [Term "appellants" used throughout rest of opinion and no singular pronouns used.] *Walker v. Keith*, KCP 79.
 
 
-
 ## Businesses/Other Organizations
 I also collected 122 businesses or organizations that appeared as parties in the cases. 
 
 
-### Table: All Organizations
+### Table: All Businesses/Organizations
 ```{r, echo = FALSE, warning = FALSE, message = FALSE}
 
 businesses_table_dataset <- parties %>%

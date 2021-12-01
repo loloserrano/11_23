@@ -46,13 +46,16 @@ parties <- parties %>%
 contracts <- contracts %>%
   full_join(n_parties_joiner)
 
+parties[parties == "Government"] <- "Organization"
+contracts[contracts == "Government"] <- "Organization" 
+
 ```
 
 Recall from the [first character page](/docs/characters/_index) that Employee-Business and Business-Business transactions are the most male-skewed, at 82:18 and 83:17 splits respectively.  
 
 ## Employee Transactions
 
-```{r, echo = FALSE, warning = FALSE, message = FALSE, fig.width=5,fig.height = 4}
+```{r, echo = FALSE, warning = FALSE, message = FALSE, fig.width=5, fig.height = 4}
 parties_employee <- parties %>%
   filter(transaction == "Employee", typenomf == "Man" | typenomf == "Woman") %>%
   group_by(typenomf) %>%
@@ -103,7 +106,7 @@ I took out and counted separately the people who appeared individually, such as 
 
 ## Business Transactions
 
-```{r, echo = FALSE, warning = FALSE, message = FALSE, fig.width=5,fig.height = 4}
+```{r, echo = FALSE, warning = FALSE, message = FALSE, fig.width=5, fig.height = 4}
 parties_business <- parties %>%
   filter(transaction == "Business", typenomf == "Man" | typenomf == "Woman") %>%
   group_by(typenomf) %>%

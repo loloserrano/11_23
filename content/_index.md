@@ -7,28 +7,28 @@ bookToC: true
 
 # Frugging KCP
 
-This project analyzes gender in Knapp, Crystal, and Prince’s *Problems in Contract Law: Cases and Materials.* It is directly inspired by Mary Joe Frug's "Re-Reading Contracts: A Feminist Analysis of a Contracts Casebook."
+This project analyzes gender in Knapp, Crystal, and Prince’s *Problems in Contract Law: Cases and Materials.* It is directly inspired by Mary Joe Frug's "Re-Reading Contracts: A Feminist Analysis of a Contracts Casebook. "
 
 > A casebook is a powerful document. The editorial choices within a casebook determine how many readers think about the law of a doctrinal area, about lawyering in that field, about clients, and about legal reasoning.
 
 ##### Mary Joe Frug, Re-Reading Contracts: A Feminist Analysis of a Contracts Casebook, 34 AM. U. L. REV. 1065, 1069 (1985).
 
-This project compares the ways in which women appear in the casebook differently from men. In doing so, it reviews historical differences in the ways women and men were able to live their lives. Most Americans expected women not to participate in the government or the formal economy from the country’s inception to the early twentieth century, and not to occupy public positions of capitalist power until the middle of the twentieth century. There is a massive historical disparity in the relative power of women in public (again, as a political population) and men (the same), that is slowly edging towards parity according mostly to economic metrics. 
+This project compares the ways in which women appear in the casebook differently from men. In doing so, it reviews historical differences in the ways women and men have been able to live their lives. Most Americans expected women not to participate in the government or the formal economy from the country’s inception to the early twentieth century, and not to occupy public positions of capitalist power until the middle of the twentieth century. There is a massive historical disparity in the relative power of women in public (again, as a political population) and men (the same), that is slowly edging towards parity according mostly to economic metrics. 
 
-For better or worse, the casebook does represent this dynamic. Presenting these inequalities accurately reflects the general exclusion of women from public life and contracts law for most of American history. The limited universe of American contracts presented in a this casebook provide an interesting venue to examine a snapshot of flawed, gendered, improving, complicated law.  
+For better or worse, the casebook does represent this dynamic. Presenting these inequalities accurately reflects the general exclusion of women from public life and contracts law for most of American history. The limited universe of American contracts presented in a this casebook provide an interesting venue to examine a snapshot of flawed, gendered, improving, complicated law.
 
 {{< columns >}}
 ## Mary Joe Frug 
 ### (1941-1991)
 
-Mary Joe Frug was a gender and legal theorist who produced luminary work on oppressive gendered patterns in American law. She is credited with producing some of the first postmodernist feminist work. Frug's "Re-Reading Contracts" is the direct inspiration for this project. Unfortunately, Serrano can't find a way to supply free access to this article. 
+Mary Joe Frug was a gender and legal theorist who produced luminary work on oppressive gendered patterns in American law. She produced some of the first postmodernist feminist scholarship and had, in my [Serrano's] opinion, some very good ideas. Frug's Re-Reading Contracts: A Feminist Analysis of a Contracts Casebook, 34 AM. U. L. REV. 1065 (1985) is the direct inspiration for this project. 
 
 <--->
 
 ## Lolo Serrano
 ### (1999-Present)
 
-Lolo Serrano is a candidate for a JD/PhD in American Legal History at the University of Pennsylvania. So far, they have worked on projects tackling discourse, identity, and power in 20th century America. Ultimately, they want to study international law and contribute to dismantling American imperialism.
+Lolo Serrano is a candidate for a JD/PhD in American Legal History at the University of Pennsylvania. They are interested in discourse, identity, and power, and they plan to study American imperialist and capitalist manipulation of international law. 
 
 {{< /columns >}}
 
@@ -37,11 +37,11 @@ Lolo Serrano is a candidate for a JD/PhD in American Legal History at the Univer
 
 ### [On Style](/docs/on_style)
 
-In this section I defend my grammatical creativity. 
+In this section I defend Frugging, Fruggism, and Fruggish. 
 
 ### [Re-Reading Contracts and Updating Frug](/docs/rereading)
 
-In this section I describe the purpose, framework, and theory of this project. I detail the work of Mary Joe Frug on which this project is based and introduce new ideas, both from her other pieces and from later work, that complicate the idea of gender. 
+In this section I describe the purpose, framework, and theory of this project. I detail the works of Mary Joe Frug on which this project is based and introduce new ideas, both from her other pieces and from later work, that complicate the idea of gender. 
 
 ### [Data Collection and Dataset](/docs/dataset)
 

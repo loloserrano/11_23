@@ -5,21 +5,20 @@ output: html_document
 weight: 20
 ---
 
-## "Frugging KCP" and "Fruggish" are intentionally irreverent, but I think Frug wouldn't mind. 
+## "Frugging KCP" is intentionally irreverent, but I think Frug wouldn't mind. 
 
 The following is from a section titled "On Style" in Frug's last work, "A Postmodern Feminist Legal Manifesto (An Unfinished Draft)."
 
 #### The medium is the message
-> *Style is important in postmodern work. The medium* is *the message, in some cases ... when style is salient, it is characterized by irony and by wordplay that is often dazzlingly funny, smart, and irreverent. Things aren't just what they seem.*
+> *Style is important in postmodern work. The medium **is** the message, in some cases ... when style is salient, it is characterized by irony and by wordplay that is often dazzlingly funny, smart, and irreverent. Things aren't just what they seem.*
 
 ##### Mary Joe Frug, A Postmodern Feminist Legal Manifesto (An Unfinished Draft), Harvard Law Review 105 No. 5 1048 (Mar. 1992).
 
-
 ## Adjectivization
 
-In a project that I co-authored (pending publication, so I'll be light on details) we reviewed a large sample of academic book reviews. Over 90 mens' names were somehow "adjectivized" within the reviews - Foucauldian, Wittgensteinian, Hegelian - or "nouned" - Marxism, Darwinism - as opposed to only three women. This coincided with a qualitative pattern of men writing *very* favorably about other men, to adulatory extremes in few, but notable cases. 
+In a project that I co-authored (pending publication, so I'll be light on details) we reviewed a large sample of academic book reviews. Over 90 mens' names were somehow "adjectivized" within the reviews - Foucauldian, Wittgensteinian, Hegelian - or "nouned" - Marxism, Darwinism - as opposed to only three women. This coincided with a qualitative pattern of men writing *very* favorably about other men, to adulatory extremes in few (but very notable) cases. 
 
-The outcome we proposed in that paper is not that more women get sycophantic praise in book reviews, but to tone the personal veneration down in general. It can be dangerous to elevate scholars to lofty, elite status. Idolizing a certain person's (usually a certain man's) ideas can lead to the exclusion of new, challenging ideas, whether they be Jesus, Michel Foucault, or Tucker Carlson. Ideas and people should be challenged and reconsidered on a regular basis.
+The outcome we proposed in that paper was not to give more women sycophantic praise in book reviews, but to tone the personal veneration down in general. It can be dangerous to elevate scholars to lofty, elite status. Idolizing a certain person's (usually a certain man's) ideas can lead to the exclusion of new, challenging ideas, whether they be Jesus, Michel Foucault, or Tucker Carlson. Ideas and people should be challenged and reconsidered on a regular basis.
 
 ## It Sounds Funny 
 

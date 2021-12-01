@@ -25,13 +25,19 @@ names(gendertotaltable)[5] <- "percentage"
 opts <- options(knitr.kable.NA = "")
 
 parties <- parties %>%
-  full_join(cites)
+  full_join(cites, by = "page")
+
 names(parties)[4] <- "name"
+
 contracts <- contracts %>%
   mutate(simplecite = cite) %>%
   mutate(simplecite = str_extract(simplecite, "[^,]+"))
 
 names(parties)[9] <- "cite"
+
+parties <- parties %>%
+  mutate(simplecite = cite) %>%
+  mutate(simplecite = str_extract(simplecite, "[^,]+"))
 
 n_parties_joiner <- parties %>%
   group_by(cite) %>%
@@ -41,6 +47,9 @@ n_parties_joiner <- parties %>%
 
 contracts <- contracts %>%
   full_join(n_parties_joiner)
+
+parties[parties == "Government"] <- "Organization"
+contracts[contracts == "Government"] <- "Organization"
 
 ```
 
@@ -53,19 +62,36 @@ Much to the detriment of this project, race is not as measurable in the casebook
 20 of 103 cases, or nearly 1 in 5,  were decided before 1965, when a federal law prohibiting employment discrimination on the basis of race, color, religion, sex, or national origin finally came into effect and the U.S. ceased *legally being a racial apartheid state.* 73 of the 103 cases, or just under 3 in 4, were decided before the 21st century. 
 
 *You can scroll around the chart - each dot has the name and year of the case it represents.
-The y axis is meant to just give a sense of how many cases per year the book contains. For all years with one case, I labeled the case 1. For all years with multiple cases, I labeled the first case 1; the second case 2; etc. So the cases appearing the same year appear stacked vertically. Since there's a lot of points, I used a vertical jitter (height randomizer) so you can see the individual dots.*
+All cases are randomly dispersed around the y axis to make the individual points easier to see. Vertical position is arbitrary.*
 
-```{r, echo = FALSE, warning = FALSE, message = FALSE, fig.width=5,fig.height = 4}
 
-cases_over_time <- contracts %>%
-  group_by() %>%
+```{r, echo = FALSE, warning = FALSE, message = FALSE, fig.width=8,fig.height = 6}
+
+
+c1 <- contracts %>%
+  filter(transaction != "NA") %>%
+  group_by(page) %>%
   mutate(count = n()) %>%
-  ungroup %>%
   ggplot() +
-  geom_jitter(width = 0, height = 0.3, col = "red2", aes(as.integer(year),forplot,alpha=0.05,text = paste(sep = "",simplecite,", ",year))) +
-  labs(title = "All Cases in KCP, Duplicate Years Spread over Y Axis", x = "Year", y = "Cases")
-ggplotly(cases_over_time, tooltip = "text")
+  geom_jitter(width = 0, height = 5, alpha = 0.4, aes(as.integer(year),count,col = transaction, text = paste(sep = "",simplecite, ", ", year))) +
+  labs(title = "All Cases in KCP", subtitle = "Color by Transaction Giving Rise to Suit", x = "Year", y = "Cases", legend = "Transaction Giving Rise to") +
+  theme(axis.text.y = element_blank(), axis.ticks.y = element_blank())
+ggplotly(c1, tooltip = "text")
 
+```
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE, fig.width=8,fig.height = 6}
+
+d2 <- parties %>%
+  filter(transaction != "NA") %>%
+  group_by(page) %>%
+  mutate(count = n()) %>%
+  ggplot() +
+  geom_jitter(width = 0,alpha=0.4, height = 5, aes(as.integer(year),count,col = typenomf, text = paste(sep = "",simplecite, ", ", year))) +
+  labs(title = "All Parties in KCP", x = "Year", y = "Cases", subtitle = "Color by Party Type: Double-Click in Legend to Isolate") +
+  theme(axis.text.y = element_blank(), axis.ticks.y = element_blank())
+
+ggplotly(d2, tooltip = "text")
 
 ```
 

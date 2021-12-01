@@ -21,14 +21,14 @@ For better or worse, the casebook does represent this dynamic. Presenting these 
 ## Mary Joe Frug 
 ### (1941-1991)
 
-Mary Joe Frug was a gender and legal theorist who produced luminary work on oppressive gendered patterns in American law. She is credited with producing some of the first postmodernist feminist work. Frug's Re-Reading Contracts: A Feminist Analysis of a Contracts Casebook, 34 AM. U. L. REV. 1065 (1985) is the direct inspiration for this project. 
+Mary Joe Frug was a gender and legal theorist who produced luminary work on oppressive gendered patterns in American law. She produced some of the first postmodernist feminist scholarship and had, in my [Serrano's] opinion, some very good ideas. Frug's Re-Reading Contracts: A Feminist Analysis of a Contracts Casebook, 34 AM. U. L. REV. 1065 (1985) is the direct inspiration for this project. 
 
 <--->
 
 ## Lolo Serrano
 ### (1999-Present)
 
-Lolo Serrano is a candidate for a JD/PhD in American Legal History at the University of Pennsylvania. They are interested in discourse, identity, and power, and plan to study American imperialist and capitalist manipulation of international law. 
+Lolo Serrano is a candidate for a JD/PhD in American Legal History at the University of Pennsylvania. They are interested in discourse, identity, and power, and they plan to study American imperialist and capitalist manipulation of international law. 
 
 {{< /columns >}}
 

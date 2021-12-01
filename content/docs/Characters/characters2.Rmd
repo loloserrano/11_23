@@ -49,6 +49,9 @@ parties <- parties %>%
 contracts <- contracts %>%
   full_join(n_parties_joiner)
 
+parties[parties == "Government"] <- "Organization"
+contracts[contracts == "Government"] <- "Organization"
+
 ```
 
 
