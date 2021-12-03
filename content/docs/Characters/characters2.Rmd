@@ -51,7 +51,6 @@ contracts <- contracts %>%
 
 parties[parties == "Government"] <- "Organization"
 contracts[contracts == "Government"] <- "Organization"
-
 ```
 
 
@@ -98,9 +97,9 @@ The following charts are split by gender and show each individual litigant who a
 
 I don't discern any particularly interesting trends over time, but you might disagree. 
 
-*(The x axis is meaningful and accurately represents the year of the case. The y axis is just a fairly meaningless way of spreading out the data points - I assigned counts when multiple cases appearing per year, so the higher dots just represent that there's multiple cases in a year, nothing else. I added jitter (height randomizer) just to spread the points out even more.)*
+*(The x axis is meaningful and accurately represents the year of the case. Points are randomly spread around the Y axis to make individual points easier to see - vertical position in meaningless.)*
 
-```{r, echo = FALSE, warning = FALSE, message = FALSE, fig.width=6,fig.height = 5}
+```{r, echo = FALSE, warning = FALSE, message = FALSE, fig.width=8,fig.height = 6}
 woman_parties <- parties
 
 woman_parties[woman_parties == "F"] <- "Misc. Family"
@@ -108,7 +107,7 @@ woman_parties[woman_parties == "N"] <- "Unrelated"
 woman_parties[woman_parties == "Y"] <- "Spouse/Partner"
 woman_parties <- woman_parties %>%
   filter(typenomf == "Woman") %>%
-  group_by(year) %>%
+  group_by(name) %>%
   mutate(n = n()) %>%
   ggplot(aes(year,n, color = spouse, text = paste(sep = "", name,", ",side,", ",simplecite))) +
   geom_point(alpha = 0.3, size = 1.5, position = position_jitter(w = 0, h = 0.3)) +
@@ -118,22 +117,23 @@ woman_parties <- woman_parties %>%
 ggplotly(woman_parties, tooltip = "text") 
 ```
 
-
-```{r, echo = FALSE, warning = FALSE, message = FALSE, fig.width = 6, fig.height = 5}
+```{r, echo = FALSE, warning = FALSE, message = FALSE, fig.width=8,fig.height = 6}
 man_parties <- parties
 
 man_parties[man_parties == "F"] <- "Misc. Family"
 man_parties[man_parties == "N"] <- "Unrelated"
 man_parties[man_parties == "Y"] <- "Spouse/Partner"
+
 man_parties <- man_parties %>%
   filter(typenomf == "Man") %>%
-  group_by(year) %>%
+  group_by(name) %>%
   mutate(n = as.integer(n())) %>%
   ggplot(aes(year,n, color = spouse, text = paste(sep = "", name,", ",side,", ",simplecite))) +
   geom_point(alpha = 0.3, size = 1.5, position = position_jitter(w = 0, h = 0.3)) +
   labs(title = "All Men as Parties") +
-  scale_color_manual(values=c("red","blue","forestgreen"),name = "Spousal/Family Status")
-  
+  scale_color_manual(values=c("red","blue","forestgreen"),name = "Spousal/Family Status") +
+  theme(axis.text.y = element_blank(), axis.ticks.y = element_blank())
+
 ggplotly(man_parties, tooltip = "text") 
 
 ```
@@ -186,9 +186,6 @@ Most of the couples appear on the same side of the litigation, operating essenti
 Two men and two women had their relationships described with reference to the proceedings but without their partner appearing.
 
 
-
-<div class="column-left">
-
 #### *Locke v. Warner Bros., Inc.*
 ##### 57 Cal. App. 4th 354 (1997); KCP 513
 
@@ -200,9 +197,6 @@ Sondra Locke’s dispute with Warner Bros. is framed as something patronizingly 
 Coretta Scott King brings her case on behalf of her family estate, and is actually a great example of rhetoric relating a woman to a husband but still giving her full agency: 
 > *“The plaintiff, Coretta Scott King, in her capacity as administratix of the estate of her late husband, and in her individual capacity, appeals...”*
 
-</div>
-
-<div class="column-right">
 #### *Katz v. Danny Dare Inc.*
 ##### 610 S.W.2d 121 (Mo. Ct. App. 1980); KCP 248
 
@@ -212,13 +206,6 @@ I.G. Katz brought a promissory estoppel claim against a company the president of
 ##### 608 N.W.2d 20 (Iowa 2000); KCP 297
 
 Russell N. Pelo was involuntarily committed to a hospital after he telephoned his wife to make threats of self harm, relevant to the context of his refusal to pay. 
-
-</div>
-
-
-
-
-
 
 
 ## Barely Relevant Non-Party Spouses
