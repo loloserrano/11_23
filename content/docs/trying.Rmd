@@ -13,7 +13,7 @@ library(readxl)
 library(plotly)
 library(RColorBrewer) 
 library(systemfonts)
-library(kableExtra)s
+library(kableExtra)
 contracts <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/contracts_gender_r_2.xlsx")
 defs <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/defs_r.xlsx")
 plfs <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/plfs_r.xlsx")
@@ -88,6 +88,6 @@ wbusinesses %>%
 
 ## The Corporate "Person"
 
-[Corporations have long been viewed as persons under the law, capable of entering into legal relations, exercising legal rights, and bearing legal obligations. As a person, the corporation has the ability to enter into contracts, to sue and be sued, to own property in the corporate name, and to claim many fundamental constitutional rights.](https://www-cambridge-org.proxy.library.upenn.edu/core/books/corporate-personhood/legal-theories-of-the-corporate-person/572091A4C89C69E718737AAFA8C331FE)
+Corporations have long been viewed as  [persons under the law,](https://www-cambridge-org.proxy.library.upenn.edu/core/books/corporate-personhood/legal-theories-of-the-corporate-person/572091A4C89C69E718737AAFA8C331FE) capable of entering into legal relations, exercising legal rights, and bearing legal obligations. As a person, the corporation has the ability to enter into contracts, to sue and be sued, to own property in the corporate name, and to claim many fundamental constitutional rights.
 
 There doesn't seem to be much scholarship about any stereotypes that apply to this corporate person. However, from the data here, I would conclude that's its implicitly male to a certain extent. And most corporations with Anglo and otherwise assimilate white name, with the possible exception of Zapata Hermanos Sucesores, and maybe Alberto-Culver Company - although there's something to be said for Culver's use of Alberto's first, and more familiar, name.
