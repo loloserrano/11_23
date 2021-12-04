@@ -5,9 +5,14 @@ bookToC: TRUE
 weight: 30
 ---
 
-# The Goal of this Project
+## Re-Reading Contracts and Updating Frug
+### The Goals and Perspective of this Project
 
-*Frugging KCP* applies Mary Joe Frug's methods in "Re-Reading Contracts: A Feminist Analysis of a Contracts Casebook" to Knapp, Crystal, and Prince's *Problems in Contract Law: Cases and Materials* (KCP).
+
+![Mary Joe Frug](/img/frug_pic_2.jpg)
+
+
+*Frugging KCP* borrows heavily from Mary Joe Frug's methods in "Re-Reading Contracts: A Feminist Analysis of a Contracts Casebook" to Knapp, Crystal, and Prince's *Problems in Contract Law: Cases and Materials* (KCP).
 
 This project applies Fruggish methods to analyze the way that KCP represents gender. Most of the individuals who appears in the cases have one of two discernible binary genders: man or woman. Interestingly, several of the businesses have names that suggest gender - usually masculine - as well. There are substantial qualitative and quantitative differences between men and the women in the casebook, with the predominant thrust being limitations on the agency and participation of women. 
 
@@ -18,34 +23,36 @@ Knapp, Crystal, and Prince's *Problems in Contract Law* (KCP) is an American con
 KCP is organized around the simple stated goal of producing a "realistic survey of contract law for present-day law students." It has no stated theory of gender or social justice, but "urges" in its preface that the student "view the material from a variety of other perspectives:" 
 
 Historical: 
+
 >"the development of our common law of contract in the English courts of Law and Equity, and trace the historical progression of American contracts law from Holmes [a man] and Williston [a man] through Corbin [a man] and Llewellyn [a man] to the present day."
 
 Theoretical: 
+
 > presenting "extended quotations" from "scholars representing all modern schools of analysis."
 
 A critical note:  in section "The Perspective of Contract Theory" from pages 12-14, the editors name representative scholars, a jumping off point if students choose to do future research, for all schools of thought - Pound for sociological jurisprudence, Langdell for formalism, Llewellyn for realists, etc. - save one: Critical Legal Studies. 
 
 Lawyering: 
+
 > "reminding the student repeatedly that the rules of law we encounter have an impact on real people in real disputes, and that creative lawyering in the contract area requires not merely knowledge of the rules of law but the ability to analyze and predict the effects of various courses of conduct that a client might take."
 
 KCP conclude with a section that they highlight as having appeared in every edition since 1976: "No study of law is adequate if it loses sight of the fact that law operates first and last *for, upon,* and *through* individual human beings. This, of course, is what rescues law from the status of a science and makes its study so frustrating, and so fascinating."
 
 ###### Charles L. Knapp, Nathan M. Crystal, & Harry G. Prince, *Problems in Contract Law: Cases and Materials* xxi-xxiv (9th ed. 2019).
 
-As my critical note may suggest, I favor including a fourth and more critical perspective. Portions of KCP's description of "lawyering" and their final quotation provide a jumping off point: 
+As my critical note may suggest, I favor including a fourth and more critical perspective. Portions of KCP's description of "lawyering" and their final quotation provide a jumping off point:
 
 > The rules of law we encounter have an impact on real people in real disputes ... No study of law is adequate if it loses sight of the fact that law oeprates first and last *for, upon,* and *through* individual human beings.
 
-These human beings do, of course, exist in particular places at particular times. These human beings have cultures, shared beliefs, and unspoken rules of power, behavior, and identity. These particular human beings are Americans [with a few exceptions] in the 19th, 20th, and 21st centuries, and as such they have very strictly defined genders. 
+These human beings do, of course, exist in particular places at particular times. These human beings have cultures, shared beliefs, and unspoken rules of power, behavior, and identity. These particular human beings are Americans [with a few exceptions] in the 19th, 20th, and 21st centuries, and as such they have very strictly defined binary genders. They are not just people: they are *men,* and they are *women.*
+
+My critical queer perspective firmly situates this binary gender system firmly within 19th, 20th, and 21st century America. This system of strictly binary gender with its host of unique, quirky, and horrifying stereotypes is a historical phenomenon. So I study and describe men and women not as universal, binary, inherent categories, but as the particularized gendered identities of people in a certain time and place. 
 
 KCP reveals significant gendered patterns in how people and organizations have interacted with contract law. Showing the inequities is not a problem with the casebook itself, as any strictly accurate historical and contemporary account of American contract law will be predominated by men. This purpose of this critical Fruggish study is not to denounce the editors for having reflected inequality and gender stereotypes; it is merely to critically evaluate the inequality and stereotype that do appear. 
 
 ## "Re-Reading Contracts"
 
-![Mary Joe Frug](/img/maryjoe.jpg)
-[Twitter post of New England Law, Boston, source of image](https://twitter.com/newenglandlaw/status/1111255740487004161)
-
-Frug's "Re-Reading Contracts" is a thorough review of Dawson, Harvey, and Henderson's *Cases and Comment on Contracts* (4th ed. 1982). 
+Frug's "Re-Reading Contracts" is a thorough review of Dawson, Harvey, and Henderson's *Cases and Comment on Contracts* (4th ed. 1982).  
 
 ### The Premise
 > A casebook is a powerful document. The editorial choices within a casebook determine how many readers think about the law of a doctrinal area, about lawyering in that field, about clients, and about legal reasoning.

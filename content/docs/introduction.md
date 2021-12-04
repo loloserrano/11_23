@@ -11,6 +11,9 @@ bookToC: true
 
 ##### Mary Joe Frug, Re-Reading Contracts: A Feminist Analysis of a Contracts Casebook, 34 AM. U. L. REV. 1065, 1069 (1985).
 
+![Mary Joe Frug](/img/maryjoe.jpg)
+[Twitter post of New England Law, Boston, source of image](https://twitter.com/newenglandlaw/status/1111255740487004161)
+
 This project analyzes American gender in Knapp, Crystal, and Prince’s *Problems in Contract Law: Cases and Materials.* It is directly inspired by Mary Joe Frug's "Re-Reading Contracts: A Feminist Analysis of a Contracts Casebook. "
 
 In doing so, it reviews historical differences in the ways American women and men have been able to live their lives. Most Americans expected women not to participate in the government or the formal economy from the country’s inception to the early twentieth century, and not to occupy public positions of capitalist power until the middle of the twentieth century. There is a massive historical disparity in the relative power of women in public.
