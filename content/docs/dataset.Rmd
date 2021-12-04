@@ -63,7 +63,6 @@ contracts %>%
   kbl() %>%
   scroll_box(fixed_thead = T, height = "300px") 
 ```
-Points are randomly dispersed around the y axis.
 
 ## Transaction Type 
 

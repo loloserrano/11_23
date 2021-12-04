@@ -186,10 +186,14 @@ kable(couples_table, "html", caption = "Couples in KCP") %>%
 
 ### Operating Together
 
-Most of the couples appear on the same side of the litigation, operating essentially as a unit. Interestingly, most of 
+Most of the couples appear on the same side of the litigation, operating essentially as a unit. Interestingly, most of [UNIFINISHED!!]
 
+Many operate as a unit. Where one appears as a more prominent agent than the other, the more prominent one is most often a man. 
 
 ### The Adversaries
+[UNFINISHED!!]
+
+These involve the difficulty of heterosexual relationships. The Watts case and the Chen case are about the conflict resulting from separation, while the surrogacy case is about the conflict resulting from a deviation from the norm of a *man* and a *woman* having *natural children.*
 
 ## Relevant Non-Party Spouses
 
