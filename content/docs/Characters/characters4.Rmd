@@ -136,6 +136,8 @@ parties %>%
 
 #### Businesspeople: The Men
 
+[SUPER UNDERDEVELOPED - INTERESTING THINGS ABOUT COLLECTIVE BARGAINING (CRABBING ALASKA CASE) AND THE TYPE OF ∏ WHO CAN BRING SUITS]
+
 ```{r, echo = FALSE, warning = FALSE, message = FALSE}
 parties %>%
   filter(transaction == "Business",typenomf == "Man") %>%
