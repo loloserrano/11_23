@@ -104,7 +104,7 @@ I don't discern any particularly interesting trends over time, but you might dis
 All cases are randomly dispersed along the y axis to make the individual points easier to see. Vertical position is arbitrary.
 Double-click on the colored dots within the legend/key to isolate that category.*
 
-```{r, echo = FALSE, warning = FALSE, message = FALSE, fig.width=8,fig.height = 6}
+```{r, echo = FALSE, warning = FALSE, message = FALSE, fig.width=8,fig.height = 3}
 woman_parties <- parties
 
 woman_parties[woman_parties == "F"] <- "Misc. Family"
@@ -127,7 +127,7 @@ ggplotly(woman_parties, tooltip = "text")
 All cases are randomly dispersed along the y axis to make the individual points easier to see. Vertical position is arbitrary.
 Double-click on the colored dots within the legend/key to isolate that category.*
 
-```{r, echo = FALSE, warning = FALSE, message = FALSE, fig.width=8,fig.height = 6}
+```{r, echo = FALSE, warning = FALSE, message = FALSE, fig.width=8,fig.height = 3}
 man_parties <- parties
 
 man_parties[man_parties == "F"] <- "Misc. Family"
@@ -154,7 +154,7 @@ ggplotly(man_parties, tooltip = "text")
 #### Red is miscellaneous family, blue is spouse/partner, green is unrelated individual
 
 
-```{r, echo = FALSE, warning = FALSE, message = FALSE, fig.width=8,fig.height = 6}
+```{r, echo = FALSE, warning = FALSE, message = FALSE, fig.width=8,fig.height = 3}
 all_parties <- parties
 
 all_parties[all_parties == "F"] <- "Misc. Family"
@@ -247,7 +247,7 @@ Russell N. Pelo was involuntarily committed to a hospital after he telephoned hi
 
 ## Barely Relevant Non-Party Spouses
 
-One man and one woman had their marital status described as a strange, but seemingly purposeful, aside. 
+One man and one woman had their marital status described as a strange, but seemingly purposeful, aside.  
 
 #### *Dohrmann v. Swaney*
 ##### 14 N.E.3d 605 (Ill. 2014); KCP 129
