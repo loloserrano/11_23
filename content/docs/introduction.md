@@ -7,21 +7,21 @@ bookToC: true
 
 # Frugging KCP
 
-This project analyzes gender in Knapp, Crystal, and Prince’s *Problems in Contract Law: Cases and Materials.* It is directly inspired by Mary Joe Frug's "Re-Reading Contracts: A Feminist Analysis of a Contracts Casebook. "
-
 > A casebook is a powerful document. The editorial choices within a casebook determine how many readers think about the law of a doctrinal area, about lawyering in that field, about clients, and about legal reasoning.
 
 ##### Mary Joe Frug, Re-Reading Contracts: A Feminist Analysis of a Contracts Casebook, 34 AM. U. L. REV. 1065, 1069 (1985).
 
-This project compares the ways in which women appear in the casebook differently from men. In doing so, it reviews historical differences in the ways women and men have been able to live their lives. Most Americans expected women not to participate in the government or the formal economy from the country’s inception to the early twentieth century, and not to occupy public positions of capitalist power until the middle of the twentieth century. There is a massive historical disparity in the relative power of women in public (again, as a political population) and men (the same), that is slowly edging towards parity according mostly to economic metrics. 
+This project analyzes American gender in Knapp, Crystal, and Prince’s *Problems in Contract Law: Cases and Materials.* It is directly inspired by Mary Joe Frug's "Re-Reading Contracts: A Feminist Analysis of a Contracts Casebook. "
 
-For better or worse, the casebook does represent this dynamic. Presenting these inequalities accurately reflects the general exclusion of women from public life and contracts law for most of American history. The limited universe of American contracts presented in a this casebook provide an interesting venue to examine a snapshot of flawed, gendered, improving, complicated law.  
+In doing so, it reviews historical differences in the ways American women and men have been able to live their lives. Most Americans expected women not to participate in the government or the formal economy from the country’s inception to the early twentieth century, and not to occupy public positions of capitalist power until the middle of the twentieth century. There is a massive historical disparity in the relative power of women in public.
+
+For better or worse, the casebook does represent this dynamic. Presenting these inequalities accurately reflects the general exclusion of women from public life and contracts law for most of American history. The limited universe of American contracts presented in a this casebook provide an interesting venue to examine a snapshot of flawed, gendered, improving, complicated law.
 
 {{< columns >}}
 ## Mary Joe Frug 
 ### (1941-1991)
 
-Mary Joe Frug was a gender and legal theorist who produced luminary work on oppressive gendered patterns in American law. She produced some of the first postmodernist feminist scholarship and had, in my [Serrano's] opinion, some very good ideas. Frug's Re-Reading Contracts: A Feminist Analysis of a Contracts Casebook, 34 AM. U. L. REV. 1065 (1985) is the direct inspiration for this project. 
+Mary Joe Frug was a gender and legal theorist who produced brilliant work on oppressive gendered patterns in American law, some of the first postmodern feminist scholarship. Frug's Re-Reading Contracts: A Feminist Analysis of a Contracts Casebook, 34 AM. U. L. REV. 1065 (1985) is the direct inspiration for this project. 
 
 <--->
 
