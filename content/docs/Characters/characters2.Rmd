@@ -148,6 +148,29 @@ ggplotly(man_parties, tooltip = "text")
 
 ```
 
+### Complicated graph but you can figure it out if you play with the legend - double-click the dot/square/triangle to isolate
+
+#### Men are circles, women are squares, unknowns are triangle
+#### Red is miscellaneous family, blue is spouse/partner, green is unrelated individual
+
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE, fig.width=8,fig.height = 6}
+all_parties <- parties
+
+all_parties[all_parties == "F"] <- "Misc. Family"
+all_parties[all_parties == "N"] <- "Unrelated"
+all_parties[all_parties == "Y"] <- "Spouse/Partner"
+all_parties <- all_parties %>%
+  filter(typenomf == "Woman" | typenomf == "Man" | typenomf == "Unknown") %>%
+  group_by(name) %>%
+  mutate(n = n()) %>%
+  ggplot(aes(year,n, color = spouse, shape = typenomf, text = paste(sep = "", name,", ",side,", ",simplecite))) +
+  geom_point(alpha = 0.3, size = 1.5, position = position_jitter(w = 0, h = 0.3)) +
+  labs(title = "All Parties: Men are Circles, Women Triangles") +
+  scale_color_manual(values=c("red","blue","forestgreen"),name = "Spousal/Family Status", labels = c("Misc. Family","Unrelated","Spouse/Partner"))
+  
+ggplotly(all_parties, tooltip = "text") 
+```
 
 ## The (Un)Happy Couples 
 
