@@ -68,6 +68,8 @@ partnertable %>%
 
 Here is the same information in chart form for easier visualization. 
 
+*You can scroll around the chart - each colored bar has the number of cases and the percentage of each gender's cases (*not all cases*) that it represents.* 
+
 ```{r, echo = FALSE, warning = FALSE, message = FALSE}
 
 a <- parties %>%
@@ -83,6 +85,7 @@ a[a == "F"] <- "Misc. Family"
 a[a == "N"] <- "Unrelated"
 a[a == "Y"] <- "Spouse/Partner"
 a <- a %>%
+  arrange(spouse) %>%
   ggplot(aes(typenomf, fill = spouse)) + 
   geom_bar(aes(text = paste(sep = "", typeb,", ",percentage))) +
   labs(title = "Individuals by Gender and Family/Spousal Status", x = "Gender", y = "Number") +
@@ -97,7 +100,9 @@ The following charts are split by gender and show each individual litigant who a
 
 I don't discern any particularly interesting trends over time, but you might disagree. 
 
-*(The x axis is meaningful and accurately represents the year of the case. Points are randomly spread around the Y axis to make individual points easier to see - vertical position in meaningless.)*
+*You can scroll around the chart - each dot has the name and year of the woman it represents.
+All cases are randomly dispersed along the y axis to make the individual points easier to see. Vertical position is arbitrary.
+Double-click on the colored dots within the legend/key to isolate that category.*
 
 ```{r, echo = FALSE, warning = FALSE, message = FALSE, fig.width=8,fig.height = 6}
 woman_parties <- parties
@@ -116,6 +121,11 @@ woman_parties <- woman_parties %>%
   
 ggplotly(woman_parties, tooltip = "text") 
 ```
+
+
+*You can scroll around the chart - each dot has the name and year of the man it represents.
+All cases are randomly dispersed along the y axis to make the individual points easier to see. Vertical position is arbitrary.
+Double-click on the colored dots within the legend/key to isolate that category.*
 
 ```{r, echo = FALSE, warning = FALSE, message = FALSE, fig.width=8,fig.height = 6}
 man_parties <- parties
