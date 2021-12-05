@@ -12,7 +12,7 @@ weight: 30
 ![Mary Joe Frug](/img/frug_pic_2.jpg)
 
 
-*Frugging KCP* borrows heavily from Mary Joe Frug's methods in "Re-Reading Contracts: A Feminist Analysis of a Contracts Casebook" to Knapp, Crystal, and Prince's *Problems in Contract Law: Cases and Materials* (KCP).
+*Frugging KCP* applies Mary Joe Frug's methods in "Re-Reading Contracts: A Feminist Analysis of a Contracts Casebook" to Knapp, Crystal, and Prince's *Problems in Contract Law: Cases and Materials* (KCP).
 
 This project applies Fruggish methods to analyze the way that KCP represents gender. Most of the individuals who appears in the cases have one of two discernible binary genders: man or woman. Interestingly, several of the businesses have names that suggest gender - usually masculine - as well. There are substantial qualitative and quantitative differences between men and the women in the casebook, with the predominant thrust being limitations on the agency and participation of women. 
 
@@ -30,9 +30,9 @@ Theoretical:
 
 > presenting "extended quotations" from "scholars representing all modern schools of analysis."
 
-A critical note:  in section "The Perspective of Contract Theory" from pages 12-14, the editors name representative scholars, a jumping off point if students choose to do future research, for all schools of thought - Pound for sociological jurisprudence, Langdell for formalism, Llewellyn for realists, etc. - save one: Critical Legal Studies. 
+**A critical note:  in section "The Perspective of Contract Theory" from pages 12-14, the editors name representative scholars, a jumping off point if students choose to do future research, for all schools of thought - Pound for sociological jurisprudence, Langdell for formalism, Llewellyn for realists, etc. - save one: Critical Legal Studies.**
 
-Lawyering: 
+and Lawyering: 
 
 > "reminding the student repeatedly that the rules of law we encounter have an impact on real people in real disputes, and that creative lawyering in the contract area requires not merely knowledge of the rules of law but the ability to analyze and predict the effects of various courses of conduct that a client might take."
 
@@ -48,7 +48,7 @@ These human beings do, of course, exist in particular places at particular times
 
 ### Yes, gender is a historically located social construct
 
-KCP itself urges in its preface that the student view the material from a variety of other perspectives. I suggested another perspective from which to view the casebook. The casebook, a good faith representation of contract law with little consideration of gender, nevertheless reflects the gender system of the society within which it was created. 
+KCP itself urges in its preface that the student view the material from a variety of other perspectives. I suggest another perspective from which to view the casebook. The casebook, a good faith representation of contract law with little consideration of gender, nevertheless reflects the gender system of the society within which it was created. 
  
 My critical queer perspective firmly situates this binary gender system firmly within 19th, 20th, and 21st century America. This system of strictly binary gender with its host of unique, quirky, and toxic stereotypes is a historical phenomenon. So I study and describe men and women not as universal, binary, inherent categories, but as the problematic, particularized, raced, classed, and gendered identities of people in a certain time and place. 
 
@@ -88,9 +88,9 @@ As a critical queer, I find this to be a really apt definition far ahead of its 
 
 The firm sexual binary that undergirds so much of our society, and facilitates binarily gendered names, pronouns, clothing, jobs, domestic responsibilities, mannerisms, and so on, is not universally applicable. Most cultures develop some sort of cultural code around sexual differences. However, the strict limitation to *two categories* and the particular stereotypes associated with *both* are strictly American. 
 
-> First, I want to demonstrate that readers' views about gender affect their understanding of a law casebook. Second, I want to demonstrate that gendered aspects of a casebook affect readers' understanding of the law and of themselves.
+> I maintain that a gender-focused analysis is feminist only when its analyst is consciously oppositional, when the analyst seeks to change the impact of gender categories either to improve the position of women or to liberate both sexes from gender constraints. 
 
-###### Re-Reading Contracts 1066
+###### Re-Reading Contracts 1067
 
 ## Frugging: Applying the Methodology in "Re-Reading Contracts"
 
@@ -100,20 +100,10 @@ Frug described her first "kind of discussion" as follows:
 
 > In the first part, my analysis proceeds from concrete questions regarding women. I look at women as "characters" in the cases, among the "authors" whose decisions or legal commentary the editors have included in the book, and in the language of the book. 
 
-Frug's analysis of women as "characters" included hard numbers on how many women appeared in the book and qualitative analysis of how those women were represented by judges and casebook editors.
 
 ###### Re-Reading Contracts 1075
 
-
-### Abstract Characteristics
-
-> In the second part, my focus shifts to comparisons between abstract characteristics which we commonly attribute to men and characteristics of the casebook. I shall concentrate, in other words, on the analytical, autonomous, abstract, and neutral qualities of the book ... my aim in this second part is to reveal the gendered aspects of the book which do not directly pertain to women.  
-
-My observations about abstract characteristics in KCP are similar to Frug's. Women appear as an absence in many respects, with the most salient 
-
-## Neo-Fruggish Analysis
-
-### Neo-Fruggish Analysis of Characters
+Frug's analysis of women as "characters" included hard numbers on how many women appeared in the book and qualitative analysis of how those women were represented by judges and casebook editors.
 
 My analogue to Frug's analysis of Women of Characters is [The Characters: Wives, Widows, Workers.](/docs/characters/_index)
 
@@ -123,7 +113,10 @@ I collected data on the number of women appearing as parties in the cases, as we
 
 Qualitatively, I analyze the women in the casebook as "characters" by noting the contexts in which they appear and the language that is used to describe them, by both the judges in their cases and KCP. 
 
-### Neo-Fruggish Analysis of Abstract Characteristics
+
+### Abstract Characteristics
+
+> In the second part, my focus shifts to comparisons between abstract characteristics which we commonly attribute to men and characteristics of the casebook. I shall concentrate, in other words, on the analytical, autonomous, abstract, and neutral qualities of the book ... my aim in this second part is to reveal the gendered aspects of the book which do not directly pertain to women.  
 
 My analogue to Frug's analysis of abstract gendered characteristics is [The Characteristics: He's a Business, Man](/docs/trying). 
 
