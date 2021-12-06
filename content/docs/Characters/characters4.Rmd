@@ -136,7 +136,7 @@ parties %>%
 
 #### Businesspeople: The Men
 
-[SUPER UNDERDEVELOPED - INTERESTING THINGS ABOUT COLLECTIVE BARGAINING (CRABBING ALASKA CASE) AND THE TYPE OF ∏ WHO CAN BRING SUITS]
+There's also a wealth of stuff to study here about class, labor, and bargaining power - the Alaska crabbers case comes to mind particularly strongly. However, I think that this type of inquiry in contract law is pretty well developed in comparison to gender- and race-based analyses. Much like with Russell Pelo and questions of mental health, I think this is a very interesting area for research that I won't do justice to in this project.  
 
 ```{r, echo = FALSE, warning = FALSE, message = FALSE}
 parties %>%

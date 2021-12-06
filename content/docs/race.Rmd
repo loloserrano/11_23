@@ -54,13 +54,13 @@ contracts[contracts == "Government"] <- "Organization"
 
 ## Race in the Casebook
 
-### Misleadingly "Colorblind"
+### **Misleadingly "Colorblind"**
 
 Much to the detriment of this project, race is not as measurable in the casebook as gender. There are few people who have names that are not Anglo in origin. Even fewer have names that are not otherwise European in origin. While some of the people with European names are likely to be people of color, white people likely occupy an enormous proportion of characters in the book. My inability to measure that disparity makes most of this analysis  misleading colorblind. Most people privileged enough to engage in lawsuits, certainly on the plaintiff side, were white for most of American history and continue to be disproportionately white.
 
 So this is a much, much less holistic review than I'm able to conduct with strictly gender-related questions. That said, there's still quite a bit to dig into from a strictly qualitative standpoint.
 
-### Explicit Race
+### *Explicit Race*
 
 As far as I can tell, there's only one *explicit* mention of racism in any of the opinions included in KCP. There are multiple other cases where race is subtext: either implied in the cases or notes, or arguably very relevant and conspicuously absent. 
 
@@ -97,7 +97,7 @@ But race and racism are entirely, totally absent from the notes.
 
 The really big question in this case is to what extent racism is something that ought to be tackled legally in this kind of situation. Maybe the answer to that is no, but for it to be *entirely absent from the conversation* is deeply unsettling. A note bringing up the "best interest of the child" is a particularly apt place to 
 
-### Race as Subtext
+### **Race as Subtext**
 
 ![*This image of Coretta Scott and Martin Luther King is embedded in the text of KCP.*](/img/mlk.jpg)
 
@@ -114,9 +114,13 @@ Gee, what "volatile circumstances?" Could you get any less specific? I think you
 
 And of course, KCP's notes do not address, clarify, or critically interrogate the choice of "volatile," or the underlying circumstances that it inaptly describes. 
 
-As someone who (full disclosure) went to BU and worked for a time at the HGARC, I have a lot of love for that institution and its impressive stacks (shout out to Ryan Hendrickson). The court easily finds that MLK's manifested intent in a letter was enforceable and BU has a legal right to the papers, which under contract theories of consideration is quite valid. 
+The court found that MLK's manifested intent in a letter passed muster under the formal contract theory of consideration. The university could exercise its technically valid legal right to keep the large collection. 
 
-However, might there be something said for the conditionality of that entrustment? Could the broader social circumstances in which MLK chose BU and wrote that letter be relevant to an assessment of legal rights? Again, there's no clear right answer, but failing to address (and actively underplaying, with the word "volatility") racial terrorism is a major issue. 
+However, might there be something said for the conditional nature of that entrustment? Could the broader social circumstances in which MLK chose BU and wrote that letter be relevant to an assessment of legal rights? Again, there's no clear right answer, but failing to address (and actively underplaying, with the word "volatility") racial terrorism is a major issue. 
+
+###### As someone who (full disclosure) went to BU and worked for a time at the Howard Gottlieb Archival Research Center, I have a lot of love for the HGARC and its impressive stacks (shout out to Ryan Hendrickson, my mentor there). And I happen to know that BU leans **very heavily** on Martin Luther King Jr.'s legacy in its marketing. (King Jr. earned a PhD in systematic theology from BU, his tie to the intitution.) Projecting an image of diversity is profitable for modern universities, even as faculty and curricula lag behind the needs and challenges of the modern day that cries out for an explicit reckoning with white supremacy. I have so much respect for the actual archivists who take "scrupulous care," going through his materials, preserving them physically, organizing them for future study, and selecting excerpts to display, display, display. But BU, as a self-interested institution, and its administrators loooooooooove having MLK's stuff. They have pictures of MLK all over campus. The archive always has his materials prominently displayed. It's a strange mixture of self-serving virtue signaling and genuine care for King Jr.'s material legacy. 
+
+###### So that being said, I feel weird and queasy about BU having his stuff when his wife wants it back badly enough to sue. He entrusted his papers to BU because of well-founded anxieties about targeted white supremacist terror attacks. So, yeah, his one letter looks like manifested assent. But given the totality of the circumstances, *most* of which is about racism, the dry legal argument about sufficiency of consideration seems out of touch. 
 
 #### Williams v. Walker-Thomas Furniture Co.?
 ##### 350 F.2d 446 (D.C. Cir. 1965)
@@ -134,11 +138,11 @@ To be clear, this is not at all an uninteresting or unimportant line of inquiry.
 
 > Professor Judith Maute's recent article, Race Politics, O'Hare Airport Expansion, and Promissory Estoppel: The More Things Change, the More They Stay the Same, 69 Hastings L.J. 119 (2017), provides interesting insight in to the political background of the case. She explains that Chiacgo political concerns created pressure to use minority-owned businesses, but American Airlines and Jones Construction thought Quake was fronting for a nonminority-owned business. 
 
-To be clear, ![Maute's article](https://heinonline.org/HOL/Page?handle=hein.journals/hastlj69&div=6&g_sent=1&casa_token=&collection=journals) tackles the specific issues of *race* and *American Blackness* quite explicitly, which the KCP note neglects to do. 
+To be clear, [Maute's article](https://heinonline.org/HOL/Page?handle=hein.journals/hastlj69&div=6&g_sent=1&casa_token=&collection=journals) tackles the specific issues of *race* and *American Blackness* quite explicitly, which the KCP note neglects to do. 
 
 > Chicago has a long, storied racial history closely tied to the rise (and demise) of Reverend Jesse Jackson and his Operation PUSH ... A city with a large black population, [Harold] Washington became Chicago's first black mayor...
 
-Maute's article also references work by KCP's Charles Knapp, calls KCP "a leading contracts textbook," and says on the first page that "The Author gratefully acknowledges comments on earlier drafts from Douglas Baird, Bill Whitford, **Chuck Knapp, and H.G. Prince.** So I don't think this is evidence that KCP were exactly scouring law reviews for interesting points about racial justice. 
+Maute's article also references work by KCP's Charles Knapp, calls KCP "a leading contracts textbook," and says on the first page that "The Author gratefully acknowledges comments on earlier drafts from Douglas Baird, Bill Whitford, **Chuck Knapp, and H.G. Prince.** Prince isn't cited. Knapp is cited 13 times in text and/or footnotes. So I don't think this is evidence that KCP were exactly scouring law reviews for interesting points about racial justice. 
 
 #### Higgins v. Superior Court of Los Angeles County
 ##### 140 Cal. App. 4th 1238 (2006); KCP 650

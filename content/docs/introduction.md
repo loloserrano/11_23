@@ -48,7 +48,7 @@ In this section I describe the purpose, framework, and theory of this project. I
 
 ### [Race in the Casebook](/docs/race)
 
-In this section I do a summary qualitative assessment of race in the casebook. It's much more difficulty to gauge and thus to quantify, so this is observations about the few cases that race is explicit or clear subtext. 
+In this section I do a summary qualitative assessment of race in the casebook. It's much more difficult to gauge and thus to quantify, so this section is observations about the few cases that race is explicit or clear subtext. 
 
 ### [Data Collection and Dataset](/docs/dataset)
 
@@ -58,7 +58,7 @@ In this section I describe my data collection process and display some of the ra
 
 In this section I describe some very big-picture patterns in the data: general gender breakdown, transaction type, etc.
 
-### [The Characters: Wives, Widows, Workers](/docs/characters/_index)
+### [The Characters: Wives, Widows, and Workers](/docs/characters/_index)
 
 In this section I get to the juicier, qualitative stuff. I explore the individual humans who appear in the casebook as characters, understood, framed, and described by judges and casebook editors. Most of my focus in the section is on women, who appear as a minority of characters and in a strictly limited set of roles. Most strikingly, over half of the women appear in the litigation with a heterosexual partner; nearly another quarter of the women appear with another family member. 
 

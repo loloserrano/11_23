@@ -114,10 +114,10 @@ people_table_dataset %>%
 
 ### Race
 
-Much to the detriment of this project, race is not as measurable in the casebook as gender. There are few people who have names that are not Anglo in origin. Even fewer have names that are not otherwise European in origin. While some of the people with European names are likely to be people of color, white people likely occupy an enormous proportion of characters in the book. My inability to measure that disparity makes most of this analysis  misleading colorblind. Most people privileged enough to engage in lawsuits, certainly on the plaintiff side, were white for most of American history and continue to be disproportionately white.
+As I explore in the [race](/docs/race) section, it was much more difficulty to reliably label individuals in the casebook by race or ethnicity than by gender. As a result, I'm not able to incorporate that into any of the big-picture gender analysis. This is really unfortunate and misleadingly colorblind, while probably overwhelmingly white. 
 
 ### Gender 
-I based gender of individuals on traditional patterns in first names as well as pronouns, when they appeared. **See [Re-Reading Contracts and Updating Frug](/docs/rereading) for some important contextualization about what "gender" means in this project!**
+I based gender of individuals on traditional patterns in first names as well as pronouns, when they appeared. See [Re-Reading Contracts and Updating Frug](/docs/rereading) for some important contextualization about what "gender" means in this project!
 
 #### Unambiguous gender (marked "Man"): 
 > Plaintiff/Appellant Sammie Maness ("Maness"), in his 50s at all pertinent times, lived most of his life in McNairy County, Tennessee. *Maness v. Collins*, KCP 927.
