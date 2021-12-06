@@ -112,11 +112,11 @@ people_table_dataset %>%
 #### Individuals as representatives:
 > The president of Dare was Harry Shopmaker ... Shopmaker began discussions with Katz concerning retirement ... Shopmaker first offered Katz $10,500 per year as a pension. *Katz v. Danny Dare, Inc.*, KCP 248-249.
 
-### Race
+### **Race**
 
 As I explore in the [race](/docs/race) section, it was much more difficulty to reliably label individuals in the casebook by race or ethnicity than by gender. As a result, I'm not able to incorporate that into any of the big-picture gender analysis. This is really unfortunate and misleadingly colorblind, while probably overwhelmingly white. 
 
-### Gender 
+### **Gender** 
 I based gender of individuals on traditional patterns in first names as well as pronouns, when they appeared. See [Re-Reading Contracts and Updating Frug](/docs/rereading) for some important contextualization about what "gender" means in this project!
 
 #### Unambiguous gender (marked "Man"): 
@@ -130,7 +130,7 @@ I based gender of individuals on traditional patterns in first names as well as 
 I also collected 122 businesses or organizations that appeared as parties in the cases. 
 
 
-### Table: All Businesses/Organizations
+### **Table: All Businesses/Organizations**
 ```{r, echo = FALSE, warning = FALSE, message = FALSE}
 
 businesses_table_dataset <- parties %>%

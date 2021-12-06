@@ -5,8 +5,10 @@ bookToC: TRUE
 weight: 30
 ---
 
-## Re-Reading Contracts and Updating Frug
-### The Goals and Perspective of this Project
+# Re-Reading Contracts and Updating Frug
+
+
+### **The Goals and Perspective of this Project**
 
 
 ![Mary Joe Frug](/img/frug_pic_2.jpg)
@@ -46,7 +48,7 @@ As my critical note may suggest, I favor including a fourth and more critical pe
 
 These human beings do, of course, exist in particular places at particular times. These human beings have cultures, shared beliefs, and unspoken rules of power, behavior, and identity. These particular human beings are Americans [with a few exceptions] in the 19th, 20th, and 21st centuries, and as such they have very strictly defined binary genders. They are not just people: they are *men,* and they are *women.*
 
-### Yes, gender is a historically located social construct
+### **Yes, gender is a historically located social construct**
 
 KCP itself urges in its preface that the student view the material from a variety of other perspectives. I suggest another perspective from which to view the casebook. The casebook, a good faith representation of contract law with little consideration of gender, nevertheless reflects the gender system of the society within which it was created. 
  
@@ -58,14 +60,14 @@ KCP reveals significant gendered patterns in how (mostly white and relatively we
 
 Frug's "Re-Reading Contracts" is a thorough review of Dawson, Harvey, and Henderson's *Cases and Comment on Contracts* (4th ed. 1982).  
 
-### The Premise
+### **The Premise**
 > A casebook is a powerful document. The editorial choices within a casebook determine how many readers think about the law of a doctrinal area, about lawyering in that field, about clients, and about legal reasoning.
 
 ##### Mary Joe Frug, Re-Reading Contracts: A Feminist Analysis of a Contracts Casebook, 34 AM. U. L. REV. 1065 (1985).
 
 KCP is a powerful document. For me, and for many other first year law students, KCP will always be a foundational reference for the universe of American contract law. It is the first holistic account of contract law that I have ever seen. 
 
-### The Objective
+### **The Objective**
  > My objective is critical in character, for I believe a feminist analysis should change one's consciousness.
  
 I would describe my perspective as more queer than feminist but I completely sign on to this. I urge my readers to view KCP, and all of law, from another perspective: one in which the identities and relative power of the parties, judges, and editors play a role. 
@@ -76,13 +78,13 @@ In some ways, Frug's defense of the term "feminist" in "Rereading Contracts" doe
  
 > "The analysis of *Dawson, Harvey, and Henderson* which follows is primarily concerned with the power of gender in the casebook. It is this focus on gender that makes me claim my analysis is feminist. I use "gender" to mean the reductive, dualistic classification of a wide array of social and psychological characteristics *according to biological sex* [emphasis added]. Gender has power because we use it as a category to explain differences among individuals; it is an idea that organizes and colors many of our responses to others.
 
-##### Re-Reading Contracts 1066
+###### Re-Reading Contracts 1066
 
 "Biological sex" is a category that I find problematic, and that Frug articulated well later on in her career. In her last public work "A Postmodern Feminist Legal Manifesto (An Unfinished Draft)," she offered this definition: 
 
 > Sex differences are semiotic - that is, constituted by a system of signs that we produce and interpret.
 
-##### Mary Joe Frug, A Postmodern Feminist Legal Manifesto (An Unfinished Draft), Harvard Law Review 105 No. 5 1048, 1046 (Mar. 1992).
+###### Mary Joe Frug, A Postmodern Feminist Legal Manifesto (An Unfinished Draft), Harvard Law Review 105 No. 5 1048, 1046 (Mar. 1992).
 
 As a critical queer, I find this to be a really apt definition far ahead of its time. While sexual differences are *real*, in a physical and tangible sense, biological sex is in no way perfectly and reliability binary. There are enormous phenotypic differences between different "males" and different "females," and while many sexual characteristics appear along binary distributions, there is a substantial in-between. 
 
@@ -94,12 +96,11 @@ The firm sexual binary that undergirds so much of our society, and facilitates b
 
 ## Frugging: Applying the Methodology in "Re-Reading Contracts"
 
-### Women as Characters
+### **Women as Characters**
 
 Frug described her first "kind of discussion" as follows:
 
 > In the first part, my analysis proceeds from concrete questions regarding women. I look at women as "characters" in the cases, among the "authors" whose decisions or legal commentary the editors have included in the book, and in the language of the book. 
-
 
 ###### Re-Reading Contracts 1075
 
@@ -114,12 +115,11 @@ I collected data on the number of women appearing as parties in the cases, as we
 Qualitatively, I analyze the women in the casebook as "characters" by noting the contexts in which they appear and the language that is used to describe them, by both the judges in their cases and KCP. 
 
 
-### Abstract Characteristics
+### **Abstract Characteristics**
 
 > In the second part, my focus shifts to comparisons between abstract characteristics which we commonly attribute to men and characteristics of the casebook. I shall concentrate, in other words, on the analytical, autonomous, abstract, and neutral qualities of the book ... my aim in this second part is to reveal the gendered aspects of the book which do not directly pertain to women.  
 
 My analogue to Frug's analysis of abstract gendered characteristics is [The Characteristics: He's a Business, Man](/docs/trying). 
-
 My focus in this section is masculinity rather than femininity. In my critical queer perspective, masculinity is often as relevant as the object of analysis as femininity. 
 
 The most striking pattern in masculinity here is the number of businesses with masculine names (William G. Eurice & Bros., Inc., James Baird Co.). This raises some questions about corporate personhood, a legal fiction that allows corporations to exist and participate in the legal system. Is there an implied masculinity to the corporate "person?"

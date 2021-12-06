@@ -52,7 +52,7 @@ contracts[contracts == "Government"] <- "Organization"
 ```
 
 
-## Race in the Casebook
+# Race in the Casebook
 
 ### **Misleadingly "Colorblind"**
 

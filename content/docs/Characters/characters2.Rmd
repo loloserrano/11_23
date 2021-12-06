@@ -54,6 +54,7 @@ parties[parties == "Government"] <- "Organization"
 contracts[contracts == "Government"] <- "Organization"
 ```
 
+# Characters: Wives
 
 ## Marriage and Family 
 
@@ -184,7 +185,7 @@ kable(couples_table, "html", caption = "Couples in KCP") %>%
 
 ```
 
-### Operating Together: Man "and his wife"
+### **Operating Together: Man "and his wife"**
 
 Most of the couples appear on the same side of the litigation, operating essentially as a unit.
 
@@ -215,7 +216,7 @@ The only time that Mrs. Ray acts independently is this:
 <br>
 
 
-### The Adversaries
+### **The Adversaries**
 
 Three KCP cases tackle difficulties of heterosexual relationships. *Watts v. Watts* and *Chen v. Chen* are about the unique conflicts resulting from separation, while the surrogacy case is about the conflict resulting from a deviation from the norm of one man and one woman having "biological children." 
 

@@ -51,6 +51,8 @@ contracts[contracts == "Government"] <- "Organization"
 
 ```
 
+Characters: Workers 
+
 Recall from the [first character page](/docs/characters/_index) that Employee-Business and Business-Business transactions are the most male-skewed, at 82:18 and 83:17 splits respectively.  
 
 ## Employee Transactions
@@ -97,14 +99,16 @@ parties %>%
 
 13 men are on the defendant side, 12 on the plaintiff side: essentially the same 50-50 split as the women. You may notice the "16 other people" - they never appear as real individual characters in the litigation but are gendered as men. 
 
-### Plowman v. Indian Refining Co.
-#### 20 F. Supp. 1 (E.D. Ill. 1937)
-#### KCP 120
+#### Plowman v. Indian Refining Co.
+##### 20 F. Supp. 1 (E.D. Ill. 1937)
+##### KCP 120
 > Thirteen persons and the administrators of five deceased persons brought this suit ... The general manger of the refinery plant called the employees, who had rendered long years of service into his office and made with each a contract, to pay **him**, for the rest of **his** natural life ... the Lawrenceville Refinery where **these men** were employed...
 
 I took out and counted separately the people who appeared individually, such as "Plaintiff Kogan," but conglomerated the rest of the plaintiffs into one data point so they don't inflate the number of men. As the name of the section suggests, I'm more interested in the individuals who appear as characters, taking action and doing things, than all the parties who appear in litigation.
 
 ## Business Transactions
+
+There's also a wealth of stuff to study here about class, labor, and bargaining power - the Alaska crabbers case comes to mind particularly strongly. However, I think that this type of inquiry in contract law is pretty well developed in comparison to gender- and race-based analyses. Much like with Russell Pelo and questions of mental health, I think this is a very interesting area for research that I won't do justice to in this project.  
 
 ```{r, echo = FALSE, warning = FALSE, message = FALSE, fig.width=5, fig.height = 4}
 parties_business <- parties %>%
@@ -135,8 +139,6 @@ parties %>%
 
 
 #### Businesspeople: The Men
-
-There's also a wealth of stuff to study here about class, labor, and bargaining power - the Alaska crabbers case comes to mind particularly strongly. However, I think that this type of inquiry in contract law is pretty well developed in comparison to gender- and race-based analyses. Much like with Russell Pelo and questions of mental health, I think this is a very interesting area for research that I won't do justice to in this project.  
 
 ```{r, echo = FALSE, warning = FALSE, message = FALSE}
 parties %>%
