@@ -53,13 +53,9 @@ contracts[contracts == "Government"] <- "Organization"
 
 ```
 
-## Race
-
-Much to the detriment of this project, race is not as measurable in the casebook as gender. There are few people who have names that are not Anglo in origin. Even fewer have names that are not otherwise European in origin. While some of the people with European names are likely to be people of color, white people likely occupy an enormous proportion of characters in the book. My inability to measure that disparity makes most of this analysis  misleading colorblind. Most people privileged enough to engage in lawsuits, certainly on the plaintiff side, were white for most of American history and continue to be disproportionately white.
-
 ## Overview of All Cases
 
-20 of 103 cases, or nearly 1 in 5,  were decided before 1965, when a federal law prohibiting employment discrimination on the basis of race, color, religion, sex, or national origin finally came into effect and the U.S. ceased *legally being a racial apartheid state.* 73 of the 103 cases, or just under 3 in 4, were decided before the 21st century. 
+20 of 103 cases, or nearly 1 in 5,  were decided before 1965, when a federal law prohibiting employment discrimination on the basis of race, color, religion, sex, or national origin finally came into effect and the U.S. ceased *legally being a racial apartheid state.* (See [Race in the Casebook?](/docs/race) for a somewhat more complex but still woefully insufficient treatment of this topic.) 73 of the 103 cases, or just under 3 in 4, were decided before the 21st century. 
 
 *You can scroll around the chart - each dot has the name and year of the case it represents.
 All cases are randomly dispersed along the y axis to make the individual points easier to see. Vertical position is arbitrary.

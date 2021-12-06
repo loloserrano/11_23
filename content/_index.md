@@ -14,7 +14,7 @@ bookToC: true
 ![Mary Joe Frug](/img/maryjoe.jpg)
 [Twitter post of New England Law, Boston, source of image](https://twitter.com/newenglandlaw/status/1111255740487004161)
 
-This project analyzes American gender in Knapp, Crystal, and Prince’s *Problems in Contract Law: Cases and Materials.* It is directly inspired by Mary Joe Frug's "Re-Reading Contracts: A Feminist Analysis of a Contracts Casebook. "
+This project analyzes American gender in [Charles Knapp](https://www.uchastings.edu/people/charles-knapp/), [Nathan M. Crystal](https://www.cgcfirm.com/people/nathan-m-crystal/), and [H.G. Prince’s](https://www.uchastings.edu/people/h-g-prince/) *Problems in Contract Law: Cases and Materials.* It is directly inspired by Mary Joe Frug's "Re-Reading Contracts: A Feminist Analysis of a Contracts Casebook. "
 
 In doing so, it reviews historical differences in the ways American women and men have been able to live their lives. Most Americans expected women not to participate in the government or the formal economy from the country’s inception to the early twentieth century, and not to occupy public positions of capitalist power until the middle of the twentieth century. There is a massive historical disparity in the relative power of women in public.
 
@@ -45,6 +45,10 @@ In this section I defend Frugging, Fruggism, and Fruggish.
 ### [Re-Reading Contracts and Updating Frug](/docs/rereading)
 
 In this section I describe the purpose, framework, and theory of this project. I detail the works of Mary Joe Frug on which this project is based and introduce new ideas, both from her other pieces and from later work, that complicate the idea of gender. 
+
+### [Race in the Casebook](/docs/race)
+
+In this section I do a summary qualitative assessment of race in the casebook. It's much more difficulty to gauge and thus to quantify, so this is observations about the few cases that race is explicit or clear subtext. 
 
 ### [Data Collection and Dataset](/docs/dataset)
 

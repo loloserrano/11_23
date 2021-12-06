@@ -54,7 +54,7 @@ contracts[contracts == "Government"] <- "Organization"
 
 ## Widows
  
-Three women were described not with reference to husbands, but to the absence of husbands. Three widows appear in the casebook, all of whom are posed as vulnerable people being taken advantage of. There are no widowers. 
+Four women were described not with reference to husbands, but to the absence of husbands. Four widows appear in the casebook, all of whom are posed as vulnerable people being taken advantage of. There are no widowers. 
 
 In two of the widows’ cases, their judges lament their age and husbandless-ness at length. 
 
@@ -87,6 +87,16 @@ Another widow to appear is described similarly by Judge Fitzgerald Smith of the 
 
 Most of the opinion focuses on the nefarious misdeeds of George J. Dohrmann, who convinced Rogers to bequeath millions of dollars to him upon her death. Rogers is consistently posed in the background as a lonely, vulnerable victim, deceased at the time of litigation and unable to speak for herself. 
 
+### Williams v. Walker-Thomas Furniture Co.
+##### 350 F.2d 445 (D.C. Cir. 1965); KCP 639
+
+While Williams is not described as a "widow" in so many words, her husbandlessness, several children, and poverty level all play heavily into the opinion. 
+This case finds a contract unconscionable, so it has a general tone of moral outrage. The court quotes extensively from the lower appellate division's description of plight of plaintiff Williams, who had all her furniture repossessed due to a hidden contract clause:
+
+> ... appellee [Walker-Thomas Furniture Co.] was aware of appellant's [Williams'] financial position. The reverse side of the stereo contract listed the name of appellant's social worker and her $218 monthly stipend from the government. Nevertheless, with full knowledge that appellant had to feed, clothe and support herself and seven children on this amount, appellee sold her a $514 stereo set. 
+
+William's class, children, and husbandlessness all play into the court's ultimate finding of "gross inequality of bargaining power." 
+
 ### *Kirksey v. Kirksey*
 ##### 8 Ala. 131 (1845); KCP 227
 
@@ -98,7 +108,7 @@ The framing of vulnerability is less in the case itself, but the casebook. The e
 
 ## What do we make of this? 
 
-In the two cases in which the plaintiff's husbandlessness and vulnerability was bemoaned at length, the courts ruled in their favor and expressed moral outrage at the manipulative situations they had been in. In the case of Kirksey, the editors are clearly making an argument that the widow should have been protected by law, and that if the case had come later in time she would have been protected. 
+In the three cases in which the plaintiff's husbandlessness and vulnerability was bemoaned, the courts ruled in their favor and expressed moral outrage at the manipulative situations they had been in. In the case of Kirksey, the editors are clearly making an argument that the widow should have been protected by law, and that if the case had come later in time she would have been protected. 
 
 So the legal system here is working in favor of these vulnerable women, not against them. At the same time, there's a heavy element of paternalism and pity that can't be ignored. At the same time that their legal interests are protected, it would be a stretch to say they're empowered by the law in any way. The pity benefits them to an extent, but is still demeaning.
 

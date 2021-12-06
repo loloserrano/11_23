@@ -207,16 +207,26 @@ kable(couples_table, "html", caption = "Couples in KCP") %>%
 
 ```
 
-### Operating Together
+### Operating Together: Man "and his wife"
 
-Most of the couples appear on the same side of the litigation, operating essentially as a unit. Interestingly, most of [UNIFINISHED!!]
+Most of the couples appear on the same side of the litigation, operating essentially as a unit.
 
-Many operate as a unit. Where one appears as a more prominent agent than the other, the more prominent one is most often a man. 
+Unsurprisingly, when one spouse is a more prominent character than the other in the fact pattern, the more prominent character is very often a man. See *Jannush v. Naffziger,* KCP 149 ("Gene Jannusch and his wife, Martha, brought this action..." Gene appears prominently in the rest of the background section, but Martha never reappears again: "Gene acknowledged," "Gene suggested," "Gene attended the first of two festivals"); *Dodson v. Shrader,* KCP 572 (The plaintiff "purchased a used 1984 pick-up truck from Burns and Mary Shrader." The Shraders are referred to collectively several times, but Mr. Shrader is the only one to act independently: "Mr. Shrader, through counsel, declined;" "At the time of the circuit court trial, according to [Mr.] Shrader")
+
+The best example of this phenomenon is in Ray v. William Eurice & Bros.:
+
+#### Ray v. William G. Eurice & Bros., Inc
+##### 201 Md. 115 (1952), KCP 37
+
+With the same grammatical flair as the judge in *Jannusch,* the judge here introduces the Rays as "Calvin T. Ray and Katherine S. J. Ray, his wife." While Calvin Ray is a very prominent character ("Mr. Ray then employed an architect;" "Mr. Ray had copies;" "Mr. Ray advised Mr. Eurice.")
+
+The only time that Mrs. Ray acts independently is this: 
+
+> On February 22, at the office of the Eurice Corporation, on the Old Philadelphia Road, the contract was signed. Present, at the time, were Mr. Ray - Mrs. Ray was absent and had signed the contract earlier because she could not a babysitter...
 
 ### The Adversaries
-[UNFINISHED!!]
 
-These involve the difficulty of heterosexual relationships. The Watts case and the Chen case are about the conflict resulting from separation, while the surrogacy case is about the conflict resulting from a deviation from the norm of a *man* and a *woman* having *natural children.*
+Three KCP cases tackle difficulties of heterosexual relationships. *Watts v. Watts* and *Chen v. Chen* are about the unique conflicts resulting from separation, while the surrogacy case is about the conflict resulting from a deviation from the norm of a *man* and a *woman* having *natural children.*
 
 ## Relevant Non-Party Spouses
 

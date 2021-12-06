@@ -1,0 +1,154 @@
+---
+title: "Race in the Casebook"
+output: html_document
+weight: 32
+bookToC: TRUE
+---
+
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+library(kableExtra)
+library(tidyverse) 
+library(readxl)
+library(plotly)
+library(scales)
+library(RColorBrewer)
+contracts <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/contracts_gender_r_2.xlsx")
+defs <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/defs_r.xlsx")
+plfs <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/plfs_r.xlsx")
+parties <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/parties_r.xlsx")
+cites <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/cites_for_contracts.xlsx")
+gendertotaltable <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/gendertotaltable.xlsx")
+partnertable <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/partner_table.xlsx")
+ 
+names(gendertotaltable)[1] <- "gender"
+names(gendertotaltable)[5] <- "percentage"
+opts <- options(knitr.kable.NA = "")
+
+parties <- parties %>%
+  full_join(cites)
+names(parties)[4] <- "name"
+contracts <- contracts %>%
+  mutate(simplecite = cite) %>%
+  mutate(simplecite = str_extract(simplecite, "[^,]+"))
+
+names(parties)[9] <- "cite"
+
+n_parties_joiner <- parties %>%
+  group_by(cite) %>%
+  count() %>%
+  mutate(n_parties = n) %>%
+  select(cite, n_parties)
+
+parties <- parties %>%
+  mutate(simplecite = cite) %>%
+  mutate(simplecite = str_extract(simplecite, "[^,]+"))
+
+contracts <- contracts %>%
+  full_join(n_parties_joiner)
+
+parties[parties == "Government"] <- "Organization"
+contracts[contracts == "Government"] <- "Organization"
+```
+
+
+## Race in the Casebook
+
+### Misleadingly "Colorblind"
+
+Much to the detriment of this project, race is not as measurable in the casebook as gender. There are few people who have names that are not Anglo in origin. Even fewer have names that are not otherwise European in origin. While some of the people with European names are likely to be people of color, white people likely occupy an enormous proportion of characters in the book. My inability to measure that disparity makes most of this analysis  misleading colorblind. Most people privileged enough to engage in lawsuits, certainly on the plaintiff side, were white for most of American history and continue to be disproportionately white.
+
+So this is a much, much less holistic review than I'm able to conduct with strictly gender-related questions. That said, there's still quite a bit to dig into from a strictly qualitative standpoint.
+
+### Explicit Race
+
+As far as I can tell, there's only one *explicit* mention of racism in any of the opinions included in KCP. There are multiple other cases where race is subtext: either implied in the cases or notes, or arguably very relevant and conspicuously absent. 
+
+The only explicit mention of racism is in arguably the most emotionally fraught case in the book. 
+
+#### P.M. v. T.B.
+##### 907 N.W.2d 522 (Iowa 2018); KCP 695
+
+This is a case about a surrogacy contract gone sour. The opinion not introduce either couple as having any racial identity, but does describe their genders and, in the case of the two women, some of their reproductive history. After the Ms' (inteded parents) and Bs' (surrogates) relationship "began to break down over their disagreement as to payment of medical expenses," race formally entered the picture.  
+
+> On August 19, P.M. sent Facebook messages to D.B.'s sister, using racial slurs and profanity to insult D.B. D.B.'s sister shared the communication with T.B. On August 24, C.M. sent an email to T.B. and T.B.'s attorney, triggering a lengthy exchange, during which C.M. called T.B. the "N" word. That statement, along with the comments P.M. sent to D.B.'s sister, convinced T.B. that the Ms were racist. 
+
+Unless the judge addresses the question of racism in abridged parts of the opinion (in which case I have a major additional gripe with KCP), race never comes up again. 
+
+This case is all about public policy: social mores, ethical dilemmas, normative decision-making. The court examines, in its own words from a previous case, "whether this contracts between consenting adults is prohibited by statute, condemned by judicial decision, [or] contrary to the public morals." Evidently, racism is irrelevant to public morals. 
+
+The court focuses first on the statutory question, and whether the surrogacy contract constitutes a legal selling of a child. In the public policy analysis, they focus on the contracting freedom of consenting adults, and while they note that "surrogacy contracts do "women of lesser means serve as surrogate mothers more often than do wealthy women." However, 
+
+> ... there was been no proof that surrogacy contracts exploit poor women to any greater degree than economic necessity in general exploits them by inducing them to accept lower-paid or otherwise undesirable employment. 
+
+In the opinion, this functions to dispose of the idea that the surrogacy contract is exploitative of women in general, or poor women. It's another place where questions of power, exploitation, and **RACE** are very relevant; but the court entirely skirts the issue. 
+
+### KCP's end notes on P.M. v. T.B.
+
+They are very, very disappointing. 
+
+Note 5, "Gestational surrogacy and public policy," does bring into question the gender identity of decision-makers in fraught, sexual questions like these: 
+
+> Notably, the only woman on the California Supreme Court at that time, Justice Joyce Kennard, file the lone dissent in [*Johnson v. Calvert*, finding that surrogacy contract was enforceable in gestational surrogacies]. ... Justice Kennard reasoned instead that the best interest of the child should be used to determine parental rights.
+
+> Do you think that gender differences between judges are likely to affect how such a case is viewed? 
+
+But race and racism are entirely, totally absent from the notes. 
+
+The really big question in this case is to what extent racism is something that ought to be tackled legally in this kind of situation. Maybe the answer to that is no, but for it to be *entirely absent from the conversation* is deeply unsettling. A note bringing up the "best interest of the child" is a particularly apt place to 
+
+### Race as Subtext
+
+![*This image of Coretta Scott and Martin Luther King is embedded in the text of KCP.*](/img/mlk.jpg)
+
+#### King v. Trustees of Boston University
+##### 420 Mass. 52 (1995); KCP 237
+
+The other case that mentions racism, if in a very sanitized and roundabout fashion, is *King v. Trustees of Boston University.* This is the 1995 of Coretta Scott King attempting to recover her husband Martin's papers from the Howard Gottlieb Archival Research Center at BU, to which the latter had formally entrusted his archives. 
+
+The court describes MLK's decision making process in choosing BU to house his archives: 
+
+> Dr. King was approached regarding his papers by other universities, including his undergraduate alma mater, Morehouse College. Mrs. King testified that, although her late husband thought 'Boston seemed to be the only place, the best place, for safety,' he was concerned that depositing his papers with BU would evoke criticism that he was 'taking them away from a black institution in the South.' However, the volatile circumstances during the 1960s in the South led Dr. King to deposit some of his papers with BU...
+
+Gee, what "volatile circumstances?" Could you get any less specific? I think you mean intensification of white domestic racial terrorism. 
+
+And of course, KCP's notes do not address, clarify, or critically interrogate the choice of "volatile," or the underlying circumstances that it inaptly describes. 
+
+As someone who (full disclosure) went to BU and worked for a time at the HGARC, I have a lot of love for that institution and its impressive stacks (shout out to Ryan Hendrickson). The court easily finds that MLK's manifested intent in a letter was enforceable and BU has a legal right to the papers, which under contract theories of consideration is quite valid. 
+
+However, might there be something said for the conditionality of that entrustment? Could the broader social circumstances in which MLK chose BU and wrote that letter be relevant to an assessment of legal rights? Again, there's no clear right answer, but failing to address (and actively underplaying, with the word "volatility") racial terrorism is a major issue. 
+
+#### Williams v. Walker-Thomas Furniture Co.?
+##### 350 F.2d 446 (D.C. Cir. 1965)
+
+One of the very few instances where KCP chose to raise race as an issue sua sponte in the notes is after the *Williams v. Walker-Thomas* case, discussed more comprehensively in the [Widows](/docs/characters/characters3) section. Williams is described as a single mother of seven on a $218 monthly stipend from the government. KCP finds this, but not King or PM, an appropriate place to discuss race. From note 3, "Factual context for *Williams*:"
+
+> While the court does not reveal Williams's race or ethnicity, educational background, or work experience, the majority opinion reports her monthly income of $218 and the dissent indicates that she received "relief funds." What common assumptions about Williams might be made on the basis of that information and how might they affect the resolution of the case? 
+
+To be clear, this is not at all an uninteresting or unimportant line of inquiry. But it's telling that the very important question of race comes up here, while it's so conspicuously absent elsewhere. 
+
+#### Quake Construction, Inc. v. American Airlines, Inc.
+##### 152 Ill.2d 281 (1990); KCP 86
+
+*Quake* is a dispute about construction subcontracting in the building of an American Airlines wing of O'Hare Airport. KCP introduce "politics" and "minorities" as context in note 5, "Insight into the background of Quake," this time by referencing a piece of scholarship on the issue. 
+
+> Professor Judith Maute's recent article, Race Politics, O'Hare Airport Expansion, and Promissory Estoppel: The More Things Change, the More They Stay the Same, 69 Hastings L.J. 119 (2017), provides interesting insight in to the political background of the case. She explains that Chiacgo political concerns created pressure to use minority-owned businesses, but American Airlines and Jones Construction thought Quake was fronting for a nonminority-owned business. 
+
+To be clear, ![Maute's article](https://heinonline.org/HOL/Page?handle=hein.journals/hastlj69&div=6&g_sent=1&casa_token=&collection=journals) tackles the specific issues of *race* and *American Blackness* quite explicitly, which the KCP note neglects to do. 
+
+> Chicago has a long, storied racial history closely tied to the rise (and demise) of Reverend Jesse Jackson and his Operation PUSH ... A city with a large black population, [Harold] Washington became Chicago's first black mayor...
+
+Maute's article also references work by KCP's Charles Knapp, calls KCP "a leading contracts textbook," and says on the first page that "The Author gratefully acknowledges comments on earlier drafts from Douglas Baird, Bill Whitford, **Chuck Knapp, and H.G. Prince.** So I don't think this is evidence that KCP were exactly scouring law reviews for interesting points about racial justice. 
+
+#### Higgins v. Superior Court of Los Angeles County
+##### 140 Cal. App. 4th 1238 (2006); KCP 650
+
+This is a case that appears entirely free from any racial undertones in the opinion itself or in KCP's framing and notes. It details the legal conflict behind [Season 2, Episode 18 of the ABC TV show Extreme Makeover: Home Edition.](https://www.youtube.com/watch?v=BItZahPu_JA). 
+
+The case describes the Higgins family, five young people whose parents tragically pass away. The Leomitis family takes them in, and ABC approaches them to profit from their story on national television in return for a larger, remodeled house. As soon as the show was broadcast, the Leomitis family "informed petitioners the home was theirs (the Leomitis'), and the Leomitis ultimately forced petitioners to leave.
+
+Unknown to readers of KCP, the Higgins are Black, and the Leomitis are not. One [contemporaneous news article](https://www.seattletimes.com/nation-world/a-made-for-tv-fairy-tale-becomes-nasty-in-reality/) describe the case as "rancorous legal battle marked by allegations of fraud, greed, *racism* and broken promises:"
+
+> The lawsuit charged that the Leomitis’ generosity soon gave way to greed and deception as part of an “orchestrated campaign to degrade and insult” the siblings. The Higginses, who are black, accused the Leomitis of calling them “lazy” and “stupid,” and making “race-based remarks” about their hair, clothing and hygiene.
+
+Race and racism are, again, completely missing from KCP's discussion of the case. 
