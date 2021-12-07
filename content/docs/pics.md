@@ -40,7 +40,6 @@ The picture of Fred Astaire and Gingers Rogers is an interesting anomaly that I 
 
 {{< /columns >}}
 
-In both of these pictures, the men 
 
 ### **Two Women**
 
@@ -54,7 +53,6 @@ In both of these pictures, the men
 
 {{< /columns >}}
 
-In contrast to the pictures of the men doing zany work-related activity, the women depicted are just sort of standing. 
 
 ### **The Masculine Camel**
 The next image isn't exactly a person, but it's a clearly masculine-coded camel wearing cool sunglasses and a suit jacket over a ruffly blouse. It has meaty, masculine fingers instead of hooves so that it can grip fistfuls of Big Tobacco cash. 
