@@ -6,7 +6,7 @@ weight: 100
 
 ## All the Pictures in KCP
 
-I counted 23 images embedded within the text of KCP. Six images include human beings, and one includes a masculine humanoid camel.
+I counted 23 images embedded within the text of KCP. Seven images include human beings, and one includes a masculine humanoid camel.
 
 ### **Three Couples**
 
