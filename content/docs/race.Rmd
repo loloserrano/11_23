@@ -54,8 +54,6 @@ contracts[contracts == "Government"] <- "Organization"
 
 # Race in the Casebook
 
-### **Misleadingly "Colorblind"**
-
 Much to the detriment of this project, race is not as measurable in the casebook as gender. There are few people who have names that are not Anglo in origin. Even fewer have names that are not otherwise European in origin. While some of the people with European names are likely to be people of color, white people likely occupy an enormous proportion of characters in the book. My inability to measure that disparity makes most of this analysis  misleading colorblind. Most people privileged enough to engage in lawsuits, certainly on the plaintiff side, were white for most of American history and continue to be disproportionately white.
 
 So this is a much, much less holistic review than I'm able to conduct with strictly gender-related questions. That said, there's still quite a bit to dig into from a strictly qualitative standpoint.

@@ -60,9 +60,9 @@ contracts <- contracts %>%
 
 Corporations have long been viewed as persons under the law. This legal fiction confers on the corporations legal rights and legal obligations, allowing corporations to enter into contracts, own property, sue, and be sued. 
 
-The development of the American corporation is, as with much American history, overwhelmingly male. Gendered stereotypes and patterns abound in the actual organizations themselves. There is a substantial amount of attention being given now to the gender dynamics of the groups of humans who make corporate America, and most of the American job market in general. 
+The development of the American corporation is, as with much American history, overwhelmingly male. Gendered stereotypes and patterns abound in the actual organizations themselves. There is a substantial amount of attention being given now to the gender dynamics among the groups of humans who make corporate America. 
 
-There doesn't seem to be much scholarship about gendered stereotypes being imputed to the corporate "person" itself (himself?). Interestingly, of the many corporations and other businesses that appear in KCP, 23 have names that communicate gender in some respect. 19 of these are masculine, including first names like Arthur Murray Studio or group identifiers like Messrs. or Bros.; only four are feminine. I think this raises some questions about the extent to which gendered stereotypes get imputed to the fictitious corporate "person," and what implications that might have for business and law. 
+There doesn't seem to be much scholarship about gendered stereotypes being imputed to the corporate "person" itself (himself?). Interestingly, of the many corporations and other businesses that appear in KCP, 23 have names that communicate gender in some respect. 19 of these are masculine, including first names (Arthur, Danny, Marshall) or group identifiers (Messrs. or Bros). Only four are feminine. I think this raises some questions about the extent to which gendered stereotypes get imputed to the fictitious corporate "person," and what implications that might have for business and law. 
 
 Are corporations really just "people?" Or are corporations *men*?
 

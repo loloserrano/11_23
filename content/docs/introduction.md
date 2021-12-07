@@ -48,7 +48,9 @@ In this section I describe the purpose, framework, and theory of this project. I
 
 ### [Race in the Casebook](/docs/race)
 
-In this section I do a summary qualitative assessment of race in the casebook. It's much more difficult to gauge and thus to quantify, so this section is observations about the few cases that race is explicit or clear subtext. 
+In this section I do a summary qualitative assessment of race in the casebook. It's much more difficult to gauge and thus to quantify, so this section is much more cursory than the issue deserves. 
+
+On the whole, race and racism are a conspicuous absence in the cases and notes in KCP. Only one case mentions racism, and despite being a heavily policy-oriented opinion fails to engage with the idea in the slightest. Several other cases have a racial subtext that KCP generally fails to address meaningfully in the notes. 
 
 ### [Data Collection and Dataset](/docs/dataset)
 
@@ -65,3 +67,9 @@ In this section I get to the juicier, qualitative stuff. I explore the individua
 ### [The Characteristics: He's a Business, Man](/docs/trying)
 
 In this section I explore general notions of masculinity and femininity as they appear in the casebook. The most striking pattern here is the number of businesses with masculine names (William G. Eurice & Bros., Inc., James Baird Co.). This raises some questions about corporate personhood, a legal fiction that allows corporations to exist and participate in the legal system. Is there an implied masculinity to the corporate "person?"
+
+### [Pictures!](/docs/pics)
+
+This page contains all the pictures embedded in the text of KCP, of which the objective best is this masculine camel. 
+
+![ ](/pics/misc/misc1.png)
