@@ -67,19 +67,19 @@ The only explicit mention of racism is in arguably the most emotionally fraught 
 #### P.M. v. T.B.
 ##### 907 N.W.2d 522 (Iowa 2018); KCP 695
 
-This is a case about a surrogacy contract gone sour. The opinion not introduce either couple as having any racial identity, but does describe their genders and, in the case of the two women, some of their reproductive history. After the Ms' (inteded parents) and Bs' (surrogates) relationship "began to break down over their disagreement as to payment of medical expenses," race formally entered the picture.  
+This is a case about a surrogacy contract gone sour. The opinion does not introduce either couple as having any racial identity, but does describe their genders and, in the case of the two women, some of their reproductive history. After the Ms' (intended parents) and Bs' (surrogates) relationship "began to break down over their disagreement as to payment of medical expenses," race formally entered the picture.  
 
 > On August 19, P.M. sent Facebook messages to D.B.'s sister, using racial slurs and profanity to insult D.B. D.B.'s sister shared the communication with T.B. On August 24, C.M. sent an email to T.B. and T.B.'s attorney, triggering a lengthy exchange, during which C.M. called T.B. the "N" word. That statement, along with the comments P.M. sent to D.B.'s sister, convinced T.B. that the Ms were racist. 
 
-Unless the judge addresses the question of racism in abridged parts of the opinion (in which case I have a major additional gripe with KCP), race never comes up again. 
+That's it. Unless the judge addresses the question of racism in abridged parts of the opinion (in which case I have a major additional gripe with KCP), race never comes up again. 
 
 This case is all about public policy: social mores, ethical dilemmas, normative decision-making. The court examines, in its own words from a previous case, "whether this contracts between consenting adults is prohibited by statute, condemned by judicial decision, [or] contrary to the public morals." Evidently, racism is irrelevant to public morals. 
 
-The court focuses first on the statutory question, and whether the surrogacy contract constitutes a legal selling of a child. In the public policy analysis, they focus on the contracting freedom of consenting adults, and while they note that "surrogacy contracts do "women of lesser means serve as surrogate mothers more often than do wealthy women." However, 
+The court focuses first on the statutory question, and whether the surrogacy contract constitutes a legal selling of a child. In the public policy analysis, they focus on the contracting freedom of consenting adults, and while they note that "surrogacy contracts do "women of lesser means serve as surrogate mothers more often than do wealthy women." However,
 
 > ... there was been no proof that surrogacy contracts exploit poor women to any greater degree than economic necessity in general exploits them by inducing them to accept lower-paid or otherwise undesirable employment. 
 
-In the opinion, this functions to dispose of the idea that the surrogacy contract is exploitative of women in general, or poor women. It's another place where questions of power, exploitation, and **RACE** are very relevant; but the court entirely skirts the issue. 
+In the opinion, this functions to dispose of the idea that the surrogacy contract is exploitative of women in general, or poor women in particular. It's another place where questions of power, exploitation, and **RACE** are very relevant; but the court entirely skirts the issue. 
 
 ### KCP's end notes on P.M. v. T.B.
 
@@ -93,7 +93,7 @@ Note 5, "Gestational surrogacy and public policy," does bring into question the 
 
 But race and racism are entirely, totally absent from the notes. 
 
-The really big question in this case is to what extent racism is something that ought to be tackled legally in this kind of situation. Maybe the answer to that is no, but for it to be *entirely absent from the conversation* is deeply unsettling. A note bringing up the "best interest of the child" is a particularly apt place to 
+This policy-driven case demands a reckoning with to what extent racism should be tackled in court. Maybe the answer to that is no, but for it to be *entirely absent from the conversation* is deeply unsettling. A note bringing up the "best interest of the child" is a particularly apt place to start the conversation.  
 
 ### **Race as Subtext**
 
@@ -110,7 +110,7 @@ The court describes MLK's decision making process in choosing BU to house his ar
 
 Gee, what "volatile circumstances?" Could you get any less specific? I think you mean intensification of white domestic racial terrorism. 
 
-And of course, KCP's notes do not address, clarify, or critically interrogate the choice of "volatile," or the underlying circumstances that it inaptly describes. 
+KCP's notes do not address, clarify, or critically interrogate the choice of "volatile," or the underlying circumstances that it inaptly describes. 
 
 The court found that MLK's manifested intent in a letter passed muster under the formal contract theory of consideration. The university could exercise its technically valid legal right to keep the large collection. 
 
@@ -147,10 +147,11 @@ Maute's article also references work by KCP's Charles Knapp, calls KCP "a leadin
 
 This is a case that appears entirely free from any racial undertones in the opinion itself or in KCP's framing and notes. It details the legal conflict behind [Season 2, Episode 18 of the ABC TV show Extreme Makeover: Home Edition.](https://www.youtube.com/watch?v=BItZahPu_JA). 
 
-The case describes the Higgins family, five young people whose parents tragically pass away. The Leomitis family takes them in, and ABC approaches them to profit from their story on national television in return for a larger, remodeled house. As soon as the show was broadcast, the Leomitis family "informed petitioners the home was theirs (the Leomitis'), and the Leomitis ultimately forced petitioners to leave.
+The case describes the Higgins family, five young people whose parents tragically pass away. The Leomitis family takes them in, and ABC approaches them to profit from their story on national television in return for a larger, remodeled house. As soon as the show was broadcast, the Leomitis family "informed petitioners [the Higgins] the home was theirs (the Leomitis'), and the Leomitis ultimately forced petitioners to leave."
 
 Unknown to readers of KCP, the Higgins are Black, and the Leomitis are not. One [contemporaneous news article](https://www.seattletimes.com/nation-world/a-made-for-tv-fairy-tale-becomes-nasty-in-reality/) describe the case as "rancorous legal battle marked by allegations of fraud, greed, *racism* and broken promises:"
 
 > The lawsuit charged that the Leomitis’ generosity soon gave way to greed and deception as part of an “orchestrated campaign to degrade and insult” the siblings. The Higginses, who are black, accused the Leomitis of calling them “lazy” and “stupid,” and making “race-based remarks” about their hair, clothing and hygiene.
 
 Race and racism are, again, completely missing from KCP's discussion of the case. I actually wouldn't know that race played a role at all if a classmate of mine hadn't looked up the episode out of curiosity. 
+
