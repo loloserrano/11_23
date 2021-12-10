@@ -84,7 +84,7 @@ d2 <- parties %>%
   group_by(page) %>%
   mutate(count = n()) %>%
   ggplot() +
-  geom_jitter(width = 0,alpha=0.4, height = 5, aes(as.integer(year),count,col = typenomf, text = paste(sep = "",simplecite, ", ", year))) +
+  geom_jitter(width = 0,alpha=0.4, height = 5, aes(as.integer(year),count,col = typenomf, text = paste(sep = "",name, ", ", simplecite, ", ", year))) +
   labs(title = "All Parties in KCP", x = "Year", y = "Cases", subtitle = "Color by Party Type: Double-Click in Legend to Isolate") +
   theme(axis.text.y = element_blank(), axis.ticks.y = element_blank())
 
