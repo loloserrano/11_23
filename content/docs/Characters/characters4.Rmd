@@ -27,6 +27,7 @@ opts <- options(knitr.kable.NA = "")
 parties <- parties %>%
   full_join(cites)
 names(parties)[4] <- "name"
+
 contracts <- contracts %>%
   mutate(simplecite = cite) %>%
   mutate(simplecite = str_extract(simplecite, "[^,]+"))
@@ -126,6 +127,30 @@ parties_business <- parties %>%
 ggplotly(parties_business, tooltip = "text")
 ```
 
+#### Locke v. Warners Bros., Inc.
+###### 57 Cal. App. 4th 354 (1997); KCP 513
+
+Judge Klein of the California Court of Appeal's account of the dispute between Sondra Locke and Warner Bros. is remarkable for its simultaneous recognition and dismissal of gender bias in the workplace. The judge first contextualizes Locke's dispute as arising from a messy break-up with Clint Eastwood. They raise the issue of gender discrimination out of necessity in a brief section listing Locke's causes of action: 
+
+> The first cause of action alleged sex discrimination in violation of public policy. Locke alleged Warner denied her the benefit of the bargain of the development deal on account of her gender. The third cause of action, captioned "Tortious Breach of the Implied Covenant of Good Faith and Fair Dealing in Violation of Public Policy," alleged a similar claim. Locke pled that in denying her the benefits of the Warner/Locke agreement, Warner was "motivated by [its] discriminatory bias against women in violation of ... public policy." 
+
+Gender discrimination gets a brief one-sentence mention at the end of the section on the trial court's ruling: 
+
+> As for the two causes if action alleging sex discrimination, the trial court found no evidence Warner declined to develop the projects Locke submitted, and declined to use her directing services, on account of her gender. 
+
+The opinion then presents strong evidence of a triable issue of fact regarding Warner Bros. lack of good faith for several pages without any specific discussion of gender. Gender comes up one last time near the end:
+
+> 4. "Locke Waived any Error in the Trial Court's Ruling with Respect to Her Causes of Action Alleging Gender Bias" 
+
+The section is a cursory two paragraphs describing Locke's failure to properly raise the issue of the trial court's finding of no sex discrimination in a timely manner. It does not address the substance of her claims at all. 
+
+Overall, Judge Klein seems to duck the issue of gender as much as possible. 
+
+Interestingly, I'm pretty sure that the Judge Klein on the California Court of Appeals in 1997 was [Joan Dempsey Klein](https://www.latimes.com/california/story/2021-01-03/justice-joan-dempsey-klein-obituary), described as a "celebrated champion of women's rights." I think this is an example of an activist choosing her battles. There are times and places that are strategically optimal for pushing a progressive agenda, and times and places that are not. The messy personal tea of a famous actress is not exactly the ideal case to point out systemic issues.
+
+#### KCP's Note 3: Gender of racial discrimination as a breach of duty of good faith
+
+This is one of best and most fleshed-out conversations about identity-based discrimination that KCP include in the casebook.  It is one of the longer notes in the book, taking up about a full page. 
 
 #### Businesspeople: The Women
 
@@ -136,7 +161,6 @@ parties %>%
   kbl() %>%
   scroll_box(fixed_thead = T, height = "200px") 
 ```
-
 
 #### Businesspeople: The Men
 
