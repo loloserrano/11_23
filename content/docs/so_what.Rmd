@@ -1,0 +1,13 @@
+---
+title: "What Now?"
+weight: 100
+output: html_document
+---
+
+What do we do with this information? 
+
+### Knapp, Crystal, and Prince
+
+My main criticism of KCP themselves is less their case selection, as I think the gender imbalance is an unfortunate but accurate reflection of contract history, than their notes. Overall, the notes after cases dealing with gender and race fail to meaningfully engage with the ideas. 
+
+### Teachers of the Casebook

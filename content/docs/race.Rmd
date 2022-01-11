@@ -75,11 +75,11 @@ That's it. Unless the judge addresses the question of racism in abridged parts o
 
 This case is all about public policy: social mores, ethical dilemmas, normative decision-making. The court examines, in its own words from a previous case, "whether this contracts between consenting adults is prohibited by statute, condemned by judicial decision, [or] contrary to the public morals." Evidently, racism is irrelevant to public morals. 
 
-The court focuses first on the statutory question, and whether the surrogacy contract constitutes a legal selling of a child. In the public policy analysis, they focus on the contracting freedom of consenting adults, and while they note that "surrogacy contracts do "women of lesser means serve as surrogate mothers more often than do wealthy women." However,
+The court focuses first on the statutory question, and whether the surrogacy contract constitutes a legal selling of a child. In the public policy analysis, they focus on the contracting freedom of consenting adults, and while they note that "surrogacy contracts do "women of lesser means serve as surrogate mothers more often than do wealthy women." 
 
 > ... there was been no proof that surrogacy contracts exploit poor women to any greater degree than economic necessity in general exploits them by inducing them to accept lower-paid or otherwise undesirable employment. 
 
-In the opinion, this functions to dispose of the idea that the surrogacy contract is exploitative of women in general, or poor women in particular. It's another place where questions of power, exploitation, and **RACE** are very relevant; but the court entirely skirts the issue. 
+In the opinion, this functions to dispose of the idea that the surrogacy contract is exploitative of women in general, or poor women in particular. It's another place where questions of power, exploitation, and race are very relevant; but the court entirely skirts the issue. 
 
 ### KCP's end notes on P.M. v. T.B.
 
@@ -108,9 +108,7 @@ The court describes MLK's decision making process in choosing BU to house his ar
 
 > Dr. King was approached regarding his papers by other universities, including his undergraduate alma mater, Morehouse College. Mrs. King testified that, although her late husband thought 'Boston seemed to be the only place, the best place, for safety,' he was concerned that depositing his papers with BU would evoke criticism that he was 'taking them away from a black institution in the South.' However, the volatile circumstances during the 1960s in the South led Dr. King to deposit some of his papers with BU...
 
-Gee, what "volatile circumstances?" Could you get any less specific? I think you mean intensification of white domestic racial terrorism. 
-
-KCP's notes do not address, clarify, or critically interrogate the choice of "volatile," or the underlying circumstances that it inaptly describes. 
+"Volatile circumstances" is a woefully insufficient phrase to capture the intensification of white domestic racial terrorism in the period. KCP's notes do not address, clarify, or critically interrogate the choice of "volatile," or the underlying circumstances that it inaptly describes. 
 
 The court found that MLK's manifested intent in a letter passed muster under the formal contract theory of consideration. The university could exercise its technically valid legal right to keep the large collection. 
 
@@ -139,8 +137,6 @@ To be clear, this is not at all an uninteresting or unimportant line of inquiry.
 To be clear, [Maute's article](https://heinonline.org/HOL/Page?handle=hein.journals/hastlj69&div=6&g_sent=1&casa_token=&collection=journals) tackles the specific issues of *race* and *American Blackness* quite explicitly, which the KCP note neglects to do. 
 
 > Chicago has a long, storied racial history closely tied to the rise (and demise) of Reverend Jesse Jackson and his Operation PUSH ... A city with a large black population, [Harold] Washington became Chicago's first black mayor...
-
-Maute's article also references work by KCP's Charles Knapp, calls KCP "a leading contracts textbook," and says on the first page that "The Author gratefully acknowledges comments on earlier drafts from Douglas Baird, Bill Whitford, **Chuck Knapp, and H.G. Prince.** Prince isn't cited. Knapp is cited 13 times in text and/or footnotes. So I don't think this is evidence that KCP were exactly scouring law reviews for interesting points about racial justice. 
 
 #### Higgins v. Superior Court of Los Angeles County
 ##### 140 Cal. App. 4th 1238 (2006); KCP 650
