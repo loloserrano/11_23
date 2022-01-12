@@ -66,6 +66,8 @@ This page contains some of the pictures embedded in the text of KCP, of which th
 
 Interestingly, men and women are represented perfectly equally in the pictures in the casebook, with four of each appearing. In conjunction with the relative paucity of women in the cases themselves, this means that women are overrepresented in the pictures. Are women just more visually interesting? Is this an attempt at parity? 
 
-#### Lolo Serrano
+### [What Now?](/docs/so_what)
 
-Lolo Serrano is a candidate for a JD/PhD in American Legal History at the University of Pennsylvania. They are interested in discourse, power, and the construction of identity. 
+In this section I give tentative recommendations for ways to address the issues that this study points out. The main thrust of the the recommendations is simply including more information to prompt thoughtful, critical discussion. This could be done by either KCP themselves, in the notes, or professors who teach from the casebook. 
+
+#### Lolo Serrano is a candidate for a JD/PhD in American Legal History at the University of Pennsylvania. They are interested in discourse, power, and the construction of identity. 
