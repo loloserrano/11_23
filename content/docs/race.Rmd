@@ -7,20 +7,20 @@ bookToC: TRUE
 
 
 ```{r, echo = FALSE, warning = FALSE, message = FALSE}
-library(kableExtra)
 library(tidyverse) 
 library(readxl)
 library(plotly)
 library(scales)
 library(RColorBrewer)
-contracts <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/contracts_gender_r_2.xlsx")
-defs <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/defs_r.xlsx")
-plfs <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/plfs_r.xlsx")
-parties <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/parties_r.xlsx")
-cites <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/cites_for_contracts.xlsx")
-gendertotaltable <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/gendertotaltable.xlsx")
-partnertable <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/partner_table.xlsx")
- 
+library(kableExtra)
+contracts <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/1L.1 Contracts Galbraith/frugging misc/contracts_gender_r_2.xlsx")
+defs <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/1L.1 Contracts Galbraith/frugging misc/defs_r.xlsx")
+plfs <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/1L.1 Contracts Galbraith/frugging misc/plfs_r.xlsx")
+parties <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/1L.1 Contracts Galbraith/frugging misc/parties_r.xlsx")
+cites <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/1L.1 Contracts Galbraith/frugging misc/cites_for_contracts.xlsx")
+gendertotaltable <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/1L.1 Contracts Galbraith/frugging misc/gendertotaltable.xlsx")
+partnertable <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/1L.1 Contracts Galbraith/frugging misc/partner_table.xlsx")
+
 names(gendertotaltable)[1] <- "gender"
 names(gendertotaltable)[5] <- "percentage"
 opts <- options(knitr.kable.NA = "")
@@ -28,6 +28,7 @@ opts <- options(knitr.kable.NA = "")
 parties <- parties %>%
   full_join(cites)
 names(parties)[4] <- "name"
+
 contracts <- contracts %>%
   mutate(simplecite = cite) %>%
   mutate(simplecite = str_extract(simplecite, "[^,]+"))
@@ -48,8 +49,10 @@ contracts <- contracts %>%
   full_join(n_parties_joiner)
 
 parties[parties == "Government"] <- "Organization"
-contracts[contracts == "Government"] <- "Organization"
+contracts[contracts == "Government"] <- "Organization" 
+
 ```
+
 
 
 # Race in the Casebook
@@ -83,7 +86,7 @@ In the opinion, this functions to dispose of the idea that the surrogacy contrac
 
 ### KCP's end notes on P.M. v. T.B.
 
-They are very, very disappointing. 
+KCP do a little exploration of judges' genders but, similar to the writer of the opinion, skirt the issue of racism.
 
 Note 5, "Gestational surrogacy and public policy," does bring into question the gender identity of decision-makers in fraught, sexual questions like these: 
 
@@ -150,4 +153,9 @@ Unknown to readers of KCP, the Higgins are Black, and the Leomitis are not. One 
 > The lawsuit charged that the Leomitis’ generosity soon gave way to greed and deception as part of an “orchestrated campaign to degrade and insult” the siblings. The Higginses, who are black, accused the Leomitis of calling them “lazy” and “stupid,” and making “race-based remarks” about their hair, clothing and hygiene.
 
 Race and racism are, again, completely missing from KCP's discussion of the case. I actually wouldn't know that race played a role at all if a classmate of mine hadn't looked up the episode out of curiosity. 
+#### Comment: Historical Development of the Law of Contractual Capacity (pp. 589-591)
+
+It would be unfair of me not to mention a very good, developed note included after Sparrow v. Demonico, which explores contractual capacity. This note mentions the subsumption of married women's identities into their husbands for much of American history, and some of the laws designed to uphold white supremacy developed throughout slavery, legal segregation, various nativist movements, and persisting cultural and social barriers. 
+
+The only thing is that it's kind of a weird place to put the note. I think it deserves a spot at the front of the book as critically important context for the exclusivity of American contract law. It's very important! 
 

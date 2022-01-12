@@ -48,11 +48,11 @@ In this section I describe my data collection process and display some of the ra
 
 ### [The Cases: General Overview](/docs/cases)
 
-In this section I describe some very big-picture patterns in the data: general gender breakdown, transaction type, etc.
+In this section I describe some very big-picture patterns in the data: general gender breakdown, transaction type, etc. Women constitute about a fourth of the individual characters in the book.
 
 ### [The Characters: Wives, Widows, and Workers](/docs/characters/_index)
 
-In this section I get to the juicier, qualitative stuff. I explore the individual humans who appear in the casebook as characters, understood, framed, and described by judges and casebook editors. Most of my focus in the section is on women, who appear as a minority of characters and in a strictly limited set of roles. Most strikingly, over half of the women appear in the litigation with a heterosexual partner; nearly another quarter of the women appear with another family member. 
+In this section I get to the juicier, qualitative stuff. I explore the individual humans who appear in the casebook as characters: how they are understood, framed, and described by judges and casebook editors. Most of my focus in the section is on women, who appear as a minority of characters and in a strictly limited set of roles. Most strikingly, over half of the women appear in the litigation with a heterosexual partner; nearly another quarter of the women appear with another family member. 
 
 ### [The Characteristics: He's a Business, Man](/docs/trying)
 
@@ -60,12 +60,12 @@ In this section I explore general notions of masculinity and femininity as they 
 
 ### [Pictures!](/docs/pics)
 
-This page contains all the pictures embedded in the text of KCP, of which the objective best is this masculine camel. 
+This page contains some of the pictures embedded in the text of KCP, of which the objective best is this masculine camel. 
 
 ![ ](/pics/misc/misc1.png)
 
+Interestingly, men and women are represented perfectly equally in the pictures in the casebook, with four of each appearing. In conjunction with the relative paucity of women in the cases themselves, this means that women are overrepresented in the pictures. Are women just more visually interesting? Is this an attempt at parity? 
 
 #### Lolo Serrano
-##### (1999-Present)
 
-Lolo Serrano is a candidate for a JD/PhD in American Legal History at the University of Pennsylvania. They are interested in discourse, identity, and power, and they plan to study American imperialist and capitalist manipulation of international law. 
+Lolo Serrano is a candidate for a JD/PhD in American Legal History at the University of Pennsylvania. They are interested in discourse, power, and the construction of identity. 

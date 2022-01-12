@@ -12,13 +12,13 @@ library(plotly)
 library(scales)
 library(RColorBrewer)
 library(kableExtra)
-contracts <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/contracts_gender_r_2.xlsx")
-defs <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/defs_r.xlsx")
-plfs <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/plfs_r.xlsx")
-parties <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/parties_r.xlsx")
-cites <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/cites_for_contracts.xlsx")
-gendertotaltable <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/gendertotaltable.xlsx")
-partnertable <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/partner_table.xlsx")
+contracts <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/1L.1 Contracts Galbraith/frugging misc/contracts_gender_r_2.xlsx")
+defs <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/1L.1 Contracts Galbraith/frugging misc/defs_r.xlsx")
+plfs <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/1L.1 Contracts Galbraith/frugging misc/plfs_r.xlsx")
+parties <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/1L.1 Contracts Galbraith/frugging misc/parties_r.xlsx")
+cites <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/1L.1 Contracts Galbraith/frugging misc/cites_for_contracts.xlsx")
+gendertotaltable <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/1L.1 Contracts Galbraith/frugging misc/gendertotaltable.xlsx")
+partnertable <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/1L.1 Contracts Galbraith/frugging misc/partner_table.xlsx")
 
 names(gendertotaltable)[1] <- "gender"
 names(gendertotaltable)[5] <- "percentage"
@@ -133,7 +133,6 @@ ggplotly(parties_business, tooltip = "text")
 Judge Klein of the California Court of Appeal's account of the dispute between Sondra Locke and Warner Bros. is remarkable for its simultaneous recognition and dismissal of gender bias in the workplace. The judge first contextualizes Locke's dispute as arising from a messy break-up with Clint Eastwood. They raise the issue of gender discrimination out of necessity in a brief section listing Locke's causes of action: 
 
 > The first cause of action alleged sex discrimination in violation of public policy. Locke alleged Warner denied her the benefit of the bargain of the development deal on account of her gender. The third cause of action, captioned "Tortious Breach of the Implied Covenant of Good Faith and Fair Dealing in Violation of Public Policy," alleged a similar claim. Locke pled that in denying her the benefits of the Warner/Locke agreement, Warner was "motivated by [its] discriminatory bias against women in violation of ... public policy." 
-
 Gender discrimination gets a brief one-sentence mention at the end of the section on the trial court's ruling: 
 
 > As for the two causes if action alleging sex discrimination, the trial court found no evidence Warner declined to develop the projects Locke submitted, and declined to use her directing services, on account of her gender. 
@@ -146,7 +145,7 @@ The section is a cursory two paragraphs describing Locke's failure to properly r
 
 Overall, Judge Klein seems to duck the issue of gender as much as possible. 
 
-Interestingly, I'm pretty sure that the Judge Klein on the California Court of Appeals in 1997 was [Joan Dempsey Klein](https://www.latimes.com/california/story/2021-01-03/justice-joan-dempsey-klein-obituary), described as a "celebrated champion of women's rights." I think this is an example of an activist choosing her battles. There are times and places that are strategically optimal for pushing a progressive agenda, and times and places that are not. The messy personal tea of a famous actress is not exactly the ideal case to point out systemic issues.
+Interestingly, I'm pretty sure that the Judge Klein on the California Court of Appeals in 1997 was [Joan Dempsey Klein](https://www.latimes.com/california/story/2021-01-03/justice-joan-dempsey-klein-obituary), described in the linked article as a "celebrated champion of women's rights." I think this is an example of an activist choosing her battles. There are times and places that are strategically optimal for pushing a progressive agenda, and times and places that are not. The messy personal tea of a famous actress is not exactly the ideal case to point out systemic issues.
 
 #### KCP's Note 3: Gender or racial discrimination as a breach of duty of good faith
 

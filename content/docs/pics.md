@@ -24,7 +24,9 @@ I counted 24 images embedded within the text of KCP. Seven images include human 
 
 {{< /columns >}}
 
-Coretta Scott King and Sondra Locke are both plaintiffs in cases included in KCP, and their pictured partners appear in the facts of their dispute. 
+The couples are all very famous people likely known to the readers. Editors hoping to engage the interest and attention of their audience can lean on celebrity and recognition to engage their readers.
+
+Coretta Scott King and Sondra Locke are both plaintiffs in cases included in KCP, and their pictured partners appear in the facts of their dispute. As far as I know, both are less famous or recognizable than their husbands. This might be a slight reflection of the same phenomenon that leads to the massive overrepresentation of married women in the cases: a traditional view of women as subordinate to, and for a while legally subsumed by, their husbands. 
 
 The picture of Fred Astaire and Gingers Rogers is an interesting anomaly that I explore a little more in the [widows](/docs/characters/characters3) section. They appear as a stark visual contrast to the opinion's description of a sad, lonely old widow who can't dance.  
 
@@ -40,6 +42,7 @@ The picture of Fred Astaire and Gingers Rogers is an interesting anomaly that I 
 
 {{< /columns >}}
 
+The two men have somewhat bizarre and interesting careers and appear in very unusual situations: pole-sitting is quite the odd phenomenon and Jesse Ventura's jacket alone merits hours of aesthetic admiration (the fringe? fabulous. the zebra print? vivacious. the asymmetrical construction? ingenious), let alone his sexy flexing tight-clad plastic figurine (oh baby, that's "The Body" alright.) 
 
 ### **Two Women**
 
@@ -53,55 +56,17 @@ The picture of Fred Astaire and Gingers Rogers is an interesting anomaly that I 
 
 {{< /columns >}}
 
+In contrast, the two women are just kind of standing there. I'm honestly not sure if this is praise or criticism, or if it's particularly important. Probably not. Both women are very much outliers in terms of their identities and positioning in the litigation. Both are some of the unusual businesswomen who appear in the book, as well as some of the very unusual women whose marital status is not mentioned. Both are defendants being sued by disgruntled employees, and both lose ultimately lose.
+
+Interestingly, both are also pioneers of feminine-oriented appearance-driven industries (cosmetics in Arden's case, fashion in Lady Duff-Gordon's.) They also have some nice outfits, but there's no zebra print or fringe, so I'm underwhelmed. 
 
 ### **The Masculine Camel**
-The next image isn't exactly a person, but it's a clearly masculine-coded camel wearing cool sunglasses and a suit jacket over a ruffly blouse. It has meaty, masculine fingers instead of hooves so that it can grip fistfuls of Big Tobacco cash. 
+The next image isn't exactly a person, but it's a clearly masculine-coded camel wearing cool sunglasses and a suit jacket over a ruffly blouse. It has meaty, masculine fingers instead of hooves so that it can grip fistfuls of Big Tobacco cash. Joe the Camel has also been analyzed by none other than the *New York Times* as [looking like a penis](https://www.nytimes.com/1992/03/20/opinion/joe-camel-an-xrated-smoke.html) ("an amiable, animate phallus").
  
 ![ ](/pics/misc/misc1.png)
 
 
 ### **The Rest**
 
-Then there's 11 buildings, 3 boats, a bridge, and a stretch of oceanside highway in Hawaii. 
-
-<details closed>
-<summary> <span title='Click to Expand'> Buildings </span> </summary>
-
-![ ](/pics/buildings/building1.png)
-![ ](/pics/buildings/building2.png)
-![ ](/pics/buildings/building3.png)
-![ ](/pics/buildings/building4.png)
-![ ](/pics/buildings/building5.png)
-![ ](/pics/buildings/building6.png)
-![ ](/pics/buildings/building7.png)
-![ ](/pics/buildings/building8.png)
-![ ](/pics/buildings/building9.png)
-![ ](/pics/buildings/building10.png)
-![ ](/pics/buildings/building11.png)
-</details>
-<br>
-
-
-
-
-<details closed>
-<summary> <span title='Click to Expand'> Boats </span> </summary>
-
-![ ](/pics/boats/boat1.png)
-![ ](/pics/boats/boat2.png)
-![ ](/pics/boats/boat3.png)
-
-</details>
-<br>
-
-
-
-<details closed>
-<summary> <span title='Click to Expand'> Miscellaneous </span> </summary>
-
-![ ](/pics/misc/misc2.png)
-![ ](/pics/misc/misc3.png)
-
-</details>
-<br>
+Then there's 11 buildings, 3 boats, a bridge, and a stretch of oceanside highway in Hawaii. I don't have any meaningful analysis of these pictures so they're not included here. 
 

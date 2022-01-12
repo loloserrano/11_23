@@ -11,13 +11,14 @@ library(readxl)
 library(plotly)
 library(scales)
 library(RColorBrewer)
-contracts <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/contracts_gender_r_2.xlsx")
-defs <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/defs_r.xlsx")
-plfs <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/plfs_r.xlsx")
-parties <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/parties_r.xlsx")
-cites <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/cites_for_contracts.xlsx")
-gendertotaltable <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/gendertotaltable.xlsx")
-partnertable <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/partner_table.xlsx")
+library(kableExtra)
+contracts <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/1L.1 Contracts Galbraith/frugging misc/contracts_gender_r_2.xlsx")
+defs <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/1L.1 Contracts Galbraith/frugging misc/defs_r.xlsx")
+plfs <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/1L.1 Contracts Galbraith/frugging misc/plfs_r.xlsx")
+parties <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/1L.1 Contracts Galbraith/frugging misc/parties_r.xlsx")
+cites <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/1L.1 Contracts Galbraith/frugging misc/cites_for_contracts.xlsx")
+gendertotaltable <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/1L.1 Contracts Galbraith/frugging misc/gendertotaltable.xlsx")
+partnertable <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/1L.1 Contracts Galbraith/frugging misc/partner_table.xlsx")
 
 names(gendertotaltable)[1] <- "gender"
 names(gendertotaltable)[5] <- "percentage"
@@ -26,6 +27,7 @@ opts <- options(knitr.kable.NA = "")
 parties <- parties %>%
   full_join(cites)
 names(parties)[4] <- "name"
+
 contracts <- contracts %>%
   mutate(simplecite = cite) %>%
   mutate(simplecite = str_extract(simplecite, "[^,]+"))
@@ -45,7 +47,11 @@ parties <- parties %>%
 contracts <- contracts %>%
   full_join(n_parties_joiner)
 
+parties[parties == "Government"] <- "Organization"
+contracts[contracts == "Government"] <- "Organization" 
+
 ```
+
 
 # The Characters
 
@@ -183,5 +189,10 @@ parties_business <- parties %>%
 ggplotly(parties_business, tooltip = "text")
 ```
 
+## Wives, Widows, and Workers
 
+[Wives](/docs/characters/characters2) explores the massive disproportionality in the number of women who appear in the book either with a spouse or other family member (over 2/3!!) and the rhetorical differences in how judges treat the partners. 
 
+[Widows](/docs/characters/characters3) explores the four husbandless women presented as vulnerable (borderline tragic) characters who need legal protection. Is this a helpful address of systemic marginalization, or harmful paternalism? 
+
+[Workers](/docs/characters/characters4) explores the disparities in number of women and men in employment and business transactions, with a discussion of Locke v. Warners Bros., one of the only cases to explicitly tackle (and summarily dismiss) sexism.

@@ -10,20 +10,21 @@ weight: 60
 
 ![ ](/img/mittens_romney.jpg)
 
+
 ```{r, echo = FALSE, warning = FALSE, message = FALSE}
-library(tidyverse)
+library(tidyverse) 
 library(readxl)
 library(plotly)
-library(RColorBrewer) 
-library(systemfonts)
+library(scales)
+library(RColorBrewer)
 library(kableExtra)
-contracts <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/contracts_gender_r_2.xlsx")
-defs <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/defs_r.xlsx")
-plfs <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/plfs_r.xlsx")
-parties <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/parties_r.xlsx")
-cites <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/cites_for_contracts.xlsx")
-gendertotaltable <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/gendertotaltable.xlsx")
-partnertable <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/partner_table.xlsx")
+contracts <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/1L.1 Contracts Galbraith/frugging misc/contracts_gender_r_2.xlsx")
+defs <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/1L.1 Contracts Galbraith/frugging misc/defs_r.xlsx")
+plfs <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/1L.1 Contracts Galbraith/frugging misc/plfs_r.xlsx")
+parties <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/1L.1 Contracts Galbraith/frugging misc/parties_r.xlsx")
+cites <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/1L.1 Contracts Galbraith/frugging misc/cites_for_contracts.xlsx")
+gendertotaltable <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/1L.1 Contracts Galbraith/frugging misc/gendertotaltable.xlsx")
+partnertable <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/1L.1 Contracts Galbraith/frugging misc/partner_table.xlsx")
 
 names(gendertotaltable)[1] <- "gender"
 names(gendertotaltable)[5] <- "percentage"
@@ -32,16 +33,12 @@ opts <- options(knitr.kable.NA = "")
 parties <- parties %>%
   full_join(cites)
 names(parties)[4] <- "name"
+
 contracts <- contracts %>%
   mutate(simplecite = cite) %>%
   mutate(simplecite = str_extract(simplecite, "[^,]+"))
 
-
 names(parties)[9] <- "cite"
-
-parties <- parties %>%
-  mutate(simplecite = cite) %>%
-  mutate(simplecite = str_extract(simplecite, "[^,]+"))
 
 n_parties_joiner <- parties %>%
   group_by(cite) %>%
@@ -49,12 +46,18 @@ n_parties_joiner <- parties %>%
   mutate(n_parties = n) %>%
   select(cite, n_parties)
 
+parties <- parties %>%
+  mutate(simplecite = cite) %>%
+  mutate(simplecite = str_extract(simplecite, "[^,]+"))
+
 contracts <- contracts %>%
   full_join(n_parties_joiner)
 
-
+parties[parties == "Government"] <- "Organization"
+contracts[contracts == "Government"] <- "Organization" 
 
 ```
+
 
 ## The Corporate "Person"
 

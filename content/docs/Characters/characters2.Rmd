@@ -10,19 +10,17 @@ output:
 ```{r, echo = FALSE, warning = FALSE, message = FALSE}
 library(tidyverse) 
 library(readxl)
-library(plotly) 
+library(plotly)
 library(scales)
 library(RColorBrewer)
 library(kableExtra)
-library(details)
-contracts <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/contracts_gender_r_2.xlsx")
-defs <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/defs_r.xlsx")
-plfs <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/plfs_r.xlsx")
-parties <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/parties_r.xlsx")
-cites <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/cites_for_contracts.xlsx")
-gendertotaltable <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/gendertotaltable.xlsx")
-partnertable <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/partner_table.xlsx")
-couples <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/couples.xlsx")
+contracts <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/1L.1 Contracts Galbraith/frugging misc/contracts_gender_r_2.xlsx")
+defs <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/1L.1 Contracts Galbraith/frugging misc/defs_r.xlsx")
+plfs <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/1L.1 Contracts Galbraith/frugging misc/plfs_r.xlsx")
+parties <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/1L.1 Contracts Galbraith/frugging misc/parties_r.xlsx")
+cites <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/1L.1 Contracts Galbraith/frugging misc/cites_for_contracts.xlsx")
+gendertotaltable <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/1L.1 Contracts Galbraith/frugging misc/gendertotaltable.xlsx")
+partnertable <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/1L.1 Contracts Galbraith/frugging misc/partner_table.xlsx")
 
 names(gendertotaltable)[1] <- "gender"
 names(gendertotaltable)[5] <- "percentage"
@@ -31,6 +29,7 @@ opts <- options(knitr.kable.NA = "")
 parties <- parties %>%
   full_join(cites)
 names(parties)[4] <- "name"
+
 contracts <- contracts %>%
   mutate(simplecite = cite) %>%
   mutate(simplecite = str_extract(simplecite, "[^,]+"))
@@ -51,8 +50,10 @@ contracts <- contracts %>%
   full_join(n_parties_joiner)
 
 parties[parties == "Government"] <- "Organization"
-contracts[contracts == "Government"] <- "Organization"
+contracts[contracts == "Government"] <- "Organization" 
+
 ```
+
 
 # Characters: Wives
 
@@ -231,7 +232,7 @@ Two men and two women had their relationships described with reference to the pr
 
 57 Cal. App. 4th 354 (1997); KCP 513
 
-Sondra Locke’s dispute with Warner Bros. is framed as something patronizingly set up for her by her ex Clint Eastwood (not a party), relevant to the argument about good faith. I explore this, and the gender implications of the case as a whole, further in the workers tab. 
+Sondra Locke’s dispute with Warner Bros. is framed as something patronizingly set up for her by her ex Clint Eastwood (not a party), relevant to the argument about good faith. I explore this, and the gender implications of the case as a whole, further in the [workers](/docs/characters/characters4) tab. 
 
 </details>
 <br>
@@ -310,7 +311,7 @@ What value does the inclusion of Dohrmann's job, his marriage, and his wife's jo
 
 20 Cal. Rptr. 3d 507 (Cal. Ct. App. 2011); KCP 255 
 
-The judge introduces the plaintiff, independently bringing a suit with whose spouse appears only as a minor detail in the rest of the opinion, as “Claudia Aceves, a married woman.” (255) The case is about bankruptcy – perhaps her marriage establishes some kind of moral credibility? There might be some kind of difference in the judge's mind between a bankrupted single woman and a bankrupted wife. 
+The judge introduces the plaintiff, independently bringing a suit with whose spouse appears only as a minor detail in the rest of the opinion, as “Claudia Aceves, a married woman.” (255) The case is about bankruptcy. Perhaps marital status is just relevant to bankruptcy law, and is a dry administrative detail. However, it seems telling that her marital status is the first detail the judge chooses to mention. Perhaps her marriage establishes some kind of moral credibility? There might be some kind of difference in the judge's mind between a bankrupted single woman and a bankrupted wife.
 
 </details>
 <br>
