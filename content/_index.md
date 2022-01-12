@@ -60,7 +60,7 @@ In this section I explore general notions of masculinity and femininity as they 
 
 ### [Pictures!](/docs/pics)
 
-This page contains some of the pictures embedded in the text of KCP, of which the objective best is this masculine camel. 
+This page contains some of the pictures embedded in the text of KCP, of which the objective best is this masculine [(one might even say phallic)](https://www.nytimes.com/1992/03/20/opinion/joe-camel-an-xrated-smoke.html) camel. 
 
 ![ ](/pics/misc/misc1.png)
 
@@ -68,6 +68,6 @@ Interestingly, men and women are represented perfectly equally in the pictures i
 
 ### [What Now?](/docs/so_what)
 
-In this section I give tentative recommendations for ways to address the issues that this study points out. The main thrust of the the recommendations is simply including more information to prompt thoughtful, critical discussion. This could be done by either KCP themselves, in the notes, or professors who teach from the casebook. 
+In this section I give tentative recommendations for ways to address the issues that this study points out. The main thrust of the the recommendations is simply including more information to prompt thoughtful, critical discussion. The findings of this study are useful context for the casebook, and a deeper grounding in critical scholarship would bring more attention to the issues revealed here. This could be done by either KCP themselves, in the notes, or professors who teach from the casebook. 
 
 #### Lolo Serrano is a candidate for a JD/PhD in American Legal History at the University of Pennsylvania. They are interested in discourse, power, and the construction of identity. 

@@ -56,7 +56,7 @@ The two men have somewhat bizarre and interesting careers and appear in very unu
 
 {{< /columns >}}
 
-In contrast, the two women are just kind of standing there. I'm honestly not sure if this is praise or criticism, or if it's particularly important. Probably not. Both women are very much outliers in terms of their identities and positioning in the litigation. Both are some of the unusual businesswomen who appear in the book, as well as some of the very unusual women whose marital status is not mentioned. Both are defendants being sued by disgruntled employees, and both lose ultimately lose.
+In contrast, the two women are just kind of standing there. I'm honestly not sure if this is praise or criticism, or if it's particularly important. Probably not. One of the moderately interesting point to bring up is that women are very much outliers in terms of their identities and positioning in the litigation. Both are some of the unusual businesswomen who appear in the book, as well as some of the very unusual women whose marital status is not mentioned. Both are defendants being sued by disgruntled employees, and both lose ultimately lose.
 
 Interestingly, both are also pioneers of feminine-oriented appearance-driven industries (cosmetics in Arden's case, fashion in Lady Duff-Gordon's.) They also have some nice outfits, but there's no zebra print or fringe, so I'm underwhelmed. 
 

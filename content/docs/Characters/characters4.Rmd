@@ -52,7 +52,7 @@ contracts[contracts == "Government"] <- "Organization"
 
 ```
 
-Characters: Workers 
+# Characters: Workers 
 
 Recall from the [first character page](/docs/characters/_index) that Employee-Business and Business-Business transactions are the most male-skewed, at 82:18 and 83:17 splits respectively.  
 
