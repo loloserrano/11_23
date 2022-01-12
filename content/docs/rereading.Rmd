@@ -10,10 +10,6 @@ weight: 30
 
 ### **The Goals and Perspective of this Project**
 
-
-![Mary Joe Frug](/img/frug_pic_2.jpg)
-
-
 *Frugging KCP* applies Mary Joe Frug's methods in "Re-Reading Contracts: A Feminist Analysis of a Contracts Casebook" to Knapp, Crystal, and Prince's *Problems in Contract Law: Cases and Materials* (KCP).
 
 This project applies Fruggish methods to analyze the way that KCP represents gender. Most of the individuals who appears in the cases have one of two discernible binary genders: man or woman. Interestingly, several of the businesses have names that suggest gender - usually masculine - as well. There are substantial qualitative and quantitative differences between men and the women in the casebook, with the predominant thrust being limitations on the agency and participation of women. 
