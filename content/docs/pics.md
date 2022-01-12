@@ -61,7 +61,7 @@ In contrast, the two women are just kind of standing there. I'm honestly not sur
 Interestingly, both are also pioneers of feminine-oriented appearance-driven industries (cosmetics in Arden's case, fashion in Lady Duff-Gordon's.) They also have some nice outfits, but there's no zebra print or fringe, so I'm underwhelmed. 
 
 ### **The Manly Camel ;)**
-The next image isn't exactly a person, but it's a clearly masculine-coded camel wearing cool sunglasses and a suit jacket over a ruffly blouse. It has meaty, masculine fingers instead of hooves so that it can grip fistfuls of Big Tobacco cash. Joe the Camel has also been analyzed by none other than the *New York Times* as [looking like a penis](https://www.nytimes.com/1992/03/20/opinion/joe-camel-an-xrated-smoke.html) ("an amiable, animate phallus").
+The next image isn't exactly a person, but it's a clearly masculine-coded camel wearing cool sunglasses and a suit jacket over a ruffly blouse. It has meaty, masculine fingers instead of hooves so that it can grip fistfuls of Big Tobacco cash. Joe the Camel has also been analyzed by none other than the *New York Times* as [looking like a penis](https://www.nytimes.com/1992/03/20/opinion/joe-camel-an-xrated-smoke.html) (more precisely, an "amiable, animate phallus").
  
 ![ ](/pics/misc/misc1.png)
 
