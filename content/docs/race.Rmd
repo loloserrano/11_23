@@ -5,7 +5,6 @@ weight: 32
 bookToC: TRUE
 ---
 
-
 ```{r, echo = FALSE, warning = FALSE, message = FALSE}
 library(tidyverse) 
 library(readxl)
@@ -66,9 +65,9 @@ So this is a much, much less holistic review than I'm able to conduct with stric
 
 It would be unfair of me not to start with acknowledging a very good, developed note included after Sparrow v. Demonico, which explores contractual capacity. This note mentions the subsumption of married women's identities into their husbands for much of American history, and some of the laws designed to uphold white supremacy developed throughout slavery, legal segregation, various nativist movements, and persisting cultural and social barriers. 
 
-But given the absence of a robust conversation about white supremacy in the rest of the book, it's kind of a weird place to put the note. I think it deserves a spot at the front as critically important context for the exclusivity of American contract law. It's very important! And as I explore below, 
+But given the absence of a robust conversation about white supremacy in the rest of the book, it's kind of a weird place to put the note. I think it deserves a spot at the front as critically important context for the exclusivity of American contract law. It's very important! And as I explore below, it's largely absent from the rest of the book.
 
-### **Explicit Race**
+## **Explicit Race**
 
 As far as I can tell, there's only one *explicit* mention of racism in any of the opinions included in KCP. There are multiple other cases where race is subtext: either implied in the cases or notes, or arguably very relevant and conspicuously absent. 
 
@@ -105,7 +104,7 @@ But race and racism are entirely, totally absent from the notes.
 
 This policy-driven case demands a reckoning with to what extent racism should be tackled in court. Maybe the answer to that is no, but for it to be *entirely absent from the conversation* is deeply unsettling. A note bringing up the "best interest of the child" is a particularly apt place to start the conversation.  
 
-### **Race as Subtext**
+## **Race as Subtext**
 
 #### King v. Trustees of Boston University
 ##### 420 Mass. 52 (1995); KCP 237

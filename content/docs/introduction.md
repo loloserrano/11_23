@@ -69,5 +69,4 @@ Interestingly, men and women are represented perfectly equally in the pictures i
 
 In this section I give tentative recommendations for ways to address the issues that this study points out. The main thrust of the the recommendations is simply including more information to prompt thoughtful, critical discussion. The findings of this study are useful context for the casebook, and a deeper grounding in critical scholarship would bring more attention to the issues revealed here. This could be done by either KCP themselves, in the notes, or professors who teach from the casebook. 
 
-#### Lolo Serrano is a candidate for a JD/PhD in American Legal History at the University of Pennsylvania. They are interested in discourse, power, and the construction of identity. 
-x
+##### Lolo Serrano (they/them) is a candidate for a JD/PhD in American Legal History at the University of Pennsylvania. They are interested in discourse, power, and the construction of identity. 
