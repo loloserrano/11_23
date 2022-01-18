@@ -39,7 +39,7 @@ In this section I describe the purpose, framework, and theory of this project. I
 
 In this section I do a summary qualitative assessment of race in the casebook. It's much more difficult to gauge and thus to quantify, so this section is much more cursory than the issue deserves. 
 
-On the whole, race and racism are a conspicuous absence in the cases and notes in KCP. Only one case mentions racism, and despite being a heavily policy-oriented opinion fails to engage with the idea in the slightest. Several other cases have a racial subtext that KCP generally fails to address meaningfully in the notes. 
+On the whole, race and racism are a conspicuous absence in the cases and notes in KCP. Only one case mentions racism, and despite being a heavily policy-oriented opinion fails to engage with the idea in the slightest. Several other cases have a racial subtext that KCP does not address in the notes. 
 
 ### [Data Collection and Dataset](/docs/dataset)
 
@@ -59,7 +59,7 @@ In this section I explore general notions of masculinity and femininity as they 
 
 ### [Pictures!](/docs/pics)
 
-This page contains some of the pictures embedded in the text of KCP, of which the objective best is this masculine [(one might even say phallic)](https://www.nytimes.com/1992/03/20/opinion/joe-camel-an-xrated-smoke.html) camel. 
+This page contains some of the pictures embedded in the text of KCP, of which the objective best is this masculine camel.
 
 ![ ](/pics/misc/misc1.png)
 

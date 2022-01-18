@@ -21,6 +21,7 @@ parties <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/La
 cites <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/1L.1 Contracts Galbraith/frugging misc/cites_for_contracts.xlsx")
 gendertotaltable <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/1L.1 Contracts Galbraith/frugging misc/gendertotaltable.xlsx")
 partnertable <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/1L.1 Contracts Galbraith/frugging misc/partner_table.xlsx")
+couples <- read_excel("/Users/professorserrano/Desktop/Documents/Video Essays/Law/1L.1 Contracts Galbraith/frugging misc/couples.xlsx")
 
 names(gendertotaltable)[1] <- "gender"
 names(gendertotaltable)[5] <- "percentage"
@@ -195,7 +196,10 @@ Unsurprisingly, when one spouse is a more prominent character than the other in 
 <details closed>
 <summary> <span title='Click to Expand'> Two examples here </span> </summary>
 
-See *Jannush v. Naffziger,* KCP 149 ("Gene Jannusch and his wife, Martha, brought this action..." Gene appears prominently in the rest of the background section, but Martha never reappears again: "Gene acknowledged," "Gene suggested," "Gene attended the first of two festivals"); *Dodson v. Shrader,* KCP 572 (The plaintiff "purchased a used 1984 pick-up truck from Burns and Mary Shrader." The Shraders are referred to collectively several times, but Mr. Shrader is the only one to act independently: "Mr. Shrader, through counsel, declined;" "At the time of the circuit court trial, according to [Mr.] Shrader")
+See *Jannush v. Naffziger,* KCP 149 ("Gene Jannusch and his wife, Martha, brought this action..." Gene appears prominently in the rest of the background section, but Martha never reappears again: "Gene acknowledged," "Gene suggested," "Gene attended the first of two festivals")
+
+
+*Dodson v. Shrader,* KCP 572 (The plaintiff "purchased a used 1984 pick-up truck from Burns and Mary Shrader." The Shraders are referred to collectively several times, but Mr. Shrader is the only one to act independently: "Mr. Shrader, through counsel, declined;" "At the time of the circuit court trial, according to [Mr.] Shrader")
 
 </details>
 <br>
@@ -244,8 +248,9 @@ Sondra Locke’s dispute with Warner Bros. is framed as something patronizingly 
 *King v. Trustees of Boston Univ.*
 420 Mass. 52 (1995); KCP 237
 
-Coretta Scott King brings her case on behalf of her family estate, and is actually a great example of rhetoric relating a woman to a husband but still giving her full agency: 
-> “The plaintiff, Coretta Scott King, in her capacity as administratix of the estate of her late husband, and in her individual capacity, appeals...”
+Coretta Scott King brings her case on behalf of her family estate, and is actually a good example of rhetoric relating a woman to a husband but still giving her full agency: 
+
+“The plaintiff, Coretta Scott King, in her capacity as administratix of the estate of her late husband, and in her individual capacity, appeals...”
 
 The issues with that case are far more salient with respect to [race](/docs/race) than gender.
 
