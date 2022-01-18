@@ -21,7 +21,6 @@ In doing so, it reviews historical differences in the ways American women and me
 For better or worse, the casebook does represent this dynamic. Presenting these inequalities accurately reflects the general exclusion of women from public life and contracts law for most of American history. The limited universe of American contracts presented in a this casebook provide an interesting venue to examine a snapshot of flawed, gendered, improving, complicated law.
 
 ## Mary Joe Frug 
-### (1941-1991)
 
 Mary Joe Frug was a gender and legal theorist who produced brilliant work on oppressive gendered patterns in American law, some of the first postmodern feminist scholarship. Frug's Re-Reading Contracts: A Feminist Analysis of a Contracts Casebook, 34 AM. U. L. REV. 1065 (1985) is the direct inspiration for this project. 
 
