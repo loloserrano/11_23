@@ -6,7 +6,7 @@ output: html_document
 
 # Where Do We Go From Here?
 
-I have some tentative recommendations that could be implemented either by Knapp, Crystal, and Prince in upcoming editions of their books or by professors who teach from KCP. 
+I have some tentative recommendations that could be implemented either by Knapp, Crystal, and Prince in upcoming editions of their books or by professors who teach from KCP. I also have very untentative recommendations for fellow law students. 
 
 My main criticism is not with KCP's case selection, as I think the gender imbalance is an unfortunate but accurate reflection of contract history. My gripe is with the notes. Overall, the notes after cases dealing with gender and race fail to meaningfully engage with the ideas. The casebook editors and/or professors teaching from the book could ameliorate this by grounding their discussion in critical scholarship and addressing some of the internal patterns revealed by this study.
 
@@ -47,3 +47,5 @@ I encourage all law students to take an active, critical approach to their educa
 2. Seek out critical commentary on legal doctrine and legal education. 
 
 3. Talk to your professors and fellow students about the normative implications of the doctrine and the casebooks. 
+
+> **And to everybody: remember, read, and engage with Mary Joe Frug and other critical thinkers. Challenge your peers; challenge yourself; challenge authority.**  

@@ -54,7 +54,6 @@ contracts[contracts == "Government"] <- "Organization"
 
 ```
 
-
 # Overview 
 
 20 of 103 cases, or nearly 1 in 5,  were decided before 1965, when a federal law prohibiting employment discrimination on the basis of race, color, religion, sex, or national origin finally came into effect and the U.S. ceased *legally being a racial apartheid state.* (See [Race in the Casebook?](/docs/race) for a somewhat more complex but still woefully insufficient treatment of this topic.) 73 of the 103 cases, or just under 3 in 4, were decided before the 21st century. 
