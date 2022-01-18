@@ -102,7 +102,7 @@ Note 5, "Gestational surrogacy and public policy," does bring into question the 
 
 But race and racism are entirely, totally absent from the notes. 
 
-This policy-driven case demands a reckoning with to what extent racism should be tackled in court. Maybe the answer to that is no, but for it to be *entirely absent from the conversation* is deeply unsettling. A note bringing up the "best interest of the child" is a particularly apt place to start the conversation.  
+This policy-driven case demands a reckoning with whether and to what extent racism should be tackled in court. Maybe the answer to that is no, but for it to be *entirely absent from the conversation* is deeply unsettling. A note bringing up the "best interest of the child" is a particularly apt place to start the conversation.  
 
 ## **Race as Subtext**
 
@@ -123,7 +123,7 @@ However, might there be something said for the conditional nature of that entrus
 
 ###### As someone who (full disclosure) went to BU and worked for a time at the Howard Gottlieb Archival Research Center, I have a lot of love for the HGARC and its impressive stacks (shout out to Ryan Hendrickson, my mentor there). And I happen to know that BU leans **very heavily** on Martin Luther King Jr.'s legacy in its marketing. (King Jr. earned a PhD in systematic theology from BU, his tie to the intitution.) Projecting an image of diversity is profitable for modern universities, even as faculty and curricula lag behind the needs and challenges of the modern day that cries out for an explicit reckoning with white supremacy. I have so much respect for the actual archivists who take "scrupulous care," going through his materials, preserving them physically, organizing them for future study, and selecting excerpts to display, display, display. But BU, as a self-interested institution, and its administrators loooooooooove having MLK's stuff. They have pictures of MLK all over campus. The archive always has his materials prominently displayed. It's a strange mixture of self-serving virtue signaling and genuine care for King Jr.'s material legacy. 
 
-###### So that being said, I feel weird and queasy about BU having his stuff when his wife wants it back badly enough to sue. He entrusted his papers to BU because of well-founded anxieties about targeted white supremacist terror attacks. So, yeah, his one letter looks like manifested assent. But given the totality of the circumstances, *most* of which is about racism, the dry legal argument about sufficiency of consideration seems out of touch. 
+###### So that being said, I feel weird and queasy about BU having his stuff when his wife wanted it back badly enough to sue. He entrusted his papers to BU because of well-founded anxieties about targeted white supremacist terror attacks. So, yeah, his one letter looks like manifested assent. But given the totality of the circumstances, *most* of which is about racism, the dry legal argument about sufficiency of consideration seems out of touch. 
 
 #### Williams v. Walker-Thomas Furniture Co.?
 ##### 350 F.2d 446 (D.C. Cir. 1965)
@@ -132,7 +132,7 @@ One of the very few instances where KCP chose to raise race as an issue sua spon
 
 > While the court does not reveal Williams's race or ethnicity, educational background, or work experience, the majority opinion reports her monthly income of $218 and the dissent indicates that she received "relief funds." What common assumptions about Williams might be made on the basis of that information and how might they affect the resolution of the case? 
 
-To be clear, this is not at all an uninteresting or unimportant line of inquiry. But it's telling that the very important question of race comes up here, while it's so conspicuously absent elsewhere. 
+To be clear, this is not an uninteresting or unimportant line of inquiry. But it's awkward that the very important question of race comes up here, while it's so conspicuously absent elsewhere. 
 
 #### Quake Construction, Inc. v. American Airlines, Inc.
 ##### 152 Ill.2d 281 (1990); KCP 86
@@ -141,11 +141,11 @@ To be clear, this is not at all an uninteresting or unimportant line of inquiry.
 
 > Professor Judith Maute's recent article, Race Politics, O'Hare Airport Expansion, and Promissory Estoppel: The More Things Change, the More They Stay the Same, 69 Hastings L.J. 119 (2017), provides interesting insight in to the political background of the case. She explains that Chicago political concerns created pressure to use minority-owned businesses, but American Airlines and Jones Construction thought Quake was fronting for a nonminority-owned business. 
 
-To be clear, [Maute's article](https://heinonline.org/HOL/Page?handle=hein.journals/hastlj69&div=6&g_sent=1&casa_token=&collection=journals) tackles the specific issues of *race* and *American Blackness* quite explicitly, which the KCP note neglects to do. 
+[Maute's article](https://heinonline.org/HOL/Page?handle=hein.journals/hastlj69&div=6&g_sent=1&casa_token=&collection=journals) tackles the specific issues of race and American Blackness quite explicitly, which the note doesn't do.
 
 > Chicago has a long, storied racial history closely tied to the rise (and demise) of Reverend Jesse Jackson and his Operation PUSH ... A city with a large black population, [Harold] Washington became Chicago's first black mayor...
 
-This is more a minor rhetorical criticism, and I'm glad that a note offers this important and interesting context. However, it plays into the rest of the book's, and many of the opinions', avoidance of a direct reckoning. 
+This is more a minor rhetorical criticism, and I'm glad that a note offers this important and interesting context. Referencing critical scholarship like this helps to ground the doctrine in the real world, and I think more notes like this would be a big help.
 
 #### Higgins v. Superior Court of Los Angeles County
 ##### 140 Cal. App. 4th 1238 (2006); KCP 650

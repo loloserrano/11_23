@@ -6,6 +6,8 @@ weight: 100
 
 ## All the Pictures in KCP
 
+This section is really just for fun. I imagine not a lot of time went into choosing the pictures, and they're not intended to be part of the book's overall message. There are a few somewhat interesting points to be made, but the real stuff has to do with the cases and notes. 
+
 I counted 24 images embedded within the text of KCP. Seven images include human beings, and one includes a masculine humanoid camel.
 
 ### **Three Couples**
@@ -42,7 +44,7 @@ The picture of Fred Astaire and Gingers Rogers is an interesting anomaly that I 
 
 {{< /columns >}}
 
-The two men have somewhat bizarre and interesting careers and appear in very unusual situations: pole-sitting is quite the odd phenomenon and Jesse Ventura's jacket alone merits hours of aesthetic admiration (the fringe? fabulous. the zebra print? vivacious. the asymmetrical construction? ingenious), let alone his sexy flexing tight-clad plastic figurine (oh baby, that's "The Body" alright.) 
+The two men have somewhat bizarre and interesting careers and appear in very unusual situations: pole-sitting is quite the odd phenomenon and Jesse Ventura's jacket alone merits hours of aesthetic admiration (the fringe? fabulous. the zebra print? vivacious. the asymmetrical construction? ingenious), let alone his sexy flexing tight-clad plastic figurine (that's "The Body" alright.) 
 
 ### **Two Women**
 
@@ -56,11 +58,11 @@ The two men have somewhat bizarre and interesting careers and appear in very unu
 
 {{< /columns >}}
 
-In contrast, the two women are just kind of standing there. I'm honestly not sure if this is praise or criticism, or if it's particularly important. Probably not. One of the moderately interesting point to bring up is that women are very much outliers in terms of their identities and positioning in the litigation. Both are some of the unusual businesswomen who appear in the book, as well as some of the very unusual women whose marital status is not mentioned. Both are defendants being sued by disgruntled employees, and both lose ultimately lose.
+In contrast, the two women are just kind of standing there. I'm honestly not sure if this is praise or criticism, or if it's particularly important. Probably not. One of the moderately interesting points to bring up is that women are very much outliers in terms of their identities and positioning in the litigation. Both are some of the unusual businesswomen who appear in the book, as well as some of the very unusual women whose marital status is not mentioned. Both are defendants being sued by disgruntled employees, and both lose ultimately lose.
 
 Interestingly, both are also pioneers of feminine-oriented appearance-driven industries (cosmetics in Arden's case, fashion in Lady Duff-Gordon's.) They also have some nice outfits, but there's no zebra print or fringe, so I'm underwhelmed. 
 
-### **The Manly Camel ;)**
+### **The Manly Camel**
 The next image isn't exactly a person, but it's a clearly masculine-coded camel wearing cool sunglasses and a suit jacket over a ruffly blouse. It has meaty, masculine fingers instead of hooves so that it can grip fistfuls of Big Tobacco cash. Joe the Camel has also been analyzed by none other than the *New York Times* as [looking like a penis](https://www.nytimes.com/1992/03/20/opinion/joe-camel-an-xrated-smoke.html) (more precisely, an "amiable, animate phallus").
  
 ![ ](/pics/misc/misc1.png)
