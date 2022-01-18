@@ -8,7 +8,7 @@ weight: 100
 
 This section is really just for fun. I imagine not a lot of time went into choosing the pictures, and they're not intended to be part of the book's overall message. There are a few somewhat interesting points to be made, but the real stuff has to do with the cases and notes. 
 
-I counted 24 images embedded within the text of KCP. Seven images include human beings, and one includes a masculine humanoid camel.
+I counted 24 images embedded within the text of KCP. Seven images include human beings, and one includes a masculine humanoid camel. Very unlike the characters in the litigation, the gender breakdown of the people in the images is a perfect 50/50 split.  
 
 ### **Three Couples**
 
