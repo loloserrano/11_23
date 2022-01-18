@@ -95,6 +95,13 @@ ggplotly(gender_breakdown_with_pd, tooltip = "text")
 
 Interestingly, women are more likely to appear on the plaintiff side than are men. This is not a significant difference and may not reflect anything meaningful, but it's an interesting side note. 
 
+## Wives, Widows, and Workers
+
+[Wives](/docs/characters/characters2) explores the massive disproportionality in the number of women who appear in the book either with a spouse or other family member (over 2/3!!) and the rhetorical differences in how judges treat the partners. 
+
+[Widows](/docs/characters/characters3) explores the four husbandless women presented as vulnerable (borderline tragic) characters who need legal protection. Is this a helpful address of systemic marginalization, or harmful paternalism? 
+
+[Workers](/docs/characters/characters4) explores the disparities in number of women and men in employment and business transactions, with a discussion of Locke v. Warners Bros., one of the only cases to explicitly tackle (and summarily dismiss) sexism.
 
 ## Transaction Type Gender Breakdown
 
@@ -189,10 +196,3 @@ parties_business <- parties %>%
 ggplotly(parties_business, tooltip = "text")
 ```
 
-## Wives, Widows, and Workers
-
-[Wives](/docs/characters/characters2) explores the massive disproportionality in the number of women who appear in the book either with a spouse or other family member (over 2/3!!) and the rhetorical differences in how judges treat the partners. 
-
-[Widows](/docs/characters/characters3) explores the four husbandless women presented as vulnerable (borderline tragic) characters who need legal protection. Is this a helpful address of systemic marginalization, or harmful paternalism? 
-
-[Workers](/docs/characters/characters4) explores the disparities in number of women and men in employment and business transactions, with a discussion of Locke v. Warners Bros., one of the only cases to explicitly tackle (and summarily dismiss) sexism.
